@@ -86,36 +86,47 @@
 		<div class="jtpl-title">
 			<div>
 				<form action="accedi.php">
-					<button type="submit" id="accedi" class="btn btn-primary" value="Accedi">Accedi</button>
+					<button type="submit" id="accedi" class="btn btn-outline-primary" value="Accedi">Accedi</button>
 				</form>
 			</div>
 			<div>
 				<form action="registrazione.php">
-					<button type="submit" id="registrati" class="btn btn-primary" value="Accedi">Registrati</button>
+					<button type="submit" id="registrati" class="btn btn-link" value="Accedi">Registrati</button>
 				</form>
 			</div>
 			
 			<center>
-				<label class="titolosito">Artisticamente</label>
+				<label id="titolo">Artisticamente</label>
 			</center>
-				<div id="slideshow" class="slideshow" data-ride="carousel">
-				  <div class="carousel-inner">
-					<div class="carousel-item active">
-					  <img class="d-block w-100" src="immagini/1.jpg" width="500" height="300" alt="prima slide">
-					</div>
-					<div class="carousel-item">
-					  <img class="d-block w-100" src="immagini/2.jpg" width="500" height="300" alt="seconda slide">
-					</div>
-					<div class="carousel-item">
-					  <img class="d-block w-100" src="immagini/3.jpg" width="500" height="300" alt="terza slide">
-					</div>
+			
+			
+			
+			<div id="carosello" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+				  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<img id="1" class="d-block w-100" src="immagini/1.jpg" alt="prima">
+				  </div>
+				  <div class="carousel-item">
+					<img id="2" class="d-block w-100" src="immagini/2.jpg" alt="secondo">
+				  </div>
+				  <div class="carousel-item">
+					<img id="3" class="d-block w-100" src="immagini/3.jpg" alt="terzo">
 				  </div>
 				</div>
+			</div>				
+				
+				
+				
 		</div>
 	</div>
 	</div>
 
-    <!-- _mobile-navigation.sass -->
+    <!-- _mobile-navigation.sass
     <div class="jtpl-mobile-topbar navigation-colors navigation-colors--transparency">
       <label for="jtpl-navigation__checkbox" class="jtpl-navigation__label navigation-colors__menu-icon">
         <span class="jtpl-navigation__borders navigation-colors__menu-icon"></span>
@@ -140,30 +151,34 @@
 				</ul>
 			</div>
 		</div>
-    </div>
-    <!-- END _mobile-navigation.sass -->
+    </div>END _mobile-navigation.sass -->
 
     <!-- _navigation.sass -->
-    <div class="jtpl-navigation" id="carosello">
-      <div class="jtpl-navigation__main navigation-colors">
-        <div class="jtpl-navigation__main--inner navigation-alignment">
-          <div data-container="navigation"><div class="j-nav-variant-nested"><ul class="cc-nav-level-0 j-nav-level-0"><li id="cc-nav-view-1888836982" class="jmd-nav__list-item-0 cc-nav-current j-nav-current jmd-nav__item--current"><a href="/" data-link-title="--- Home ---" class="cc-nav-current j-nav-current jmd-nav__link--current">--- Home ---</a></li><li id="cc-nav-view-1888837082" class="jmd-nav__list-item-0"><a href="/prodotti/" data-link-title="--- Prodotti ---">--- Prodotti ---</a></li><li id="cc-nav-view-1889126382" class="jmd-nav__list-item-0"><a href="/affitto/" data-link-title="--- Affitto ---">--- Affitto ---</a></li><li id="cc-nav-view-1888837182" class="jmd-nav__list-item-0"><a href="/area-personale/" data-link-title="--- Area Personale---">--- Area Personale---</a></li></ul></div></div>
-        </div>
-      </div>
-      <div class="jtpl-navigation__sub subnavigation-colors">
-        <nav class="jtpl-navigation__sub--inner navigation-alignment"><div data-container="navigation"><div class="j-nav-variant-nested"></div></div>
-          <div data-container="navigation"><div class="j-nav-variant-nested"></div></div>
-        </nav>
-</div>
-    </div>
-    <!-- END _navigation.sass -->
+   <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+		  <ul class="navbar-nav">
+			<li class="nav-item active">
+			  <a id="btnnav" class="nav-link" href="home.html">Home <span class="sr-only"></span></a>
+			</li> 
+			<li class="nav-item">
+			  <a id="btnnav" class="nav-link" href="prodotti.html">Prodotti</a>
+			</li>
+			<li class="nav-item">
+			  <a id="btnnav" class="nav-link" href="affitto.html">Affitto</a>
+			</li>
+			<li class="nav-item">
+			  <a id="btnnav" class="nav-link" href="personale.html">Area personle</a>
+			</li>
+		  </ul>
+		</div>
+	</nav>
 
     <!-- paragrafo 1 -->
-    <div class="jtpl-content content-options cc-content-parent">
       <div class="jtpl-content__inner cc-content-parent">
-        <div id="content_area" data-container="content"><div id="content_start"></div>
-         <hr><br><br>
-		</div>
+         <hr id="hr"><br><br>
 		<div id="cc-m-9540352382" class="j-module n j-textWithImage "><div>
     <div id="cc-m-textwithimage-9540352382" data-name="text" data-action="text" class="cc-m-textwithimage-inline-rte">
 		<label class="titparagrafo1">Cos'è Artisticamente?</label>
@@ -215,7 +230,7 @@
     <div id="cc-m-textwithimage-9540348482" data-name="text" data-action="text" class="cc-m-textwithimage-inline-rte">
         <p>
     
-</p>    </div>
+</p>
 </div>
 
 <div class="cc-clear"></div>

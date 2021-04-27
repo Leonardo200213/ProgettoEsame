@@ -5,35 +5,56 @@
 		<meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
 	</head>
 	<body>
-		<div class="card" style="width: 18rem;">
-			<div class="card-body">
-				<h5 class="card-title">Accedi a Artisticamente</h5>
-				<form>
-					<button>Accedi con Google</button>
-					  <div id="my-signin2"></div>
-					  <script>
-						function onSuccess(googleUser) {
-						  console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
-						}
-						function onFailure(error) {
-						  console.log(error);
-						}
-						function renderButton() {
-						  gapi.signin2.render('my-signin2', {
-							'scope': 'profile email',
-							'width': 240,
-							'height': 50,
-							'longtitle': true,
-							'theme': 'dark',
-							'onsuccess': onSuccess,
-							'onfailure': onFailure
-						  });
-						}
-					  </script>
+		<br><br><br><br><br><br>
+		<center>
+			<div class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h5 class="card-title">Accedi a Artisticamente</h5>
+					
+					<br>
+					<label>Nome utente</label>
+					<div class="input-group mb-3">
+					  <input placeholder="Leonardo" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"/>
+					</div>
+					
+					<label>Email</label><br>
+					<div class="input-group mb-3">
+					  <input placeholder="esempio@gmail.com" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"/>
+					</div>
+					
+					<label>Password</label><br>
+					<div class="input-group mb-3">
+					  <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"/>
+					</div>
+					
+					<label> oppure </label><br><hr>
+					<form>
+						<button type="button" class="btn btn-primary">Accedi con Google</button>
+						  <div id="my-signin2"></div>
+						  <script>
+							function onSuccess(googleUser) {
+							  console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+							}
+							function onFailure(error) {
+							  console.log(error);
+							}
+							function renderButton() {
+							  gapi.signin2.render('my-signin2', {
+								'scope': 'profile email',
+								'width': 240,
+								'height': 50,
+								'longtitle': true,
+								'theme': 'dark',
+								'onsuccess': onSuccess,
+								'onfailure': onFailure
+							  });
+							}
+						  </script>
 
-					  <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
-				</form>
+						  <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+					</form>
+				</div>
 			</div>
-		</div>
+		</center>
 	</body>
 </html>

@@ -81,14 +81,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- END _header.sass -->
 
     <!-- _mobile-navigation.sass -->
-    <div class="jtpl-mobile-topbar navigation-colors navigation-colors--transparency">
-      <label for="jtpl-navigation__checkbox" class="jtpl-navigation__label navigation-colors__menu-icon">
-        <span class="jtpl-navigation__borders navigation-colors__menu-icon"></span>
-      </label>
-    </div>
-    <div class="jtpl-mobile-navigation navigation-colors navigation-colors--transparency">
-      <div data-container="navigation"><div class="j-nav-variant-nested"><ul class="cc-nav-level-0 j-nav-level-0"><li id="cc-nav-view-1888836982" class="jmd-nav__list-item-0"><a href="/" data-link-title="--- Home ---">--- Home ---</a></li><li id="cc-nav-view-1888837082" class="jmd-nav__list-item-0"><a href="/prodotti/" data-link-title="--- Prodotti ---">--- Prodotti ---</a></li><li id="cc-nav-view-1889126382" class="jmd-nav__list-item-0 cc-nav-current j-nav-current jmd-nav__item--current"><a href="/affitto/" data-link-title="--- Affitto ---" class="cc-nav-current j-nav-current jmd-nav__link--current">--- Affitto ---</a></li><li id="cc-nav-view-1888837182" class="jmd-nav__list-item-0"><a href="/area-personale/" data-link-title="--- Area Personale---">--- Area Personale---</a></li></ul></div></div>
-    </div>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+		  <ul class="navbar-nav">
+			<li class="nav-item active">
+			  <a id="btnnav" class="nav-link" href="home.html">Home</a>
+			</li> 
+			<li class="nav-item">
+			  <a id="btnnav" class="nav-link" href="prodotti.html">Prodotti</a>
+			</li>
+			<li class="nav-item">
+			  <a id="btnnav" class="nav-link" href="affitto.html">Affitto</a>
+			</li>
+			<li class="nav-item">
+			  <a id="btnnav" class="nav-link" href="personale.html">Area personle</a>
+			</li>
+		  </ul>
+		</div>
+	</nav>
     <!-- END _mobile-navigation.sass -->
 
     <!-- _navigation.sass -->

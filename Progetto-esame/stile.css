@@ -54,6 +54,7 @@
 	margin-right:30px;
 }
 
+
 #divmax{
 	background-color:#fff8e0;
 	text-align: center;
@@ -61,4 +62,16 @@
 	top: 50%;
 	left: 50%;
 }
+
+
+#navbar{
+	padding-left: 750px;
+	height: 60px;
+}
+
+
+#btnnav{
+	font-size: 20px;
+}
+
 

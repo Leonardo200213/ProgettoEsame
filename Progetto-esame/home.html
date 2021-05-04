@@ -114,7 +114,7 @@
     </div>END _mobile-navigation.sass -->
 
     <!-- _navigation.sass -->
-   <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+   <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light" justify-content-between>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		  <span class="navbar-toggler-icon"></span>
 		</button>
@@ -132,7 +132,20 @@
 			<li class="nav-item">
 			  <a id="btnnav" class="nav-link" href="personale.html">Area personle</a>
 			</li>
-		  </ul>
+			<form class="form-inline">
+				<div id="accesso">
+					<form action="registrazione.php">
+						<button type="submit" id="registrati" class="btn btn-link my-2 my-sm-0" value="Accedi">Registrati</button>
+					</form>
+				</div>
+				<div>
+					<form action="accedi.php">
+						<button type="submit" id="accedi" class="btn btn-outline-primary my-2 my-sm-0" value="Accedi">Accedi</button>
+					</form>
+				</div>
+				
+			</form>
+		 </ul>
 		</div>
 	</nav>
 	

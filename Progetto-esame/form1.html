@@ -24,20 +24,22 @@ se proprio si vuole cambiare il name BASTA -->
 </head>
 <body onload="nazioni()">
 <p id="printhere"> </p>
-<form class="jotform-form" action="form2.html" method="post" name="form_210724485889368" id="210724485889368" accept-charset="utf-8" autocomplete="on">
+<form class="jotform-form" method="post" name="form_210724485889368" style="display:block" id="first" accept-charset="utf-8" autocomplete="on">
   <input type="hidden" name="formID" value="210724485889368" />
   <input type="hidden" id="JWTContainer" value="" />
   <input type="hidden" id="cardinalOrderNumber" value="" />
   <div role="main" class="form-all">
     <ul class="form-section page-section">
       <li id="cid_1" class="form-input-wide" data-type="control_head">
-        <div class="form-header-group  header-large">
-          <div class="header-text httal htvam">
-            <h1 id="header_1" class="form-header" data-component="header">
-              Form di Registrazione
+	   <div data-align="left" class="form-buttons-wrapper form-buttons-left   jsTest-button-wrapperField">
+            <button id="back" type="button" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
+              Indietro
+            </button>
+			
+			<h1 id="header_1" class="form-header" data-component="header">
+                      Form di Registrazione
             </h1>
           </div>
-        </div>
       </li>
       <li class="form-line jf-required" data-type="control_fullname" id="id_4">
         <label class="form-label form-label-top form-label-auto" id="label_4" for="first_4">
@@ -122,7 +124,7 @@ se proprio si vuole cambiare il name BASTA -->
             <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
               <span class="form-address-line form-address-country-line jsTest-address-lineField ">
                 <span class="form-sub-label-container" style="vertical-align:top">
-                  <select class="form-dropdown form-address-country noTranslate" name="nazione" id="input_23_country" data-component="country" required="" aria-labelledby="label_23 sublabel_23_country">
+                  <select class="form-dropdown form-address-country noTranslate" name="nazione" id="country" data-component="country" required="" aria-labelledby="label_23 sublabel_23_country">
 				  
                   </select>
                   <label class="form-sub-label" for="input_23_country" id="sublabel_23_country" style="min-height:13px" aria-hidden="false"> Nazione </label>
@@ -164,7 +166,7 @@ se proprio si vuole cambiare il name BASTA -->
       <li class="form-line form-line-column form-col-3" data-type="control_button" id="id_20">
         <div id="cid_20" class="form-input-wide" data-layout="full">
           <div data-align="left" class="form-buttons-wrapper form-buttons-left   jsTest-button-wrapperField">
-            <button id="input_20" type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
+            <button id="continua" type="button" onclick="rollforward()" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
               Continua
             </button>
           </div>
@@ -181,15 +183,90 @@ se proprio si vuole cambiare il name BASTA -->
       </li>
       <li style="clear:both">
       </li>
-      <li style="display:none">
-        Should be Empty:
-        <input type="text" name="website" value="" />
+    </ul>
+  </div>
+  </form>
+  
+  <form class="jotform-form" action="viva_la_figa.html" method="post" style="display:none" name="form_210724485889368" id="second" accept-charset="utf-8" autocomplete="on">
+  <input type="hidden" name="formID" value="210724485889368" />
+  <input type="hidden" id="JWTContainer" value="" />
+  <input type="hidden" id="cardinalOrderNumber" value="" />
+  <div role="main" class="form-all">
+    <ul class="form-section page-section">
+      <li id="cid_1" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group  header-large">
+          <div class="header-text httal htvam">
+            <h1 id="header_1" class="form-header" data-component="header">
+              Registrazione credenziali
+            </h1>
+          </div>
+        </div>
+      </li>
+      
+      <li class="form-line jf-required" data-type="control_address" id="id_23" data-compound-hint=",,,,,">
+        <label class="form-label form-label-top form-label-auto" id="label_23" for="input_23_addr_line1">
+          Indirizzo di posta elettronica
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_23" class="form-input-wide jf-required" data-layout="full">
+          <div summary="" class="form-address-table jsTest-addressField">
+            <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+              <span class="form-address-line form-address-street-line jsTest-address-lineField">
+                <span class="form-sub-label-container" style="vertical-align:top">
+				<!-- input dell'indirizzo email -->
+                  <input type="email" id="input_23_addr_line1" name="mail" class="form-textbox validate[required] form-address-line" value="" data-component="address_line_1" aria-labelledby="label_23 sublabel_23_addr_line1" required="" />
+                  <label class="form-sub-label" for="input_23_addr_line1" id="sublabel_23_addr_line1" style="min-height:13px" aria-hidden="false"> indirizzo email </label>
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </li>
+	  <li class="form-line jf-required" data-type="control_address" id="id_23" data-compound-hint=",,,,,">
+        <label class="form-label form-label-top form-label-auto" id="label_23" for="input_23_addr_line1">
+          Password
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_23" class="form-input-wide jf-required" data-layout="full">
+          <div summary="" class="form-address-table jsTest-addressField">
+            <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+              <span class="form-address-line form-address-street-line jsTest-address-lineField">
+                <span class="form-sub-label-container" style="vertical-align:top">
+				<!-- input della password -->
+                  <input type="password" id="input_23_addr_line1" name="password" class="form-textbox validate[required] form-address-line" value="" data-component="address_line_1" aria-labelledby="label_23 sublabel_23_addr_line1" required="" />
+                  <label class="form-sub-label" for="input_23_addr_line1" id="sublabel_23_addr_line1" style="min-height:13px" aria-hidden="false"> Password </label>
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-3" data-type="control_button" id="id_20">
+        <div id="cid_20" class="form-input-wide" data-layout="full">
+          <div data-align="left" class="form-buttons-wrapper form-buttons-left   jsTest-button-wrapperField">
+            <button id="confirm" type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
+            Conferma
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-4" data-type="control_button" id="id_19">
+        <div id="cid_19" class="form-input-wide" data-layout="full">
+          <div data-align="right" class="form-buttons-wrapper form-buttons-right   jsTest-button-wrapperField">
+            <button id="input_19" type="button" onclick="rollback()" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
+			Indietro
+            </button>
+          </div>
+        </div>
+      </li>
+      <li style="clear:both">
       </li>
     </ul>
   </div>
-
-
-  
 </form></body>
 </html>
 

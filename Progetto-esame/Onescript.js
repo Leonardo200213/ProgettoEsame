@@ -10,15 +10,29 @@ function nazioni(){
 		   contenttype: 'json',
 		   success: function (data, textStatus, jQxhr) {
 			   $.each(data.nazioni, function (i, post) {
-                     list += post.nome;
+                     aggiungi(post.nome);
                 });
-				
-				d.innerHTML = list;
 		   },
 		   error: function (jQxhr, textStatus, errorThrown) {
 			   console.log(errorThrown);
 		   }
     });
+}
+
+function aggiungi(paese){
+	var tag = document.createElement('option');
+	tag.innerHTML = paese;
+	document.getElementById('country').appendChild(tag);
+}
+
+function rollforward(){
+	$("#first").css("display", "none");
+	$("#second").css("display", "block");
+}
+
+function rollback(){
+	$("#first").css("display", "block");
+	$("#second").css("display", "none");
 }
 
 function GETrequest(){

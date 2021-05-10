@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Creato il: Apr 08, 2021 alle 13:06
+-- Creato il: Mag 05, 2021 alle 12:42
 -- Versione del server: 10.4.17-MariaDB
--- Versione PHP: 8.0.2
+-- Versione PHP: 7.2.34
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -47,6 +47,19 @@ CREATE TABLE `comune` (
 -- --------------------------------------------------------
 
 --
+-- Struttura della tabella `corso`
+--
+
+CREATE TABLE `corso` (
+  `id_corso` int(11) NOT NULL,
+  `descrizione` varchar(45) NOT NULL,
+  `prezzo` int(11) NOT NULL,
+  `durata` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
 -- Struttura della tabella `credenziali`
 --
 
@@ -54,6 +67,17 @@ CREATE TABLE `credenziali` (
   `email` varchar(45) NOT NULL,
   `password` varchar(45) NOT NULL,
   `id_utente` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Struttura della tabella `iscrizione`
+--
+
+CREATE TABLE `iscrizione` (
+  `id_corso` int(11) NOT NULL,
+  `id_user` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -125,6 +149,7 @@ CREATE TABLE `ordini` (
 CREATE TABLE `prodotto` (
   `id_prodotto` int(11) NOT NULL,
   `descrizione` varchar(45) NOT NULL,
+  `prezzo` int(11) NOT NULL,
   `id_ordine` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -145,15 +170,17 @@ CREATE TABLE `utente` (
   `id_cap` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+-- --------------------------------------------------------
 
-
-
+--
+-- Struttura della tabella `vendita`
+--
 
 CREATE TABLE `vendita` (
   `id_prodotto` int(11) NOT NULL,
   `descrizione` varchar(45) NOT NULL,
   `tipo_prodotto` varchar(45) NOT NULL,
-  `id_utente` varchar(11) NOT NULL
+  `id_utente` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -163,12 +190,6 @@ CREATE TABLE `vendita` (
 --
 -- Indici per le tabelle `cap`
 --
-ALTER TABLE `vendita`
-  ADD PRIMARY KEY (`id_prodotto`),
-  ADD KEY `id_utente` (`id_utente`);
-  
-  
-
 ALTER TABLE `cap`
   ADD PRIMARY KEY (`id_CAP`),
   ADD KEY `id_comune` (`id_comune`);
@@ -181,11 +202,23 @@ ALTER TABLE `comune`
   ADD KEY `id_nazione` (`id_nazione`);
 
 --
+-- Indici per le tabelle `corso`
+--
+ALTER TABLE `corso`
+  ADD PRIMARY KEY (`id_corso`);
+
+--
 -- Indici per le tabelle `credenziali`
 --
 ALTER TABLE `credenziali`
   ADD PRIMARY KEY (`email`),
   ADD KEY `id_utente` (`id_utente`);
+
+--
+-- Indici per le tabelle `iscrizione`
+--
+ALTER TABLE `iscrizione`
+  ADD PRIMARY KEY (`id_corso`,`id_user`);
 
 --
 -- Indici per le tabelle `nazione`
@@ -213,6 +246,12 @@ ALTER TABLE `prodotto`
 ALTER TABLE `utente`
   ADD PRIMARY KEY (`id_utente`),
   ADD KEY `id_cap` (`id_cap`);
+
+--
+-- Indici per le tabelle `vendita`
+--
+ALTER TABLE `vendita`
+  ADD PRIMARY KEY (`id_prodotto`,`id_utente`);
 
 --
 -- Limiti per le tabelle scaricate
@@ -253,6 +292,13 @@ ALTER TABLE `prodotto`
 --
 ALTER TABLE `utente`
   ADD CONSTRAINT `id_cap` FOREIGN KEY (`id_cap`) REFERENCES `cap` (`id_CAP`);
+
+--
+-- Limiti per la tabella `vendita`
+--
+ALTER TABLE `vendita`
+  ADD CONSTRAINT `prodotto` FOREIGN KEY (`id_prodotto`) REFERENCES `prodotto` (`id_prodotto`),
+  ADD CONSTRAINT `utente` FOREIGN KEY (`id_utente`) REFERENCES `utente` (`id_utente`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

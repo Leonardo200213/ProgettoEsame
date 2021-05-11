@@ -2,10 +2,9 @@
 //digitare la stringa sul prompt dei comandi
 function nazioni(){
 	var d = document.getElementById("printhere");
-	var list = "";
 
 	 $.ajax({
-		   url: 'http://localhost/ProgettoEsame-main1.0/Progetto-esame/back-end/nazioni.php',
+		   url: 'http://localhost/ProgettoEsame/Progetto-esame/back-end/nazioni.php',
 		   method: 'GET',
 		   contenttype: 'json',
 		   success: function (data, textStatus, jQxhr) {
@@ -17,6 +16,38 @@ function nazioni(){
 			   console.log(errorThrown);
 		   }
     });
+}
+
+function inserisci(){
+	var d = document.getElementById("printhere");
+	var cognome = $('#cognome').val();
+	var nome = $('#nome').val();
+	var genere = $('input[name="sesso"]:checked').val();
+	var età = $('#anni').val();
+	var indirizzo = $('#indirizzo').val();
+	var cellulare = $('#telefono').val();
+	d.innerHTML = cognome +"  " + nome +"  " + genere;
+	/*var utente = {
+		"cognome": ,
+		"nome":    ,
+		"sesso":,
+		"età":    ,
+		"indirizzo":  ,
+		"telefono": ,
+		"id_cap": 
+	};*/
+	
+	/*$.ajax({
+		   url: 'http://localhost/ProgettoEsame/Progetto-esame/back-end/nazioni.php',
+		   method: 'POST',
+		   contenttype: 'json',
+		   success: function (data, textStatus, jQxhr) {
+
+		   },
+		   error: function (jQxhr, textStatus, errorThrown) {
+			   console.log(errorThrown);
+		   }
+    });*/
 }
 
 function aggiungi(paese){

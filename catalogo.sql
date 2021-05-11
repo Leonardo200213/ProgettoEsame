@@ -257,6 +257,7 @@ ALTER TABLE `vendita`
 -- Limiti per le tabelle scaricate
 --
 
+
 --
 -- Limiti per la tabella `cap`
 --

@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Creato il: Mag 05, 2021 alle 12:42
+-- Creato il: Mag 11, 2021 alle 22:56
 -- Versione del server: 10.4.17-MariaDB
--- Versione PHP: 7.2.34
+-- Versione PHP: 8.0.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -218,7 +218,8 @@ ALTER TABLE `credenziali`
 -- Indici per le tabelle `iscrizione`
 --
 ALTER TABLE `iscrizione`
-  ADD PRIMARY KEY (`id_corso`,`id_user`);
+  ADD PRIMARY KEY (`id_corso`,`id_user`),
+  ADD KEY `due` (`id_user`);
 
 --
 -- Indici per le tabelle `nazione`
@@ -251,12 +252,12 @@ ALTER TABLE `utente`
 -- Indici per le tabelle `vendita`
 --
 ALTER TABLE `vendita`
-  ADD PRIMARY KEY (`id_prodotto`,`id_utente`);
+  ADD PRIMARY KEY (`id_prodotto`,`id_utente`),
+  ADD KEY `utente` (`id_utente`);
 
 --
 -- Limiti per le tabelle scaricate
 --
-
 
 --
 -- Limiti per la tabella `cap`
@@ -275,6 +276,13 @@ ALTER TABLE `comune`
 --
 ALTER TABLE `credenziali`
   ADD CONSTRAINT `id_utente` FOREIGN KEY (`id_utente`) REFERENCES `utente` (`id_utente`);
+
+--
+-- Limiti per la tabella `iscrizione`
+--
+ALTER TABLE `iscrizione`
+  ADD CONSTRAINT `due` FOREIGN KEY (`id_user`) REFERENCES `utente` (`id_utente`),
+  ADD CONSTRAINT `uno` FOREIGN KEY (`id_corso`) REFERENCES `corso` (`id_corso`);
 
 --
 -- Limiti per la tabella `ordini`

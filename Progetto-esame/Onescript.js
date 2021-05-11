@@ -26,17 +26,21 @@ function inserisci(){
 	var età = $('#anni').val();
 	var indirizzo = $('#indirizzo').val();
 	var cellulare = $('#telefono').val();
-	d.innerHTML = cognome +"  " + nome +"  " + genere;
-	/*var utente = {
-		"cognome": ,
-		"nome":    ,
-		"sesso":,
-		"età":    ,
-		"indirizzo":  ,
-		"telefono": ,
-		"id_cap": 
-	};*/
-	
+	var comune = $('#città').val();
+	var cap = $('#cap').val();
+	var nazione = $( "#country option:selected" ).text();
+	var utente = {
+		"cognome": cognome,
+		"nome": nome,
+		"sesso": genere,
+		"età": età,
+		"indirizzo": indirizzo,
+		"telefono": cellulare,
+		"comune": comune,
+		"id_cap": cap, 
+		"nazione": nazione
+	};
+	d.innerHTML = JSON.stringify(utente);
 	/*$.ajax({
 		   url: 'http://localhost/ProgettoEsame/Progetto-esame/back-end/nazioni.php',
 		   method: 'POST',

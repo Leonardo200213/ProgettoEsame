@@ -3,7 +3,7 @@
 class Connection 
 {
 	private $_dbHostname = "localhost";
-	private $_dbPort = "3308";
+	private $_dbPort = "3307";
     private $_dbName = "catalogo";
     private $_dbUsername = "root";
     private $_dbPassword = "";

@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Creato il: Mag 11, 2021 alle 22:56
+-- Creato il: Mag 12, 2021 alle 12:43
 -- Versione del server: 10.4.17-MariaDB
--- Versione PHP: 8.0.2
+-- Versione PHP: 7.2.34
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -83,52 +83,6 @@ CREATE TABLE `iscrizione` (
 -- --------------------------------------------------------
 
 --
--- Struttura della tabella `nazione`
---
-
-CREATE TABLE `nazione` (
-  `id_nazione` int(11) NOT NULL,
-  `nome` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dump dei dati per la tabella `nazione`
---
-
-INSERT INTO `nazione` (`id_nazione`, `nome`) VALUES
-(1, 'Austria'),
-(2, 'Belgio'),
-(3, 'Bulgaria'),
-(4, 'Danimarca'),
-(5, 'Estonia'),
-(6, 'Finlandia'),
-(7, 'Francia'),
-(8, 'Germania'),
-(9, 'Grecia'),
-(10, 'Islanda'),
-(11, 'Italia'),
-(12, 'Lettonia'),
-(13, 'Liechtenstein'),
-(14, 'Lituania'),
-(15, 'Lussemburgo'),
-(16, 'Malta'),
-(17, 'Norvegia'),
-(18, 'Paesi Bassi'),
-(19, 'Polonia'),
-(20, 'Portogallo'),
-(21, 'Republica Ceca'),
-(22, 'Romania'),
-(23, 'San Marino'),
-(24, 'Slovacchia'),
-(25, 'Slovenia'),
-(26, 'Spagna'),
-(27, 'Svezia'),
-(28, 'Ungheria'),
-(29, 'Svizzera');
-
--- --------------------------------------------------------
-
---
 -- Struttura della tabella `ordini`
 --
 
@@ -151,6 +105,17 @@ CREATE TABLE `prodotto` (
   `descrizione` varchar(45) NOT NULL,
   `prezzo` int(11) NOT NULL,
   `id_ordine` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Struttura della tabella `regione`
+--
+
+CREATE TABLE `regione` (
+  `id_regione` int(11) NOT NULL,
+  `nome` varchar(45) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -222,12 +187,6 @@ ALTER TABLE `iscrizione`
   ADD KEY `due` (`id_user`);
 
 --
--- Indici per le tabelle `nazione`
---
-ALTER TABLE `nazione`
-  ADD PRIMARY KEY (`id_nazione`);
-
---
 -- Indici per le tabelle `ordini`
 --
 ALTER TABLE `ordini`
@@ -240,6 +199,12 @@ ALTER TABLE `ordini`
 ALTER TABLE `prodotto`
   ADD PRIMARY KEY (`id_prodotto`),
   ADD KEY `id_ordine` (`id_ordine`);
+
+--
+-- Indici per le tabelle `regione`
+--
+ALTER TABLE `regione`
+  ADD PRIMARY KEY (`id_regione`);
 
 --
 -- Indici per le tabelle `utente`
@@ -269,7 +234,7 @@ ALTER TABLE `cap`
 -- Limiti per la tabella `comune`
 --
 ALTER TABLE `comune`
-  ADD CONSTRAINT `id_nazione` FOREIGN KEY (`id_nazione`) REFERENCES `nazione` (`id_nazione`);
+  ADD CONSTRAINT `id_nazione` FOREIGN KEY (`id_nazione`) REFERENCES `regione` (`id_regione`);
 
 --
 -- Limiti per la tabella `credenziali`

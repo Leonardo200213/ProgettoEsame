@@ -41,17 +41,19 @@ function inserisci(){
 		"nazione": nazione
 	};
 	d.innerHTML = JSON.stringify(utente);
-	/*$.ajax({
-		   url: 'http://localhost/ProgettoEsame/Progetto-esame/back-end/nazioni.php',
+	$.ajax({
+		   url: 'http://localhost/ProgettoEsame/Progetto-esame/back-end/utente.php/',
 		   method: 'POST',
 		   contenttype: 'json',
 		   success: function (data, textStatus, jQxhr) {
-
+			   $.each(data.utenti, function (i, post) {
+                     aggiungi(post.);
+                });
 		   },
 		   error: function (jQxhr, textStatus, errorThrown) {
 			   console.log(errorThrown);
 		   }
-    });*/
+    });
 }
 
 function aggiungi(paese){

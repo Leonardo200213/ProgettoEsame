@@ -24,7 +24,7 @@ class Persona
 	}
 	
 	public function get_ID_N($name){
-		$sql = "SELECT id_nazione FROM nazione WHERE nome = '$name'";
+		$sql = "SELECT id_regione FROM regione WHERE nome = '$name'";
 		$stmt = $this->db->prepare($sql);
 		$stmt->execute();
 		$result = $stmt->fetchAll(\PDO::FETCH_ASSOC);

@@ -11,12 +11,34 @@ class Stati
 		$this->db = $this->db->get_connection();
 	} 
 	
-	public function all(){
-		$sql = "SELECT nome FROM nazione";
+	public function all_regione(){
+		$sql = "SELECT nome FROM regione";
 		$stmt = $this->db->prepare($sql);
 		$stmt->execute();
 		$result = $stmt->fetchAll(\PDO::FETCH_ASSOC);
 		return $result;
+	}
+	
+	public function insert_regione($id, $nome_reg){
+		$sql = "INSERT INTO `regione`(`id_regione`, `nome`) 
+		SELECT * FROM (SELECT $id, '$nome_reg') AS tmp
+		WHERE NOT EXISTS (Select `id_regione` From `regione` WHERE `id_regione` = $id) LIMIT 1;";
+		$stmt = $this->db->prepare($sql);
+		$stmt->execute();
+	}
+	public function insert_provincia($id, $nome_prov, $id_reg){
+		$sql = "INSERT INTO `provincia`(`id_provincia`, `nome`, `id_regione`) 
+		SELECT * FROM (SELECT $id, '$nome_prov', $id_reg) AS tmp
+		WHERE NOT EXISTS (Select `id_provincia` From `provincia` WHERE `id_provincia` = $id) LIMIT 1;";
+		$stmt = $this->db->prepare($sql);
+		$stmt->execute();
+	}
+	public function insert_comune($id, $nome_com, $id_prov){
+		$sql = "INSERT INTO `comune`(`id_comune`, `nome`, `id_provincia`) 
+		SELECT * FROM (SELECT $id, '$nome_com', $id_prov) AS tmp
+		WHERE NOT EXISTS (Select `id_comune` From `comune` WHERE `id_comune` = $id) LIMIT 1;";
+		$stmt = $this->db->prepare($sql);
+		$stmt->execute();
 	}
 }
 

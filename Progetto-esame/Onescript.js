@@ -8,7 +8,7 @@ function nazioni(){
 		   method: 'GET',
 		   contenttype: 'json',
 		   success: function (data, textStatus, jQxhr) {
-			   $.each(data.nazioni, function (i, post) {
+			   $.each(data.regioni, function (i, post) {
                      aggiungi(post.nome);
                 });
 		   },
@@ -47,7 +47,7 @@ function inserisci(){
 		   contenttype: 'json',
 		   success: function (data, textStatus, jQxhr) {
 			   $.each(data.utenti, function (i, post) {
-                     aggiungi(post.);
+                     //aggiungi(post.);
                 });
 		   },
 		   error: function (jQxhr, textStatus, errorThrown) {

@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
+-- version 5.2.0-dev
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Creato il: Mag 17, 2021 alle 00:16
--- Versione del server: 10.4.17-MariaDB
--- Versione PHP: 8.0.2
+-- Host: 192.168.30.23
+-- Generation Time: May 17, 2021 at 12:24 PM
+-- Server version: 8.0.18
+-- PHP Version: 7.4.14
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,17 +24,17 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Struttura della tabella `comune`
+-- Table structure for table `comune`
 --
 
 CREATE TABLE `comune` (
   `id_comune` int(11) NOT NULL,
   `id_provincia` int(11) NOT NULL,
   `nome` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
--- Dump dei dati per la tabella `comune`
+-- Dumping data for table `comune`
 --
 
 INSERT INTO `comune` (`id_comune`, `id_provincia`, `nome`) VALUES
@@ -7950,7 +7950,7 @@ INSERT INTO `comune` (`id_comune`, `id_provincia`, `nome`) VALUES
 -- --------------------------------------------------------
 
 --
--- Struttura della tabella `corso`
+-- Table structure for table `corso`
 --
 
 CREATE TABLE `corso` (
@@ -7958,35 +7958,35 @@ CREATE TABLE `corso` (
   `descrizione` varchar(45) NOT NULL,
   `prezzo` int(11) NOT NULL,
   `durata` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- --------------------------------------------------------
 
 --
--- Struttura della tabella `credenziali`
+-- Table structure for table `credenziali`
 --
 
 CREATE TABLE `credenziali` (
   `email` varchar(45) NOT NULL,
   `password` varchar(45) NOT NULL,
   `id_utente` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- --------------------------------------------------------
 
 --
--- Struttura della tabella `iscrizione`
+-- Table structure for table `iscrizione`
 --
 
 CREATE TABLE `iscrizione` (
   `id_corso` int(11) NOT NULL,
   `id_user` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- --------------------------------------------------------
 
 --
--- Struttura della tabella `ordini`
+-- Table structure for table `ordini`
 --
 
 CREATE TABLE `ordini` (
@@ -7995,35 +7995,34 @@ CREATE TABLE `ordini` (
   `data_inizio` date NOT NULL,
   `data_fine` date NOT NULL,
   `num_utente` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- --------------------------------------------------------
 
 --
--- Struttura della tabella `prodotto`
+-- Table structure for table `prodotto`
 --
 
 CREATE TABLE `prodotto` (
   `id_prodotto` int(11) NOT NULL,
   `descrizione` varchar(45) NOT NULL,
-  `prezzo` int(11) NOT NULL,
-  `id_ordine` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `prezzo` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- --------------------------------------------------------
 
 --
--- Struttura della tabella `provincia`
+-- Table structure for table `provincia`
 --
 
 CREATE TABLE `provincia` (
   `id_provincia` int(11) NOT NULL,
   `nome` varchar(45) NOT NULL,
   `id_regione` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
--- Dump dei dati per la tabella `provincia`
+-- Dumping data for table `provincia`
 --
 
 INSERT INTO `provincia` (`id_provincia`, `nome`, `id_regione`) VALUES
@@ -8138,16 +8137,16 @@ INSERT INTO `provincia` (`id_provincia`, `nome`, `id_regione`) VALUES
 -- --------------------------------------------------------
 
 --
--- Struttura della tabella `regione`
+-- Table structure for table `regione`
 --
 
 CREATE TABLE `regione` (
   `id_regione` int(11) NOT NULL,
   `nome` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
--- Dump dei dati per la tabella `regione`
+-- Dumping data for table `regione`
 --
 
 INSERT INTO `regione` (`id_regione`, `nome`) VALUES
@@ -8175,7 +8174,7 @@ INSERT INTO `regione` (`id_regione`, `nome`) VALUES
 -- --------------------------------------------------------
 
 --
--- Struttura della tabella `utente`
+-- Table structure for table `utente`
 --
 
 CREATE TABLE `utente` (
@@ -8188,146 +8187,140 @@ CREATE TABLE `utente` (
   `telefono` int(11) NOT NULL,
   `cap` int(11) NOT NULL,
   `id_comune` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- --------------------------------------------------------
 
 --
--- Struttura della tabella `vendita`
+-- Table structure for table `vendita`
 --
 
 CREATE TABLE `vendita` (
   `id_prodotto` int(11) NOT NULL,
   `descrizione` varchar(45) NOT NULL,
   `tipo_prodotto` varchar(45) NOT NULL,
-  `id_utente` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `quantità` int(11) NOT NULL,
+  `id_ordine` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
--- Indici per le tabelle scaricate
+-- Indexes for dumped tables
 --
 
 --
--- Indici per le tabelle `comune`
+-- Indexes for table `comune`
 --
 ALTER TABLE `comune`
   ADD PRIMARY KEY (`id_comune`),
   ADD KEY `id_provincia` (`id_provincia`);
 
 --
--- Indici per le tabelle `corso`
+-- Indexes for table `corso`
 --
 ALTER TABLE `corso`
   ADD PRIMARY KEY (`id_corso`);
 
 --
--- Indici per le tabelle `credenziali`
+-- Indexes for table `credenziali`
 --
 ALTER TABLE `credenziali`
   ADD PRIMARY KEY (`email`),
   ADD KEY `id_utente` (`id_utente`);
 
 --
--- Indici per le tabelle `iscrizione`
+-- Indexes for table `iscrizione`
 --
 ALTER TABLE `iscrizione`
   ADD PRIMARY KEY (`id_corso`,`id_user`),
   ADD KEY `due` (`id_user`);
 
 --
--- Indici per le tabelle `ordini`
+-- Indexes for table `ordini`
 --
 ALTER TABLE `ordini`
   ADD PRIMARY KEY (`num_ordini`),
   ADD KEY `num_utente` (`num_utente`);
 
 --
--- Indici per le tabelle `prodotto`
+-- Indexes for table `prodotto`
 --
 ALTER TABLE `prodotto`
-  ADD PRIMARY KEY (`id_prodotto`),
-  ADD KEY `id_ordine` (`id_ordine`);
+  ADD PRIMARY KEY (`id_prodotto`);
 
 --
--- Indici per le tabelle `provincia`
+-- Indexes for table `provincia`
 --
 ALTER TABLE `provincia`
   ADD PRIMARY KEY (`id_provincia`),
   ADD KEY `id_regione` (`id_regione`);
 
 --
--- Indici per le tabelle `regione`
+-- Indexes for table `regione`
 --
 ALTER TABLE `regione`
   ADD PRIMARY KEY (`id_regione`);
 
 --
--- Indici per le tabelle `utente`
+-- Indexes for table `utente`
 --
 ALTER TABLE `utente`
   ADD PRIMARY KEY (`id_utente`),
   ADD KEY `comune` (`id_comune`);
 
 --
--- Indici per le tabelle `vendita`
+-- Indexes for table `vendita`
 --
 ALTER TABLE `vendita`
-  ADD PRIMARY KEY (`id_prodotto`,`id_utente`),
-  ADD KEY `utente` (`id_utente`);
+  ADD PRIMARY KEY (`id_prodotto`,`id_ordine`) USING BTREE,
+  ADD KEY `ordine` (`id_ordine`);
 
 --
--- Limiti per le tabelle scaricate
+-- Constraints for dumped tables
 --
 
 --
--- Limiti per la tabella `comune`
+-- Constraints for table `comune`
 --
 ALTER TABLE `comune`
   ADD CONSTRAINT `provincia` FOREIGN KEY (`id_provincia`) REFERENCES `provincia` (`id_provincia`);
 
 --
--- Limiti per la tabella `credenziali`
+-- Constraints for table `credenziali`
 --
 ALTER TABLE `credenziali`
   ADD CONSTRAINT `id_utente` FOREIGN KEY (`id_utente`) REFERENCES `utente` (`id_utente`);
 
 --
--- Limiti per la tabella `iscrizione`
+-- Constraints for table `iscrizione`
 --
 ALTER TABLE `iscrizione`
   ADD CONSTRAINT `due` FOREIGN KEY (`id_user`) REFERENCES `utente` (`id_utente`),
   ADD CONSTRAINT `uno` FOREIGN KEY (`id_corso`) REFERENCES `corso` (`id_corso`);
 
 --
--- Limiti per la tabella `ordini`
+-- Constraints for table `ordini`
 --
 ALTER TABLE `ordini`
   ADD CONSTRAINT `num_utente` FOREIGN KEY (`num_utente`) REFERENCES `utente` (`id_utente`);
 
 --
--- Limiti per la tabella `prodotto`
---
-ALTER TABLE `prodotto`
-  ADD CONSTRAINT `id_ordine` FOREIGN KEY (`id_ordine`) REFERENCES `ordini` (`num_ordini`);
-
---
--- Limiti per la tabella `provincia`
+-- Constraints for table `provincia`
 --
 ALTER TABLE `provincia`
   ADD CONSTRAINT `regione` FOREIGN KEY (`id_regione`) REFERENCES `regione` (`id_regione`);
 
 --
--- Limiti per la tabella `utente`
+-- Constraints for table `utente`
 --
 ALTER TABLE `utente`
   ADD CONSTRAINT `comune` FOREIGN KEY (`id_comune`) REFERENCES `comune` (`id_comune`);
 
 --
--- Limiti per la tabella `vendita`
+-- Constraints for table `vendita`
 --
 ALTER TABLE `vendita`
-  ADD CONSTRAINT `prodotto` FOREIGN KEY (`id_prodotto`) REFERENCES `prodotto` (`id_prodotto`),
-  ADD CONSTRAINT `utente` FOREIGN KEY (`id_utente`) REFERENCES `utente` (`id_utente`);
+  ADD CONSTRAINT `ordine` FOREIGN KEY (`id_ordine`) REFERENCES `ordini` (`num_ordini`) ON DELETE RESTRICT ON UPDATE RESTRICT,
+  ADD CONSTRAINT `prodotto` FOREIGN KEY (`id_prodotto`) REFERENCES `prodotto` (`id_prodotto`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

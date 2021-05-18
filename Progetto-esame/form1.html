@@ -32,9 +32,6 @@ se proprio si vuole cambiare il name BASTA -->
     <ul class="form-section page-section">
       <li id="cid_1" class="form-input-wide" data-type="control_head">
 	   <div data-align="left" class="form-buttons-wrapper form-buttons-left   jsTest-button-wrapperField">
-            <button id="back" type="button" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
-              Indietro
-            </button>
 			
 			<h1 id="header_1" class="form-header" data-component="header">
                       Form di Registrazione
@@ -88,81 +85,93 @@ se proprio si vuole cambiare il name BASTA -->
         </div>
       </li>
       <li class="form-line jf-required" data-type="control_address" id="id_23" data-compound-hint=",,,,,">
-        <label class="form-label form-label-top form-label-auto" id="label_23" for="input_23_addr_line1">
-          Indirizzo
-          <span class="form-required">
-            *
-          </span>
-        </label>
-        <div id="cid_23" class="form-input-wide jf-required" data-layout="full">
-          <div summary="" class="form-address-table jsTest-addressField">
+       <div id="cid_23" class="form-input-wide jf-required" data-layout="half">
+			<label class="form-label form-label-top form-label-auto" id="label_23" for="input_23_addr_line1">
+				 Indirizzo
+			<span class="form-required"> * </span>
+				</label>
+				</div>
+		<div id="cid_23" class="form-input-wide jf-required" data-layout="half">
+			<label class="form-label form-label-top form-label-auto" id="label_23" for="input_23_addr_line1">
+				 &nbsp &nbsp &nbsp numero di cellulare
+			<span class="form-required"> * </span>
+				</label>
+				</div>
+
             <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
-              <span class="form-address-line form-address-street-line jsTest-address-lineField">
+			  
+			  <span class="form-address-line form-address-city-line jsTest-address-lineField ">
                 <span class="form-sub-label-container" style="vertical-align:top">
-				<!-- input dell'indirizzo -->
-                  <input type="text" id="indirizzo" name="indirizzo" class="form-textbox validate[required] form-address-line" value="" data-component="address_line_1" aria-labelledby="label_23 sublabel_23_addr_line1" required="" />
-                  <label class="form-sub-label" for="input_23_addr_line1" id="sublabel_23_addr_line1" style="min-height:13px" aria-hidden="false"> indirizzo e numero civico </label>
-                </span>
+				<!-- input del indirizzo -->
+                  <input type="text" id="indirizzo" name="indirizzo" class="form-textbox validate[required] form-address-city" value="" data-component="city" aria-labelledby="label_23 sublabel_23_city" required="" />
+                  </span>
               </span>
-            </div>
-            <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
               <span class="form-address-line form-address-city-line jsTest-address-lineField ">
                 <span class="form-sub-label-container" style="vertical-align:top">
+				<!-- input del CAP -->
+                  <input type="text" id="cap" name="CAP" class="form-textbox validate[required] form-address-city" value="" data-component="city" aria-labelledby="label_23 sublabel_23_city" required="" />
+                  </span>
+              </span>
+			</div>
+		</li>
+		
+		<li class="form-line jf-required" data-type="control_address" id="id_23" data-compound-hint=",,,,,">
+			<div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+			  <span class="form-address-line form-address-city-line jsTest-address-lineField ">
+                <span class="form-sub-label-container" style="vertical-align:top">
+				<!-- input del CAP -->
+				<label class="form-label form-label-top form-label-auto" id="label_23" for="input_23_addr_line1">
+				 CAP <span class="form-required"> * </span>
+				</label>
+				 <input type="text" id="cap" name="CAP" class="form-textbox validate[required] form-address-city" value="" data-component="city" aria-labelledby="label_23 sublabel_23_city" required="" />
+				</span>
+              </span>
+		      <span class="form-address-line form-address-city-line jsTest-address-lineField ">
+                <span class="form-sub-label-container" style="vertical-align:top">
 				<!-- input del comune -->
-                  <input type="text" id="città" name="comune" class="form-textbox validate[required] form-address-city" value="" data-component="city" aria-labelledby="label_23 sublabel_23_city" required="" />
-                  <label class="form-sub-label" for="input_23_city" id="sublabel_23_city" style="min-height:13px" aria-hidden="false"> Comune </label>
-                </span>
-              </span>
-              <span class="form-address-line form-address-state-line jsTest-address-lineField ">
-                <span class="form-sub-label-container" style="vertical-align:top">
-				<!-- input del codice postale -->
-                  <input type="text" id="cap" name="cap" class="form-textbox form-address-state" value="" data-component="state" aria-labelledby="label_23 sublabel_23_state" />
-                  <label class="form-sub-label" for="input_23_state" id="sublabel_23_state" style="min-height:13px" aria-hidden="false"> Codice Postale </label>
-                </span>
-              </span>
-            </div>
-            <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
-              <span class="form-address-line form-address-country-line jsTest-address-lineField ">
-                <span class="form-sub-label-container" style="vertical-align:top">
-                  <select class="form-dropdown form-address-country noTranslate" name="nazione" id="country" data-component="country" required="" aria-labelledby="label_23 sublabel_23_country">
+				<label class="form-label" for="input_23_city" id="sublabel_23_city" style="min-height:13px" aria-hidden="false"> 
+				Comune <span class="form-required"> * </span> 
+				</label>
+                
+				 <select class="form-dropdown form-address-country noTranslate" name="comune" id="comune" data-component="country" required="" aria-labelledby="label_23 sublabel_23_country">
 				  
                   </select>
-                  <label class="form-sub-label" for="input_23_country" id="sublabel_23_country" style="min-height:13px" aria-hidden="false"> Nazione </label>
                 </span>
               </span>
+			</div>
+		</li>
+		
+		<li class="form-line jf-required" data-type="control_address" id="id_23" data-compound-hint=",,,,,">
+			<div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+			  
+              <span class="form-address-line form-address-state-line jsTest-address-lineField ">
+                <span class="form-sub-label-container" style="vertical-align:top">
+				<!-- input delle provincia -->
+				<label class="form-label" for="input_23_state" id="sublabel_23_state" style="min-height:13px" aria-hidden="false">
+                Provincia <span class="form-required"> * </span> 
+				</label>
+				
+				 <select class="form-dropdown form-address-country noTranslate" name="provincia" id="provincia" data-component="country" required="" aria-labelledby="label_23 sublabel_23_country">
+				  
+                  </select>
+                 </span>
+              </span>
+			  
+             <span class="form-address-line form-address-country-line jsTest-address-lineField ">
+                <span class="form-sub-label-container" style="vertical-align:top">
+                  <!-- input delle regioni -->
+				  
+				  <label class="form-label" for="input_23_state" id="sublabel_23_state" style="min-height:13px" aria-hidden="false"> 
+				  Regione <span class="form-required"> * </span>  </label>
+				  
+				  <select class="form-dropdown form-address-country noTranslate" name="regione" id="regione" data-component="country" required="" aria-labelledby="label_23 sublabel_23_country">
+				  
+                  </select>
+                  </span>
+              </span>
             </div>
-          </div>
-        </div>
-      </li>
-      <li class="form-line form-line-column form-col-1 jf-required" data-type="control_phone" id="id_27">
-        <label class="form-label form-label-top" id="label_27" for="input_27_full">
-          Numero di cellulare
-          <span class="form-required">
-            *
-          </span>
-        </label>
-        <div id="cid_27" class="form-input-wide jf-required" data-layout="half">
-          <span class="form-sub-label-container" style="vertical-align:top">
-		  <!-- input del telefono -->
-            <input type="tel" id="telefono" name="cellulare" data-type="mask-number" class="mask-phone-number form-textbox validate[required, Fill Mask]" style="width:310px" data-masked="true" value="" placeholder="(000) 000-0000" data-component="phone" aria-labelledby="label_27" required="" />
-            
-			<label class="form-sub-label is-empty" for="input_27_full" id="sublabel_27_masked" style="min-height:13px" aria-hidden="false">  </label>
-          </span>
-        </div>
-      </li>
-      <li class="form-line form-line-column form-col-2 jf-required" data-type="control_textbox" id="id_50">
-        <label class="form-label form-label-top form-label-auto" id="label_50" for="input_50">
-          età anagrafica
-          <span class="form-required">
-            *
-          </span>
-        </label>
-        <div id="cid_50" class="form-input-wide jf-required" data-layout="half">
-		<!-- input dell'età -->
-          <input type="text" id="anni" name="età" data-type="input-textbox" class="form-textbox validate[required]" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_50" required="" />
-        
-		</div>
-      </li>
+		</li>
+		
       <li class="form-line form-line-column form-col-3" data-type="control_button" id="id_20">
         <div id="cid_20" class="form-input-wide" data-layout="full">
           <div data-align="left" class="form-buttons-wrapper form-buttons-left   jsTest-button-wrapperField">

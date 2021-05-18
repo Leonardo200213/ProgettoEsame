@@ -7,8 +7,8 @@ $stati = new Stati();
 switch($method) 
 {
 	case 'GET':
-	$nat = $stati->all();
-	$js_encode = json_encode(array('nazioni'=>$nat),true);
+	$nat = $stati->all_regione();
+	$js_encode = json_encode(array('regioni'=>$nat),true);
 	 header("Content-Type: application/json");
 	 echo $js_encode;
 		

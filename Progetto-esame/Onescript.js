@@ -59,7 +59,7 @@ function inserisci(){
 function aggiungi(paese){
 	var tag = document.createElement('option');
 	tag.innerHTML = paese;
-	document.getElementById('country').appendChild(tag);
+	document.getElementById('regione').appendChild(tag);
 }
 
 function rollforward(){

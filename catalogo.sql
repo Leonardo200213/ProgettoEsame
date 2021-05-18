@@ -2,17 +2,7 @@
 -- version 5.2.0-dev
 -- https://www.phpmyadmin.net/
 --
-<<<<<<< HEAD
--- Host: 127.0.0.1
--- Creato il: Mag 18, 2021 alle 14:05
--- Versione del server: 10.4.17-MariaDB
--- Versione PHP: 7.2.34
-=======
--- Host: 192.168.30.23
--- Generation Time: May 17, 2021 at 12:24 PM
--- Server version: 8.0.18
--- PHP Version: 7.4.14
->>>>>>> 266e5f9a68db28b4af27c7c8bc4076ee455e7f0c
+--
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -31,7 +21,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
-<<<<<<< HEAD
+
 -- Struttura della tabella `artista`
 --
 
@@ -52,14 +42,11 @@ CREATE TABLE `comune` (
   `id_comune` int(11) NOT NULL,
   `id_provincia` int(11) NOT NULL,
   `nome` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
->>>>>>> 266e5f9a68db28b4af27c7c8bc4076ee455e7f0c
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 
 
 --
 -- Dumping data for table `comune`
 --
-
-<<<<<<< HEAD
 CREATE TABLE `comune` (
   `id_comune` int(11) NOT NULL,
   `id_provincia` int(11) NOT NULL,
@@ -15901,14 +15888,9 @@ CREATE TABLE `corso` (
   `id_corso` int(11) NOT NULL,
   `descrizione` varchar(45) NOT NULL,
   `prezzo` int(11) NOT NULL,
-<<<<<<< HEAD
   `durata` int(11) NOT NULL,
   `id_insegnante` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-=======
-  `durata` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
->>>>>>> 266e5f9a68db28b4af27c7c8bc4076ee455e7f0c
 
 -- --------------------------------------------------------
 
@@ -15920,12 +15902,12 @@ CREATE TABLE `credenziali` (
   `email` varchar(45) NOT NULL,
   `password` varchar(45) NOT NULL,
   `id_utente` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ;
 
 -- --------------------------------------------------------
 
 --
-<<<<<<< HEAD
+
 -- Struttura della tabella `insegnante`
 --
 
@@ -15936,19 +15918,12 @@ CREATE TABLE `insegnante` (
   `telefono` varchar(45) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- --------------------------------------------------------
-
---
--- Struttura della tabella `iscrizione`
-=======
--- Table structure for table `iscrizione`
->>>>>>> 266e5f9a68db28b4af27c7c8bc4076ee455e7f0c
 --
 
 CREATE TABLE `iscrizione` (
   `id_corso` int(11) NOT NULL,
   `id_user` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ;
 
 -- --------------------------------------------------------
 
@@ -15962,7 +15937,7 @@ CREATE TABLE `ordini` (
   `data_inizio` date NOT NULL,
   `data_fine` date NOT NULL,
   `num_utente` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ;
 
 -- --------------------------------------------------------
 
@@ -15973,40 +15948,21 @@ CREATE TABLE `ordini` (
 CREATE TABLE `prodotto` (
   `id_prodotto` int(11) NOT NULL,
   `descrizione` varchar(45) NOT NULL,
-<<<<<<< HEAD
   `prezzo` int(11) NOT NULL,
   `id_artista` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-=======
-  `prezzo` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
->>>>>>> 266e5f9a68db28b4af27c7c8bc4076ee455e7f0c
 
 -- --------------------------------------------------------
 
 --
-<<<<<<< HEAD
--- Struttura della tabella `provincia`
-=======
--- Table structure for table `provincia`
->>>>>>> 266e5f9a68db28b4af27c7c8bc4076ee455e7f0c
+
 --
 
 CREATE TABLE `provincia` (
   `id_provincia` int(11) NOT NULL,
   `nome` varchar(45) NOT NULL,
   `id_regione` int(11) NOT NULL
-<<<<<<< HEAD
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dump dei dati per la tabella `provincia`
-=======
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
---
--- Dumping data for table `provincia`
->>>>>>> 266e5f9a68db28b4af27c7c8bc4076ee455e7f0c
+) 
 --
 
 INSERT INTO `provincia` (`id_provincia`, `nome`, `id_regione`) VALUES
@@ -16121,11 +16077,7 @@ INSERT INTO `provincia` (`id_provincia`, `nome`, `id_regione`) VALUES
 -- --------------------------------------------------------
 
 --
-<<<<<<< HEAD
--- Struttura della tabella `regione`
-=======
--- Table structure for table `regione`
->>>>>>> 266e5f9a68db28b4af27c7c8bc4076ee455e7f0c
+
 --
 
 CREATE TABLE `regione` (
@@ -16201,11 +16153,8 @@ CREATE TABLE `utente` (
   `telefono` int(11) NOT NULL,
   `cap` int(11) NOT NULL,
   `id_comune` int(11) NOT NULL
-<<<<<<< HEAD
+
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-=======
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
->>>>>>> 266e5f9a68db28b4af27c7c8bc4076ee455e7f0c
 
 -- --------------------------------------------------------
 
@@ -16215,7 +16164,6 @@ CREATE TABLE `utente` (
 
 CREATE TABLE `vendita` (
   `id_prodotto` int(11) NOT NULL,
-<<<<<<< HEAD
   `quantità` int(11) NOT NULL,
   `id_ordine` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -16234,12 +16182,11 @@ ALTER TABLE `artista`
   `tipo_prodotto` varchar(45) NOT NULL,
   `quantità` int(11) NOT NULL,
   `id_ordine` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ;
 
 --
 -- Indexes for dumped tables
 --
->>>>>>> 266e5f9a68db28b4af27c7c8bc4076ee455e7f0c
 
 --
 -- Indexes for table `comune`
@@ -16290,7 +16237,7 @@ ALTER TABLE `ordini`
 -- Indexes for table `prodotto`
 --
 ALTER TABLE `prodotto`
-<<<<<<< HEAD
+
   ADD PRIMARY KEY (`id_prodotto`),
   ADD KEY `id_artista` (`id_artista`);
 
@@ -16299,9 +16246,6 @@ ALTER TABLE `prodotto`
 =======
   ADD PRIMARY KEY (`id_prodotto`);
 
---
--- Indexes for table `provincia`
->>>>>>> 266e5f9a68db28b4af27c7c8bc4076ee455e7f0c
 --
 ALTER TABLE `provincia`
   ADD PRIMARY KEY (`id_provincia`),
@@ -16332,7 +16276,7 @@ ALTER TABLE `vendita`
 --
 
 --
-<<<<<<< HEAD
+
 -- Limiti per la tabella `comune`
 --
 ALTER TABLE `comune`

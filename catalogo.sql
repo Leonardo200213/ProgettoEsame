@@ -31,7 +31,7 @@ CREATE TABLE `comune` (
   `id_comune` int(11) NOT NULL,
   `id_provincia` int(11) NOT NULL,
   `nome` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4  ;
 
 --
 -- Dumping data for table `comune`
@@ -7958,7 +7958,7 @@ CREATE TABLE `corso` (
   `descrizione` varchar(45) NOT NULL,
   `prezzo` int(11) NOT NULL,
   `durata` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4  ;
 
 -- --------------------------------------------------------
 
@@ -7970,7 +7970,7 @@ CREATE TABLE `credenziali` (
   `email` varchar(45) NOT NULL,
   `password` varchar(45) NOT NULL,
   `id_utente` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4  ;
 
 -- --------------------------------------------------------
 
@@ -7981,7 +7981,7 @@ CREATE TABLE `credenziali` (
 CREATE TABLE `iscrizione` (
   `id_corso` int(11) NOT NULL,
   `id_user` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4  ;
 
 -- --------------------------------------------------------
 
@@ -7995,7 +7995,7 @@ CREATE TABLE `ordini` (
   `data_inizio` date NOT NULL,
   `data_fine` date NOT NULL,
   `num_utente` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4  ;
 
 -- --------------------------------------------------------
 
@@ -8007,7 +8007,7 @@ CREATE TABLE `prodotto` (
   `id_prodotto` int(11) NOT NULL,
   `descrizione` varchar(45) NOT NULL,
   `prezzo` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4  ;
 
 -- --------------------------------------------------------
 
@@ -8019,7 +8019,7 @@ CREATE TABLE `provincia` (
   `id_provincia` int(11) NOT NULL,
   `nome` varchar(45) NOT NULL,
   `id_regione` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4  ;
 
 --
 -- Dumping data for table `provincia`
@@ -8143,7 +8143,7 @@ INSERT INTO `provincia` (`id_provincia`, `nome`, `id_regione`) VALUES
 CREATE TABLE `regione` (
   `id_regione` int(11) NOT NULL,
   `nome` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4  ;
 
 --
 -- Dumping data for table `regione`
@@ -8187,7 +8187,7 @@ CREATE TABLE `utente` (
   `telefono` int(11) NOT NULL,
   `cap` int(11) NOT NULL,
   `id_comune` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4  ;
 
 -- --------------------------------------------------------
 
@@ -8201,7 +8201,7 @@ CREATE TABLE `vendita` (
   `tipo_prodotto` varchar(45) NOT NULL,
   `quantità` int(11) NOT NULL,
   `id_ordine` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4  ;
 
 --
 -- Indexes for dumped tables

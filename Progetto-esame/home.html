@@ -36,7 +36,6 @@
 	
 <body class="body" id="page1">
 	<center>
-	<div id="divmax">
 	
 <div id="cc-inner" class="cc-content-parent">
   
@@ -44,20 +43,6 @@
     <div class="jtpl-header" background-area="stripe" background-area-default="">
 		
 		<div class="jtpl-title">
-			<div>
-				<form action="accedi.php">
-					<button type="submit" id="accedi" class="btn btn-outline-primary" value="Accedi">Accedi</button>
-				</form>
-			</div>
-			<div>
-				<form action="form1.html">
-					<button type="submit" id="registrati" class="btn btn-link" value="Accedi">Registrati</button>
-				</form>
-			</div>
-			
-			<center>
-				<label id="titolo">Artisticamente</label>
-			</center>
 			
 			
 			
@@ -69,13 +54,13 @@
 				</ol>
 				<div class="carousel-inner">
 				  <div class="carousel-item active">
-					<img id="1" class="d-block w-100" src="immagini/1.jpg" alt="prima">
+					<img id="img1" src="immagini/1.jpg" alt="prima">
 				  </div>
 				  <div class="carousel-item">
-					<img id="2" class="d-block w-100" src="immagini/2.jpg" alt="secondo">
+					<img id="img2" src="immagini/2.jpg" alt="secondo">
 				  </div>
 				  <div class="carousel-item">
-					<img id="3" class="d-block w-100" src="immagini/3.jpg" alt="terzo">
+					<img id="img3" src="immagini/3.jpg" alt="terzo">
 				  </div>
 				</div>
 			</div>				
@@ -120,38 +105,42 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
 		  <ul class="navbar-nav">
-			<li class="nav-item active">
+		  
+			<li class="nav-item active" id="sezioni">
 			  <a id="btnnav" class="nav-link" href="home.html">Home</a>
 			</li> 
-			<li class="nav-item">
+			<li class="nav-item" id="sezioni">
 			  <a id="btnnav" class="nav-link" href="prodotti.html">Prodotti</a>
 			</li>
-			<li class="nav-item">
+			<li class="nav-item" id="sezioni">
 			  <a id="btnnav" class="nav-link" href="affitto.html">Affitto</a>
 			</li>
-			<li class="nav-item">
-			  <a id="btnnav" class="nav-link" href="personale.html">Area personle</a>
+			<li class="nav-item" id="sezioni">
+			  <a id="btnnav" class="nav-link" href="personale.html">Area personale</a>
 			</li>
-			<form class="form-inline">
-				<div id="accesso">
-					<form action="registrazione.php">
-						<button type="submit" id="registrati" class="btn btn-link my-2 my-sm-0" value="Accedi">Registrati</button>
-					</form>
-				</div>
-				<div>
-					<form action="accedi.php">
-						<button type="submit" id="accedi" class="btn btn-outline-primary my-2 my-sm-0" value="Accedi">Accedi</button>
-					</form>
-				</div>
-				
-			</form>
+			
+			
+			<li class="nav-item" id="registrazione">
+				<form action="form1.html">
+					<a><button type="submit" id="registrati" class="btn btn-link" value="registrati">Registrati</button></a>
+				</form>
+			</li>
+			
+			<li class="nav-item">
+				<form action="accedi.html">
+					<button type="submit" id="accedi" class="btn btn-outline-primary" value="accedi">Accedi</button>
+				</form>
+			</li>				
 		 </ul>
 		</div>
 	</nav>
 	
     <!-- paragrafo 1 -->
-      <div class="jtpl-content__inner cc-content-parent">
-         <hr id="hr"><br><br>
+	<br><br>
+	
+	
+	<div class="jtpl-content__inner cc-content-parent">
+	<hr id="hr">
 		<div id="cc-m-9540352382" class="j-module n j-textWithImage ">
 				<div>
 		<div id="cc-m-textwithimage-9540352382" data-name="text" data-action="text" class="cc-m-textwithimage-inline-rte">
@@ -195,7 +184,6 @@
 			</table>
 		</div>
 	</div>   
-</div>
 </div>
 </div>
 </div>

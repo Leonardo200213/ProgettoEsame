@@ -300,7 +300,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "A018",
@@ -464,7 +464,7 @@
     "popolazione": 28749
   },
   {
-    "nome": "Aci Sant'Antonio",
+    "nome": "Aci Sant Antonio",
     "codice": "087005",
     "zona": {
       "codice": "5",
@@ -772,7 +772,7 @@
     "popolazione": 674
   },
   {
-    "nome": "Acquaviva d'Isernia",
+    "nome": "Acquaviva d Isernia",
     "codice": "094001",
     "zona": {
       "codice": "4",
@@ -1730,7 +1730,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "A100",
@@ -2334,7 +2334,7 @@
     "popolazione": 38433
   },
   {
-    "nome": "Albano Sant'Alessandro",
+    "nome": "Albano Sant Alessandro",
     "codice": "016003",
     "zona": {
       "codice": "1",
@@ -2400,7 +2400,7 @@
     "popolazione": 225
   },
   {
-    "nome": "Albaredo d'Adige",
+    "nome": "Albaredo d Adige",
     "codice": "023002",
     "zona": {
       "codice": "2",
@@ -2686,7 +2686,7 @@
     "popolazione": 1508
   },
   {
-    "nome": "Albiano d'Ivrea",
+    "nome": "Albiano d Ivrea",
     "codice": "001004",
     "zona": {
       "codice": "1",
@@ -2786,7 +2786,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "A162",
@@ -3249,7 +3249,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "A187",
@@ -3619,11 +3619,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "A205",
@@ -5631,11 +5631,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "A305",
@@ -5789,7 +5789,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "A318",
@@ -5887,7 +5887,7 @@
     "popolazione": 49731
   },
   {
-    "nome": "Anzola d'Ossola",
+    "nome": "Anzola d Ossola",
     "codice": "103002",
     "zona": {
       "codice": "1",
@@ -5909,7 +5909,7 @@
     "popolazione": 448
   },
   {
-    "nome": "Anzola dell'Emilia",
+    "nome": "Anzola dell Emilia",
     "codice": "037001",
     "zona": {
       "codice": "2",
@@ -5939,11 +5939,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "A326",
@@ -6261,7 +6261,7 @@
     "popolazione": 1550
   },
   {
-    "nome": "Aquila d'Arroscia",
+    "nome": "Aquila d Arroscia",
     "codice": "008003",
     "zona": {
       "codice": "1",
@@ -7523,11 +7523,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "A424",
@@ -8073,11 +8073,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "A452",
@@ -8109,7 +8109,7 @@
     "popolazione": 11447
   },
   {
-    "nome": "Arzago d'Adda",
+    "nome": "Arzago d Adda",
     "codice": "016013",
     "zona": {
       "codice": "1",
@@ -8627,7 +8627,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "A481",
@@ -9199,7 +9199,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "A515",
@@ -9349,11 +9349,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "A521",
@@ -9415,11 +9415,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "A094",
@@ -9437,11 +9437,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "A108",
@@ -9495,7 +9495,7 @@
     "popolazione": 717
   },
   {
-    "nome": "Azzano d'Asti",
+    "nome": "Azzano d Asti",
     "codice": "005006",
     "zona": {
       "codice": "1",
@@ -10277,7 +10277,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "A573",
@@ -10497,7 +10497,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "A586",
@@ -10551,7 +10551,7 @@
     "popolazione": 3161
   },
   {
-    "nome": "Baldichieri d'Asti",
+    "nome": "Baldichieri d Asti",
     "codice": "005007",
     "zona": {
       "codice": "1",
@@ -10595,7 +10595,7 @@
     "popolazione": 534
   },
   {
-    "nome": "Baldissero d'Alba",
+    "nome": "Baldissero d Alba",
     "codice": "004010",
     "zona": {
       "codice": "1",
@@ -10805,7 +10805,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "A603",
@@ -11035,7 +11035,7 @@
     "popolazione": 2732
   },
   {
-    "nome": "Barano d'Ischia",
+    "nome": "Barano d Ischia",
     "codice": "063007",
     "zona": {
       "codice": "4",
@@ -11439,11 +11439,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "A643",
@@ -11641,7 +11641,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "A656",
@@ -11872,7 +11872,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "A667",
@@ -12070,7 +12070,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "A678",
@@ -13026,7 +13026,7 @@
     "popolazione": 3008
   },
   {
-    "nome": "Belforte all'Isauro",
+    "nome": "Belforte all Isauro",
     "codice": "041005",
     "zona": {
       "codice": "3",
@@ -15004,7 +15004,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "A850",
@@ -15330,11 +15330,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "A877",
@@ -15466,7 +15466,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "A884",
@@ -16026,7 +16026,7 @@
     "popolazione": 2119
   },
   {
-    "nome": "Boffalora d'Adda",
+    "nome": "Boffalora d Adda",
     "codice": "098003",
     "zona": {
       "codice": "1",
@@ -17114,7 +17114,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "A988",
@@ -17190,7 +17190,7 @@
     "popolazione": 7021
   },
   {
-    "nome": "Borghetto d'Arroscia",
+    "nome": "Borghetto d Arroscia",
     "codice": "008009",
     "zona": {
       "codice": "1",
@@ -17432,7 +17432,7 @@
     "popolazione": 2083
   },
   {
-    "nome": "Borgo d'Ale",
+    "nome": "Borgo d Ale",
     "codice": "002015",
     "zona": {
       "codice": "1",
@@ -17454,7 +17454,7 @@
     "popolazione": 2588
   },
   {
-    "nome": "Borgo d'Anaunia",
+    "nome": "Borgo d Anaunia",
     "codice": "022252",
     "zona": {
       "codice": "2",
@@ -17939,7 +17939,7 @@
     "popolazione": 2123
   },
   {
-    "nome": "Borgofranco d'Ivrea",
+    "nome": "Borgofranco d Ivrea",
     "codice": "001030",
     "zona": {
       "codice": "1",
@@ -18599,7 +18599,7 @@
     "popolazione": 1508
   },
   {
-    "nome": "Boschi Sant'Anna",
+    "nome": "Boschi Sant Anna",
     "codice": "023010",
     "zona": {
       "codice": "2",
@@ -19887,7 +19887,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "B156",
@@ -20220,7 +20220,7 @@
     "popolazione": 3050
   },
   {
-    "nome": "Brignano Gera d'Adda",
+    "nome": "Brignano Gera d Adda",
     "codice": "016040",
     "zona": {
       "codice": "1",
@@ -20448,11 +20448,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "B192",
@@ -21108,11 +21108,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "B230",
@@ -21508,7 +21508,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "B256",
@@ -22332,7 +22332,7 @@
     "popolazione": 6386
   },
   {
-    "nome": "Buttigliera d'Asti",
+    "nome": "Buttigliera d Asti",
     "codice": "005012",
     "zona": {
       "codice": "1",
@@ -22520,7 +22520,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "B328",
@@ -22797,7 +22797,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "B358",
@@ -23215,7 +23215,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "B382",
@@ -24127,7 +24127,7 @@
     "popolazione": 2607
   },
   {
-    "nome": "Calusco d'Adda",
+    "nome": "Calusco d Adda",
     "codice": "016046",
     "zona": {
       "codice": "1",
@@ -24347,7 +24347,7 @@
     "popolazione": 2616
   },
   {
-    "nome": "Calvi dell'Umbria",
+    "nome": "Calvi dell Umbria",
     "codice": "055008",
     "zona": {
       "codice": "3",
@@ -25151,7 +25151,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "B499",
@@ -25217,7 +25217,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "B502",
@@ -25403,7 +25403,7 @@
     "popolazione": 1382
   },
   {
-    "nome": "Campione d'Italia",
+    "nome": "Campione d Italia",
     "codice": "013040",
     "zona": {
       "codice": "1",
@@ -25503,7 +25503,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "B526",
@@ -25557,7 +25557,7 @@
     "popolazione": 3045
   },
   {
-    "nome": "Campo nell'Elba",
+    "nome": "Campo nell Elba",
     "codice": "049003",
     "zona": {
       "codice": "3",
@@ -26449,7 +26449,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "B569",
@@ -26525,7 +26525,7 @@
     "popolazione": 5636
   },
   {
-    "nome": "Canale d'Agordo",
+    "nome": "Canale d Agordo",
     "codice": "025023",
     "zona": {
       "codice": "2",
@@ -27043,7 +27043,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "B606",
@@ -27163,7 +27163,7 @@
     "popolazione": 1423
   },
   {
-    "nome": "Canneto sull'Oglio",
+    "nome": "Canneto sull Oglio",
     "codice": "020008",
     "zona": {
       "codice": "1",
@@ -27251,7 +27251,7 @@
     "popolazione": 801
   },
   {
-    "nome": "Canonica d'Adda",
+    "nome": "Canonica d Adda",
     "codice": "016049",
     "zona": {
       "codice": "1",
@@ -27351,7 +27351,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "C669",
@@ -27373,7 +27373,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "B624",
@@ -27901,7 +27901,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "B651",
@@ -27967,7 +27967,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "B656",
@@ -27989,7 +27989,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "B658",
@@ -28043,7 +28043,7 @@
     "popolazione": 1301
   },
   {
-    "nome": "Capo d'Orlando",
+    "nome": "Capo d Orlando",
     "codice": "083009",
     "zona": {
       "codice": "5",
@@ -28209,7 +28209,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "B672",
@@ -28297,7 +28297,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "B677",
@@ -28329,7 +28329,7 @@
     "popolazione": 577
   },
   {
-    "nome": "Cappella de' Picenardi",
+    "nome": "Cappella de  Picenardi",
     "codice": "019014",
     "zona": {
       "codice": "1",
@@ -28725,7 +28725,7 @@
     "popolazione": 4553
   },
   {
-    "nome": "Capriata d'Orba",
+    "nome": "Capriata d Orba",
     "codice": "006029",
     "zona": {
       "codice": "1",
@@ -29155,7 +29155,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "B725",
@@ -30805,7 +30805,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "B825",
@@ -31091,7 +31091,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "B842",
@@ -32081,7 +32081,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "B893",
@@ -33125,7 +33125,7 @@
     "popolazione": 43833
   },
   {
-    "nome": "Cascinette d'Ivrea",
+    "nome": "Cascinette d Ivrea",
     "codice": "001061",
     "zona": {
       "codice": "1",
@@ -33379,7 +33379,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "B967",
@@ -33389,7 +33389,7 @@
     "popolazione": 4534
   },
   {
-    "nome": "Casirate d'Adda",
+    "nome": "Casirate d Adda",
     "codice": "016059",
     "zona": {
       "codice": "1",
@@ -33411,7 +33411,7 @@
     "popolazione": 3894
   },
   {
-    "nome": "Caslino d'Erba",
+    "nome": "Caslino d Erba",
     "codice": "013052",
     "zona": {
       "codice": "1",
@@ -33543,7 +33543,7 @@
     "popolazione": 2724
   },
   {
-    "nome": "Casole d'Elsa",
+    "nome": "Casole d Elsa",
     "codice": "052004",
     "zona": {
       "codice": "3",
@@ -33785,7 +33785,7 @@
     "popolazione": 4406
   },
   {
-    "nome": "Cassano all'Ionio",
+    "nome": "Cassano all Ionio",
     "codice": "078029",
     "zona": {
       "codice": "4",
@@ -33807,7 +33807,7 @@
     "popolazione": 17281
   },
   {
-    "nome": "Cassano d'Adda",
+    "nome": "Cassano d Adda",
     "codice": "015059",
     "zona": {
       "codice": "1",
@@ -33983,7 +33983,7 @@
     "popolazione": 122
   },
   {
-    "nome": "Cassina de' Pecchi",
+    "nome": "Cassina de  Pecchi",
     "codice": "015060",
     "zona": {
       "codice": "1",
@@ -34599,7 +34599,7 @@
     "popolazione": 238
   },
   {
-    "nome": "Castel d'Aiano",
+    "nome": "Castel d Aiano",
     "codice": "037013",
     "zona": {
       "codice": "2",
@@ -34621,7 +34621,7 @@
     "popolazione": 1951
   },
   {
-    "nome": "Castel d'Ario",
+    "nome": "Castel d Ario",
     "codice": "020014",
     "zona": {
       "codice": "1",
@@ -34643,7 +34643,7 @@
     "popolazione": 4787
   },
   {
-    "nome": "Castel d'Azzano",
+    "nome": "Castel d Azzano",
     "codice": "023021",
     "zona": {
       "codice": "2",
@@ -34699,7 +34699,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "C083",
@@ -34787,7 +34787,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "C090",
@@ -34875,7 +34875,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "C096",
@@ -35413,7 +35413,7 @@
     "popolazione": 545
   },
   {
-    "nome": "Castel Sant'Angelo",
+    "nome": "Castel Sant Angelo",
     "codice": "057015",
     "zona": {
       "codice": "3",
@@ -35435,7 +35435,7 @@
     "popolazione": 1289
   },
   {
-    "nome": "Castel Sant'Elia",
+    "nome": "Castel Sant Elia",
     "codice": "056017",
     "zona": {
       "codice": "3",
@@ -36139,7 +36139,7 @@
     "popolazione": 416
   },
   {
-    "nome": "Castell'Alfero",
+    "nome": "Castell Alfero",
     "codice": "005025",
     "zona": {
       "codice": "1",
@@ -36161,7 +36161,7 @@
     "popolazione": 2750
   },
   {
-    "nome": "Castell'Arquato",
+    "nome": "Castell Arquato",
     "codice": "033012",
     "zona": {
       "codice": "2",
@@ -36183,7 +36183,7 @@
     "popolazione": 4712
   },
   {
-    "nome": "Castell'Azzara",
+    "nome": "Castell Azzara",
     "codice": "053005",
     "zona": {
       "codice": "3",
@@ -36205,7 +36205,7 @@
     "popolazione": 1601
   },
   {
-    "nome": "Castell'Umberto",
+    "nome": "Castell Umberto",
     "codice": "083014",
     "zona": {
       "codice": "5",
@@ -36261,7 +36261,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "C126",
@@ -36503,7 +36503,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "C141",
@@ -36667,7 +36667,7 @@
     "popolazione": 880
   },
   {
-    "nome": "Castelletto d'Erro",
+    "nome": "Castelletto d Erro",
     "codice": "006048",
     "zona": {
       "codice": "1",
@@ -36689,7 +36689,7 @@
     "popolazione": 150
   },
   {
-    "nome": "Castelletto d'Orba",
+    "nome": "Castelletto d Orba",
     "codice": "006049",
     "zona": {
       "codice": "1",
@@ -36953,7 +36953,7 @@
     "popolazione": 1985
   },
   {
-    "nome": "Castellinaldo d'Alba",
+    "nome": "Castellinaldo d Alba",
     "codice": "004051",
     "zona": {
       "codice": "1",
@@ -37063,7 +37063,7 @@
     "popolazione": 530
   },
   {
-    "nome": "Castello d'Agogna",
+    "nome": "Castello d Agogna",
     "codice": "018039",
     "zona": {
       "codice": "1",
@@ -37085,7 +37085,7 @@
     "popolazione": 1091
   },
   {
-    "nome": "Castello d'Argile",
+    "nome": "Castello d Argile",
     "codice": "037017",
     "zona": {
       "codice": "2",
@@ -37129,7 +37129,7 @@
     "popolazione": 1509
   },
   {
-    "nome": "Castello dell'Acqua",
+    "nome": "Castello dell Acqua",
     "codice": "014014",
     "zona": {
       "codice": "1",
@@ -37603,7 +37603,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "C218",
@@ -37613,7 +37613,7 @@
     "popolazione": 8594
   },
   {
-    "nome": "Castelnovo ne' Monti",
+    "nome": "Castelnovo ne  Monti",
     "codice": "035016",
     "zona": {
       "codice": "2",
@@ -37625,7 +37625,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "C219",
@@ -37701,7 +37701,7 @@
     "popolazione": 8787
   },
   {
-    "nome": "Castelnuovo Bocca d'Adda",
+    "nome": "Castelnuovo Bocca d Adda",
     "codice": "098013",
     "zona": {
       "codice": "1",
@@ -38461,7 +38461,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "C278",
@@ -38505,7 +38505,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "C279",
@@ -38889,7 +38889,7 @@
     "popolazione": 2978
   },
   {
-    "nome": "Castiglione d'Adda",
+    "nome": "Castiglione d Adda",
     "codice": "098014",
     "zona": {
       "codice": "1",
@@ -38911,7 +38911,7 @@
     "popolazione": 4818
   },
   {
-    "nome": "Castiglione d'Orcia",
+    "nome": "Castiglione d Orcia",
     "codice": "052007",
     "zona": {
       "codice": "3",
@@ -39483,7 +39483,7 @@
     "popolazione": 2975
   },
   {
-    "nome": "Castrignano de' Greci",
+    "nome": "Castrignano de  Greci",
     "codice": "075018",
     "zona": {
       "codice": "4",
@@ -39725,7 +39725,7 @@
     "popolazione": 3175
   },
   {
-    "nome": "Castronuovo di Sant'Andrea",
+    "nome": "Castronuovo di Sant Andrea",
     "codice": "076026",
     "zona": {
       "codice": "4",
@@ -40021,7 +40021,7 @@
     "popolazione": 2091
   },
   {
-    "nome": "Cava de' Tirreni",
+    "nome": "Cava de  Tirreni",
     "codice": "065037",
     "zona": {
       "codice": "4",
@@ -40109,7 +40109,7 @@
     "popolazione": 407
   },
   {
-    "nome": "Cavaglio d'Agogna",
+    "nome": "Cavaglio d Agogna",
     "codice": "003045",
     "zona": {
       "codice": "1",
@@ -40549,7 +40549,7 @@
     "popolazione": 2916
   },
   {
-    "nome": "Cavenago d'Adda",
+    "nome": "Cavenago d Adda",
     "codice": "098017",
     "zona": {
       "codice": "1",
@@ -40693,7 +40693,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "C405",
@@ -40813,7 +40813,7 @@
     "popolazione": 1555
   },
   {
-    "nome": "Cazzano Sant'Andrea",
+    "nome": "Cazzano Sant Andrea",
     "codice": "016067",
     "zona": {
       "codice": "1",
@@ -41045,7 +41045,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "C426",
@@ -41957,7 +41957,7 @@
     "popolazione": 6728
   },
   {
-    "nome": "Cerano d'Intelvi",
+    "nome": "Cerano d Intelvi",
     "codice": "013063",
     "zona": {
       "codice": "1",
@@ -42123,7 +42123,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "C492",
@@ -42727,7 +42727,7 @@
     "popolazione": 30697
   },
   {
-    "nome": "Cerreto d'Asti",
+    "nome": "Cerreto d Asti",
     "codice": "005035",
     "zona": {
       "codice": "1",
@@ -42749,7 +42749,7 @@
     "popolazione": 220
   },
   {
-    "nome": "Cerreto d'Esi",
+    "nome": "Cerreto d Esi",
     "codice": "042013",
     "zona": {
       "codice": "3",
@@ -43387,7 +43387,7 @@
     "popolazione": 888
   },
   {
-    "nome": "Cervignano d'Adda",
+    "nome": "Cervignano d Adda",
     "codice": "098018",
     "zona": {
       "codice": "1",
@@ -44034,11 +44034,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "C593",
@@ -44056,11 +44056,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "C594",
@@ -44078,11 +44078,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "C595",
@@ -44100,11 +44100,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "B491",
@@ -44122,11 +44122,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "C596",
@@ -44144,11 +44144,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "B540",
@@ -44166,11 +44166,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "C598",
@@ -44188,11 +44188,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "C294",
@@ -44664,7 +44664,7 @@
     "popolazione": 35962
   },
   {
-    "nome": "Chies d'Alpago",
+    "nome": "Chies d Alpago",
     "codice": "025012",
     "zona": {
       "codice": "2",
@@ -44818,7 +44818,7 @@
     "popolazione": 2240
   },
   {
-    "nome": "Chignolo d'Isola",
+    "nome": "Chignolo d Isola",
     "codice": "016072",
     "zona": {
       "codice": "1",
@@ -45170,7 +45170,7 @@
     "popolazione": 603
   },
   {
-    "nome": "Chiusano d'Asti",
+    "nome": "Chiusano d Asti",
     "codice": "005038",
     "zona": {
       "codice": "1",
@@ -45852,7 +45852,7 @@
     "popolazione": 641
   },
   {
-    "nome": "Cingia de' Botti",
+    "nome": "Cingia de  Botti",
     "codice": "019031",
     "zona": {
       "codice": "1",
@@ -46468,7 +46468,7 @@
     "popolazione": 82
   },
   {
-    "nome": "Cisterna d'Asti",
+    "nome": "Cisterna d Asti",
     "codice": "005040",
     "zona": {
       "codice": "1",
@@ -46600,7 +46600,7 @@
     "popolazione": 40064
   },
   {
-    "nome": "Città Sant'Angelo",
+    "nome": "Città Sant Angelo",
     "codice": "068012",
     "zona": {
       "codice": "4",
@@ -46930,7 +46930,7 @@
     "popolazione": 15596
   },
   {
-    "nome": "Civita d'Antino",
+    "nome": "Civita d Antino",
     "codice": "066034",
     "zona": {
       "codice": "4",
@@ -46942,7 +46942,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "C766",
@@ -47096,7 +47096,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "C778",
@@ -47128,7 +47128,7 @@
     "popolazione": 1875
   },
   {
-    "nome": "Civitella d'Agliano",
+    "nome": "Civitella d Agliano",
     "codice": "056022",
     "zona": {
       "codice": "3",
@@ -47272,7 +47272,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "C783",
@@ -47668,7 +47668,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "C811",
@@ -47884,11 +47884,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "C821",
@@ -48130,7 +48130,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "C844",
@@ -48184,7 +48184,7 @@
     "popolazione": 1736
   },
   {
-    "nome": "Colle d'Anchise",
+    "nome": "Colle d Anchise",
     "codice": "070020",
     "zona": {
       "codice": "4",
@@ -48228,7 +48228,7 @@
     "popolazione": 384
   },
   {
-    "nome": "Colle di Val d'Elsa",
+    "nome": "Colle di Val d Elsa",
     "codice": "052012",
     "zona": {
       "codice": "3",
@@ -48548,7 +48548,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "C862",
@@ -48614,7 +48614,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "C866",
@@ -50770,7 +50770,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "C999",
@@ -50824,7 +50824,7 @@
     "popolazione": 10028
   },
   {
-    "nome": "Corigliano d'Otranto",
+    "nome": "Corigliano d Otranto",
     "codice": "075023",
     "zona": {
       "codice": "4",
@@ -51110,7 +51110,7 @@
     "popolazione": 20121
   },
   {
-    "nome": "Cornate d'Adda",
+    "nome": "Cornate d Adda",
     "codice": "108053",
     "zona": {
       "codice": "1",
@@ -51132,7 +51132,7 @@
     "popolazione": 10363
   },
   {
-    "nome": "Cornedo all'Isarco",
+    "nome": "Cornedo all Isarco",
     "codice": "021023",
     "zona": {
       "codice": "2",
@@ -51198,7 +51198,7 @@
     "popolazione": 2838
   },
   {
-    "nome": "Corneliano d'Alba",
+    "nome": "Corneliano d Alba",
     "codice": "004072",
     "zona": {
       "codice": "1",
@@ -51342,7 +51342,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "D037",
@@ -51660,7 +51660,7 @@
     "popolazione": 671
   },
   {
-    "nome": "Corte de' Cortesi con Cignone",
+    "nome": "Corte de  Cortesi con Cignone",
     "codice": "019032",
     "zona": {
       "codice": "1",
@@ -51682,7 +51682,7 @@
     "popolazione": 1123
   },
   {
-    "nome": "Corte de' Frati",
+    "nome": "Corte de  Frati",
     "codice": "019033",
     "zona": {
       "codice": "1",
@@ -51902,7 +51902,7 @@
     "popolazione": 576
   },
   {
-    "nome": "Cortina d'Ampezzo",
+    "nome": "Cortina d Ampezzo",
     "codice": "025016",
     "zona": {
       "codice": "2",
@@ -52122,7 +52122,7 @@
     "popolazione": 69484
   },
   {
-    "nome": "Cosio d'Arroscia",
+    "nome": "Cosio d Arroscia",
     "codice": "008023",
     "zona": {
       "codice": "1",
@@ -52364,7 +52364,7 @@
     "popolazione": 541
   },
   {
-    "nome": "Costa de' Nobili",
+    "nome": "Costa de  Nobili",
     "codice": "018058",
     "zona": {
       "codice": "1",
@@ -52650,7 +52650,7 @@
     "popolazione": 3586
   },
   {
-    "nome": "Costigliole d'Asti",
+    "nome": "Costigliole d Asti",
     "codice": "005050",
     "zona": {
       "codice": "1",
@@ -52768,11 +52768,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "D012",
@@ -53662,7 +53662,7 @@
     "popolazione": 58881
   },
   {
-    "nome": "Crotta d'Adda",
+    "nome": "Crotta d Adda",
     "codice": "019038",
     "zona": {
       "codice": "1",
@@ -55356,7 +55356,7 @@
     "popolazione": 2257
   },
   {
-    "nome": "Diano d'Alba",
+    "nome": "Diano d Alba",
     "codice": "004080",
     "zona": {
       "codice": "1",
@@ -56068,11 +56068,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "D338",
@@ -56288,11 +56288,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "D356",
@@ -56992,11 +56992,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "D402",
@@ -57674,11 +57674,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "D444",
@@ -57788,7 +57788,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "D450",
@@ -58052,7 +58052,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "D465",
@@ -58524,7 +58524,7 @@
     "popolazione": 1955
   },
   {
-    "nome": "Fara Gera d'Adda",
+    "nome": "Fara Gera d Adda",
     "codice": "016096",
     "zona": {
       "codice": "1",
@@ -58766,7 +58766,7 @@
     "popolazione": 1631
   },
   {
-    "nome": "Farra d'Isonzo",
+    "nome": "Farra d Isonzo",
     "codice": "031005",
     "zona": {
       "codice": "2",
@@ -59170,11 +59170,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "D537",
@@ -59891,7 +59891,7 @@
     "popolazione": 2175
   },
   {
-    "nome": "Fiesso d'Artico",
+    "nome": "Fiesso d Artico",
     "codice": "027014",
     "zona": {
       "codice": "2",
@@ -60419,7 +60419,7 @@
     "popolazione": 16945
   },
   {
-    "nome": "Fiorenzuola d'Arda",
+    "nome": "Fiorenzuola d Arda",
     "codice": "033021",
     "zona": {
       "codice": "2",
@@ -61376,11 +61376,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "D666",
@@ -61544,7 +61544,7 @@
     "popolazione": 5804
   },
   {
-    "nome": "Fontaneto d'Agogna",
+    "nome": "Fontaneto d Agogna",
     "codice": "003066",
     "zona": {
       "codice": "1",
@@ -61710,7 +61710,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "D681",
@@ -62535,7 +62535,7 @@
     "popolazione": 383
   },
   {
-    "nome": "Forza d'Agrò",
+    "nome": "Forza d Agrò",
     "codice": "083024",
     "zona": {
       "codice": "5",
@@ -62613,7 +62613,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "D736",
@@ -62931,7 +62931,7 @@
     "popolazione": 5353
   },
   {
-    "nome": "Fragneto l'Abate",
+    "nome": "Fragneto l Abate",
     "codice": "062033",
     "zona": {
       "codice": "4",
@@ -63085,7 +63085,7 @@
     "popolazione": 518
   },
   {
-    "nome": "Francavilla d'Ete",
+    "nome": "Francavilla d Ete",
     "codice": "109007",
     "zona": {
       "codice": "3",
@@ -64413,11 +64413,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "D839",
@@ -64593,7 +64593,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "D850",
@@ -66155,7 +66155,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "D934",
@@ -67157,7 +67157,7 @@
     "popolazione": 189
   },
   {
-    "nome": "Gerre de' Caprioli",
+    "nome": "Gerre de  Caprioli",
     "codice": "019048",
     "zona": {
       "codice": "1",
@@ -67487,7 +67487,7 @@
     "popolazione": 2196
   },
   {
-    "nome": "Giano dell'Umbria",
+    "nome": "Giano dell Umbria",
     "codice": "054021",
     "zona": {
       "codice": "3",
@@ -67869,11 +67869,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "E029",
@@ -68027,7 +68027,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "E040",
@@ -68631,7 +68631,7 @@
     "popolazione": 889
   },
   {
-    "nome": "Godega di Sant'Urbano",
+    "nome": "Godega di Sant Urbano",
     "codice": "026033",
     "zona": {
       "codice": "2",
@@ -69105,7 +69105,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "E096",
@@ -69489,7 +69489,7 @@
     "popolazione": 4758
   },
   {
-    "nome": "Gradisca d'Isonzo",
+    "nome": "Gradisca d Isonzo",
     "codice": "031008",
     "zona": {
       "codice": "2",
@@ -69709,7 +69709,7 @@
     "popolazione": 622
   },
   {
-    "nome": "Granarolo dell'Emilia",
+    "nome": "Granarolo dell Emilia",
     "codice": "037030",
     "zona": {
       "codice": "2",
@@ -70223,11 +70223,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "E165",
@@ -70245,11 +70245,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "E167",
@@ -70267,11 +70267,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "E168",
@@ -71327,7 +71327,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "E232",
@@ -71767,7 +71767,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "E253",
@@ -72049,11 +72049,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "E273",
@@ -72467,11 +72467,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "E306",
@@ -72493,7 +72493,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "E307",
@@ -72943,7 +72943,7 @@
     "popolazione": 1598
   },
   {
-    "nome": "Isola d'Asti",
+    "nome": "Isola d Asti",
     "codice": "005059",
     "zona": {
       "codice": "1",
@@ -73009,7 +73009,7 @@
     "popolazione": 1418
   },
   {
-    "nome": "Isola del Gran Sasso d'Italia",
+    "nome": "Isola del Gran Sasso d Italia",
     "codice": "067026",
     "zona": {
       "codice": "4",
@@ -73207,7 +73207,7 @@
     "popolazione": 3255
   },
   {
-    "nome": "Isola Sant'Antonio",
+    "nome": "Isola Sant Antonio",
     "codice": "006087",
     "zona": {
       "codice": "1",
@@ -73435,11 +73435,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "E369",
@@ -73479,11 +73479,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "E371",
@@ -73875,11 +73875,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "E391",
@@ -73889,7 +73889,7 @@
     "popolazione": 758
   },
   {
-    "nome": "L'Aquila",
+    "nome": "L Aquila",
     "codice": "066049",
     "zona": {
       "codice": "4",
@@ -73901,7 +73901,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "A345",
@@ -73985,11 +73985,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "A308",
@@ -74029,11 +74029,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "E458",
@@ -74089,11 +74089,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "E470",
@@ -76095,7 +76095,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "E505",
@@ -76787,7 +76787,7 @@
     "popolazione": 854
   },
   {
-    "nome": "Lesignano de' Bagni",
+    "nome": "Lesignano de  Bagni",
     "codice": "034019",
     "zona": {
       "codice": "2",
@@ -77389,11 +77389,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "E587",
@@ -79600,7 +79600,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "E723",
@@ -79622,7 +79622,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "E724",
@@ -79632,7 +79632,7 @@
     "popolazione": 1019
   },
   {
-    "nome": "Lugagnano Val d'Arda",
+    "nome": "Lugagnano Val d Arda",
     "codice": "033026",
     "zona": {
       "codice": "2",
@@ -80006,7 +80006,7 @@
     "popolazione": 538
   },
   {
-    "nome": "Lurago d'Erba",
+    "nome": "Lurago d Erba",
     "codice": "013136",
     "zona": {
       "codice": "1",
@@ -80392,7 +80392,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "E772",
@@ -80468,7 +80468,7 @@
     "popolazione": 60
   },
   {
-    "nome": "Macchia d'Isernia",
+    "nome": "Macchia d Isernia",
     "codice": "094025",
     "zona": {
       "codice": "4",
@@ -81084,7 +81084,7 @@
     "popolazione": 2231
   },
   {
-    "nome": "Magliano de' Marsi",
+    "nome": "Magliano de  Marsi",
     "codice": "066053",
     "zona": {
       "codice": "4",
@@ -81096,7 +81096,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "E811",
@@ -84934,7 +84934,7 @@
     "popolazione": 68856
   },
   {
-    "nome": "Massa d'Albe",
+    "nome": "Massa d Albe",
     "codice": "066054",
     "zona": {
       "codice": "4",
@@ -84946,7 +84946,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "F022",
@@ -85638,7 +85638,7 @@
     "popolazione": 12333
   },
   {
-    "nome": "Mazzarrà Sant'Andrea",
+    "nome": "Mazzarrà Sant Andrea",
     "codice": "083046",
     "zona": {
       "codice": "5",
@@ -88608,7 +88608,7 @@
     "popolazione": 12252
   },
   {
-    "nome": "Misano di Gera d'Adda",
+    "nome": "Misano di Gera d Adda",
     "codice": "016135",
     "zona": {
       "codice": "1",
@@ -89163,7 +89163,7 @@
     "popolazione": 756
   },
   {
-    "nome": "Moio de' Calvi",
+    "nome": "Moio de  Calvi",
     "codice": "016136",
     "zona": {
       "codice": "1",
@@ -89329,7 +89329,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "M255",
@@ -90439,7 +90439,7 @@
     "popolazione": 27041
   },
   {
-    "nome": "Monforte d'Alba",
+    "nome": "Monforte d Alba",
     "codice": "004132",
     "zona": {
       "codice": "1",
@@ -92419,7 +92419,7 @@
     "popolazione": 6706
   },
   {
-    "nome": "Monte Sant'Angelo",
+    "nome": "Monte Sant Angelo",
     "codice": "071033",
     "zona": {
       "codice": "4",
@@ -92981,7 +92981,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "F463",
@@ -93035,7 +93035,7 @@
     "popolazione": 4988
   },
   {
-    "nome": "Montechiaro d'Acqui",
+    "nome": "Montechiaro d Acqui",
     "codice": "006106",
     "zona": {
       "codice": "1",
@@ -93057,7 +93057,7 @@
     "popolazione": 568
   },
   {
-    "nome": "Montechiaro d'Asti",
+    "nome": "Montechiaro d Asti",
     "codice": "005075",
     "zona": {
       "codice": "1",
@@ -93585,7 +93585,7 @@
     "popolazione": 2195
   },
   {
-    "nome": "Montefiore dell'Aso",
+    "nome": "Montefiore dell Aso",
     "codice": "044036",
     "zona": {
       "codice": "3",
@@ -93673,7 +93673,7 @@
     "popolazione": 565
   },
   {
-    "nome": "Monteforte d'Alpone",
+    "nome": "Monteforte d Alpone",
     "codice": "023050",
     "zona": {
       "codice": "2",
@@ -94025,7 +94025,7 @@
     "popolazione": 1414
   },
   {
-    "nome": "Montegrosso d'Asti",
+    "nome": "Montegrosso d Asti",
     "codice": "005076",
     "zona": {
       "codice": "1",
@@ -94179,7 +94179,7 @@
     "popolazione": 80
   },
   {
-    "nome": "Monteleone d'Orvieto",
+    "nome": "Monteleone d Orvieto",
     "codice": "055021",
     "zona": {
       "codice": "3",
@@ -95093,7 +95093,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "F595",
@@ -95191,7 +95191,7 @@
     "popolazione": 2267
   },
   {
-    "nome": "Monteroni d'Arbia",
+    "nome": "Monteroni d Arbia",
     "codice": "052017",
     "zona": {
       "codice": "3",
@@ -95939,7 +95939,7 @@
     "popolazione": 4401
   },
   {
-    "nome": "Monticelli d'Ongina",
+    "nome": "Monticelli d Ongina",
     "codice": "033027",
     "zona": {
       "codice": "2",
@@ -96027,7 +96027,7 @@
     "popolazione": 9156
   },
   {
-    "nome": "Monticello d'Alba",
+    "nome": "Monticello d Alba",
     "codice": "004142",
     "zona": {
       "codice": "1",
@@ -96189,11 +96189,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "F367",
@@ -96291,7 +96291,7 @@
     "popolazione": 4222
   },
   {
-    "nome": "Montopoli in Val d'Arno",
+    "nome": "Montopoli in Val d Arno",
     "codice": "050022",
     "zona": {
       "codice": "3",
@@ -96981,11 +96981,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "F726",
@@ -97139,7 +97139,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "F732",
@@ -97369,7 +97369,7 @@
     "popolazione": 1309
   },
   {
-    "nome": "Morro d'Alba",
+    "nome": "Morro d Alba",
     "codice": "042031",
     "zona": {
       "codice": "3",
@@ -97391,7 +97391,7 @@
     "popolazione": 1977
   },
   {
-    "nome": "Morro d'Oro",
+    "nome": "Morro d Oro",
     "codice": "067029",
     "zona": {
       "codice": "4",
@@ -97655,7 +97655,7 @@
     "popolazione": 1667
   },
   {
-    "nome": "Mosciano Sant'Angelo",
+    "nome": "Mosciano Sant Angelo",
     "codice": "067030",
     "zona": {
       "codice": "4",
@@ -97787,7 +97787,7 @@
     "popolazione": 882
   },
   {
-    "nome": "Motta d'Affermo",
+    "nome": "Motta d Affermo",
     "codice": "083059",
     "zona": {
       "codice": "5",
@@ -97809,7 +97809,7 @@
     "popolazione": 828
   },
   {
-    "nome": "Motta de' Conti",
+    "nome": "Motta de  Conti",
     "codice": "002082",
     "zona": {
       "codice": "1",
@@ -97897,7 +97897,7 @@
     "popolazione": 6122
   },
   {
-    "nome": "Motta Sant'Anastasia",
+    "nome": "Motta Sant Anastasia",
     "codice": "087030",
     "zona": {
       "codice": "5",
@@ -99079,7 +99079,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "F852",
@@ -100951,7 +100951,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "F960",
@@ -101453,11 +101453,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "F987",
@@ -101655,7 +101655,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "F996",
@@ -101765,7 +101765,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "G002",
@@ -102487,11 +102487,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "G045",
@@ -102975,7 +102975,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "G079",
@@ -103327,7 +103327,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "G102",
@@ -104075,7 +104075,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "G142",
@@ -104119,7 +104119,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "G145",
@@ -104569,7 +104569,7 @@
     "popolazione": 820
   },
   {
-    "nome": "Ospedaletto d'Alpinolo",
+    "nome": "Ospedaletto d Alpinolo",
     "codice": "064067",
     "zona": {
       "codice": "4",
@@ -105219,7 +105219,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "G200",
@@ -105259,11 +105259,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "G012",
@@ -105317,7 +105317,7 @@
     "popolazione": 10881
   },
   {
-    "nome": "Ozzano dell'Emilia",
+    "nome": "Ozzano dell Emilia",
     "codice": "037046",
     "zona": {
       "codice": "2",
@@ -105461,7 +105461,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "G210",
@@ -105559,7 +105559,7 @@
     "popolazione": 231
   },
   {
-    "nome": "Paderno d'Adda",
+    "nome": "Paderno d Adda",
     "codice": "097062",
     "zona": {
       "codice": "1",
@@ -106439,7 +106439,7 @@
     "popolazione": 3008
   },
   {
-    "nome": "Palazzolo sull'Oglio",
+    "nome": "Palazzolo sull Oglio",
     "codice": "017133",
     "zona": {
       "codice": "1",
@@ -109180,7 +109180,7 @@
     "popolazione": 1154
   },
   {
-    "nome": "Penna Sant'Andrea",
+    "nome": "Penna Sant Andrea",
     "codice": "067033",
     "zona": {
       "codice": "4",
@@ -109478,7 +109478,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "G449",
@@ -109672,11 +109672,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "G459",
@@ -110095,7 +110095,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "G484",
@@ -110249,7 +110249,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "G492",
@@ -110293,7 +110293,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "G493",
@@ -110909,7 +110909,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "G524",
@@ -111052,7 +111052,7 @@
     "popolazione": 100311
   },
   {
-    "nome": "Piacenza d'Adige",
+    "nome": "Piacenza d Adige",
     "codice": "028062",
     "zona": {
       "codice": "2",
@@ -112108,7 +112108,7 @@
     "popolazione": 1152
   },
   {
-    "nome": "Pietra de' Giorgi",
+    "nome": "Pietra de  Giorgi",
     "codice": "018111",
     "zona": {
       "codice": "1",
@@ -112724,7 +112724,7 @@
     "popolazione": 916
   },
   {
-    "nome": "Pieve d'Olmi",
+    "nome": "Pieve d Olmi",
     "codice": "019074",
     "zona": {
       "codice": "1",
@@ -113472,7 +113472,7 @@
     "popolazione": 14631
   },
   {
-    "nome": "Pino d'Asti",
+    "nome": "Pino d Asti",
     "codice": "005085",
     "zona": {
       "codice": "1",
@@ -113582,7 +113582,7 @@
     "popolazione": 2109
   },
   {
-    "nome": "Piobesi d'Alba",
+    "nome": "Piobesi d Alba",
     "codice": "004168",
     "zona": {
       "codice": "1",
@@ -114283,7 +114283,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "G726",
@@ -114833,7 +114833,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "G766",
@@ -115555,11 +115555,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "G794",
@@ -115943,7 +115943,7 @@
     "popolazione": 56372
   },
   {
-    "nome": "Pomigliano d'Arco",
+    "nome": "Pomigliano d Arco",
     "codice": "063057",
     "zona": {
       "codice": "4",
@@ -116215,11 +116215,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "G854",
@@ -116259,11 +116259,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "G545",
@@ -116317,7 +116317,7 @@
     "popolazione": 8771
   },
   {
-    "nome": "Ponte dell'Olio",
+    "nome": "Ponte dell Olio",
     "codice": "033036",
     "zona": {
       "codice": "2",
@@ -116897,11 +116897,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "G860",
@@ -117747,7 +117747,7 @@
     "popolazione": 15957
   },
   {
-    "nome": "Porto Sant'Elpidio",
+    "nome": "Porto Sant Elpidio",
     "codice": "109034",
     "zona": {
       "codice": "3",
@@ -118419,7 +118419,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "G947",
@@ -118539,7 +118539,7 @@
     "popolazione": 2275
   },
   {
-    "nome": "Pozzo d'Adda",
+    "nome": "Pozzo d Adda",
     "codice": "015177",
     "zona": {
       "codice": "1",
@@ -119133,7 +119133,7 @@
     "popolazione": 2921
   },
   {
-    "nome": "Prata d'Ansidonia",
+    "nome": "Prata d Ansidonia",
     "codice": "066074",
     "zona": {
       "codice": "4",
@@ -119145,7 +119145,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "G992",
@@ -119365,7 +119365,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "H007",
@@ -119493,11 +119493,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "H042",
@@ -120113,7 +120113,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "H056",
@@ -120453,7 +120453,7 @@
     "popolazione": 1233
   },
   {
-    "nome": "Provaglio d'Iseo",
+    "nome": "Provaglio d Iseo",
     "codice": "017156",
     "zona": {
       "codice": "1",
@@ -121011,11 +121011,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "H110",
@@ -121047,7 +121047,7 @@
     "popolazione": 39221
   },
   {
-    "nome": "Quarto d'Altino",
+    "nome": "Quarto d Altino",
     "codice": "027031",
     "zona": {
       "codice": "2",
@@ -121069,7 +121069,7 @@
     "popolazione": 8199
   },
   {
-    "nome": "Quartu Sant'Elena",
+    "nome": "Quartu Sant Elena",
     "codice": "092051",
     "zona": {
       "codice": "5",
@@ -121169,7 +121169,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "H122",
@@ -121377,7 +121377,7 @@
     "popolazione": 5694
   },
   {
-    "nome": "Quinzano d'Oglio",
+    "nome": "Quinzano d Oglio",
     "codice": "017159",
     "zona": {
       "codice": "1",
@@ -121741,7 +121741,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "H166",
@@ -122649,7 +122649,7 @@
     "popolazione": 180817
   },
   {
-    "nome": "Reggio nell'Emilia",
+    "nome": "Reggio nell Emilia",
     "codice": "035033",
     "zona": {
       "codice": "2",
@@ -122661,7 +122661,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "H223",
@@ -122686,7 +122686,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "H225",
@@ -123004,7 +123004,7 @@
     "popolazione": 4203
   },
   {
-    "nome": "Revigliasco d'Asti",
+    "nome": "Revigliasco d Asti",
     "codice": "005090",
     "zona": {
       "codice": "1",
@@ -123144,11 +123144,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "H262",
@@ -123166,11 +123166,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "H263",
@@ -123642,7 +123642,7 @@
     "popolazione": 2200
   },
   {
-    "nome": "Rignano sull'Arno",
+    "nome": "Rignano sull Arno",
     "codice": "048036",
     "zona": {
       "codice": "3",
@@ -123789,7 +123789,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "H298",
@@ -124613,7 +124613,7 @@
     "popolazione": 469
   },
   {
-    "nome": "Rive d'Arcano",
+    "nome": "Rive d Arcano",
     "codice": "030095",
     "zona": {
       "codice": "2",
@@ -124713,7 +124713,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "H353",
@@ -124789,7 +124789,7 @@
     "popolazione": 2127
   },
   {
-    "nome": "Rivolta d'Adda",
+    "nome": "Rivolta d Adda",
     "codice": "019084",
     "zona": {
       "codice": "1",
@@ -125031,7 +125031,7 @@
     "popolazione": 4869
   },
   {
-    "nome": "Robecco d'Oglio",
+    "nome": "Robecco d Oglio",
     "codice": "019085",
     "zona": {
       "codice": "1",
@@ -125229,7 +125229,7 @@
     "popolazione": 154
   },
   {
-    "nome": "Rocca d'Arazzo",
+    "nome": "Rocca d Arazzo",
     "codice": "005093",
     "zona": {
       "codice": "1",
@@ -125251,7 +125251,7 @@
     "popolazione": 944
   },
   {
-    "nome": "Rocca d'Arce",
+    "nome": "Rocca d Arce",
     "codice": "060059",
     "zona": {
       "codice": "3",
@@ -125273,7 +125273,7 @@
     "popolazione": 971
   },
   {
-    "nome": "Rocca d'Evandro",
+    "nome": "Rocca d Evandro",
     "codice": "061069",
     "zona": {
       "codice": "4",
@@ -125295,7 +125295,7 @@
     "popolazione": 3366
   },
   {
-    "nome": "Rocca de' Baldi",
+    "nome": "Rocca de  Baldi",
     "codice": "004189",
     "zona": {
       "codice": "1",
@@ -125317,7 +125317,7 @@
     "popolazione": 1698
   },
   {
-    "nome": "Rocca de' Giorgi",
+    "nome": "Rocca de  Giorgi",
     "codice": "018125",
     "zona": {
       "codice": "1",
@@ -125351,7 +125351,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "H399",
@@ -125373,7 +125373,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "H400",
@@ -125417,7 +125417,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "H402",
@@ -125549,7 +125549,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "H429",
@@ -125857,7 +125857,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "H389",
@@ -126385,7 +126385,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "H434",
@@ -126879,7 +126879,7 @@
     "popolazione": 347
   },
   {
-    "nome": "Rocchetta Sant'Antonio",
+    "nome": "Rocchetta Sant Antonio",
     "codice": "071042",
     "zona": {
       "codice": "4",
@@ -127393,11 +127393,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "H497",
@@ -127441,7 +127441,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "H500",
@@ -127686,7 +127686,7 @@
     "popolazione": 2937
   },
   {
-    "nome": "Romano d'Ezzelino",
+    "nome": "Romano d Ezzelino",
     "codice": "024086",
     "zona": {
       "codice": "2",
@@ -127730,7 +127730,7 @@
     "popolazione": 18784
   },
   {
-    "nome": "Romans d'Isonzo",
+    "nome": "Romans d Isonzo",
     "codice": "031015",
     "zona": {
       "codice": "2",
@@ -128082,7 +128082,7 @@
     "popolazione": 8308
   },
   {
-    "nome": "Ronco all'Adige",
+    "nome": "Ronco all Adige",
     "codice": "023064",
     "zona": {
       "codice": "2",
@@ -128918,7 +128918,7 @@
     "popolazione": 4621
   },
   {
-    "nome": "Rota d'Imagna",
+    "nome": "Rota d Imagna",
     "codice": "016186",
     "zona": {
       "codice": "1",
@@ -129612,7 +129612,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "H628",
@@ -130246,11 +130246,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "H669",
@@ -130268,11 +130268,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "H670",
@@ -130290,11 +130290,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "H671",
@@ -130312,11 +130312,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "H672",
@@ -130334,11 +130334,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "H673",
@@ -130356,11 +130356,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "H674",
@@ -130378,11 +130378,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "H675",
@@ -130400,11 +130400,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "H676",
@@ -131914,7 +131914,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "H772",
@@ -131958,7 +131958,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "H773",
@@ -132276,7 +132276,7 @@
     "popolazione": 3204
   },
   {
-    "nome": "San Canzian d'Isonzo",
+    "nome": "San Canzian d Isonzo",
     "codice": "031018",
     "zona": {
       "codice": "2",
@@ -132540,7 +132540,7 @@
     "popolazione": 5478
   },
   {
-    "nome": "San Cipriano d'Aversa",
+    "nome": "San Cipriano d Aversa",
     "codice": "061074",
     "zona": {
       "codice": "4",
@@ -132848,7 +132848,7 @@
     "popolazione": 719
   },
   {
-    "nome": "San Damiano d'Asti",
+    "nome": "San Damiano d Asti",
     "codice": "005097",
     "zona": {
       "codice": "1",
@@ -132958,7 +132958,7 @@
     "popolazione": 3665
   },
   {
-    "nome": "San Demetrio ne' Vestini",
+    "nome": "San Demetrio ne  Vestini",
     "codice": "066087",
     "zona": {
       "codice": "4",
@@ -132970,7 +132970,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "H819",
@@ -134982,7 +134982,7 @@
     "popolazione": 1231
   },
   {
-    "nome": "San Gregorio d'Ippona",
+    "nome": "San Gregorio d Ippona",
     "codice": "102034",
     "zona": {
       "codice": "4",
@@ -135532,7 +135532,7 @@
     "popolazione": 863
   },
   {
-    "nome": "San Mango d'Aquino",
+    "nome": "San Mango d Aquino",
     "codice": "079110",
     "zona": {
       "codice": "4",
@@ -135686,7 +135686,7 @@
     "popolazione": 7282
   },
   {
-    "nome": "San Marco d'Alunzio",
+    "nome": "San Marco d Alunzio",
     "codice": "083079",
     "zona": {
       "codice": "5",
@@ -135884,7 +135884,7 @@
     "popolazione": 851
   },
   {
-    "nome": "San Martino d'Agri",
+    "nome": "San Martino d Agri",
     "codice": "076077",
     "zona": {
       "codice": "4",
@@ -135906,7 +135906,7 @@
     "popolazione": 825
   },
   {
-    "nome": "San Martino dall'Argine",
+    "nome": "San Martino dall Argine",
     "codice": "020059",
     "zona": {
       "codice": "1",
@@ -136094,7 +136094,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "I011",
@@ -136324,7 +136324,7 @@
     "popolazione": 9646
   },
   {
-    "nome": "San Maurizio d'Opaglio",
+    "nome": "San Maurizio d Opaglio",
     "codice": "003133",
     "zona": {
       "codice": "1",
@@ -136544,7 +136544,7 @@
     "popolazione": 12028
   },
   {
-    "nome": "San Michele all'Adige",
+    "nome": "San Michele all Adige",
     "codice": "022167",
     "zona": {
       "codice": "2",
@@ -136830,7 +136830,7 @@
     "popolazione": 1416
   },
   {
-    "nome": "San Nicola dell'Alto",
+    "nome": "San Nicola dell Alto",
     "codice": "101021",
     "zona": {
       "codice": "4",
@@ -136896,7 +136896,7 @@
     "popolazione": 3624
   },
   {
-    "nome": "San Nicolò d'Arcidano",
+    "nome": "San Nicolò d Arcidano",
     "codice": "095046",
     "zona": {
       "codice": "5",
@@ -137072,7 +137072,7 @@
     "popolazione": 3422
   },
   {
-    "nome": "San Paolo d'Argon",
+    "nome": "San Paolo d Argon",
     "codice": "016189",
     "zona": {
       "codice": "1",
@@ -137182,7 +137182,7 @@
     "popolazione": 4950
   },
   {
-    "nome": "San Pier d'Isonzo",
+    "nome": "San Pier d Isonzo",
     "codice": "031021",
     "zona": {
       "codice": "2",
@@ -137766,7 +137766,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "I121",
@@ -137776,7 +137776,7 @@
     "popolazione": 631
   },
   {
-    "nome": "San Polo d'Enza",
+    "nome": "San Polo d Enza",
     "codice": "035038",
     "zona": {
       "codice": "2",
@@ -137788,7 +137788,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "I123",
@@ -138018,7 +138018,7 @@
     "popolazione": 5841
   },
   {
-    "nome": "San Quirico d'Orcia",
+    "nome": "San Quirico d Orcia",
     "codice": "052030",
     "zona": {
       "codice": "3",
@@ -138822,7 +138822,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "I389",
@@ -139470,7 +139470,7 @@
     "popolazione": 8460
   },
   {
-    "nome": "Sannazzaro de' Burgondi",
+    "nome": "Sannazzaro de  Burgondi",
     "codice": "018138",
     "zona": {
       "codice": "1",
@@ -139580,7 +139580,7 @@
     "popolazione": 16108
   },
   {
-    "nome": "Sant'Agapito",
+    "nome": "Sant Agapito",
     "codice": "094044",
     "zona": {
       "codice": "4",
@@ -139602,7 +139602,7 @@
     "popolazione": 1387
   },
   {
-    "nome": "Sant'Agata Bolognese",
+    "nome": "Sant Agata Bolognese",
     "codice": "037056",
     "zona": {
       "codice": "2",
@@ -139624,7 +139624,7 @@
     "popolazione": 7140
   },
   {
-    "nome": "Sant'Agata de' Goti",
+    "nome": "Sant Agata de  Goti",
     "codice": "062070",
     "zona": {
       "codice": "4",
@@ -139646,7 +139646,7 @@
     "popolazione": 11310
   },
   {
-    "nome": "Sant'Agata del Bianco",
+    "nome": "Sant Agata del Bianco",
     "codice": "080079",
     "zona": {
       "codice": "4",
@@ -139668,7 +139668,7 @@
     "popolazione": 679
   },
   {
-    "nome": "Sant'Agata di Esaro",
+    "nome": "Sant Agata di Esaro",
     "codice": "078131",
     "zona": {
       "codice": "4",
@@ -139690,7 +139690,7 @@
     "popolazione": 1990
   },
   {
-    "nome": "Sant'Agata di Militello",
+    "nome": "Sant Agata di Militello",
     "codice": "083084",
     "zona": {
       "codice": "5",
@@ -139712,7 +139712,7 @@
     "popolazione": 12803
   },
   {
-    "nome": "Sant'Agata di Puglia",
+    "nome": "Sant Agata di Puglia",
     "codice": "071052",
     "zona": {
       "codice": "4",
@@ -139734,7 +139734,7 @@
     "popolazione": 2096
   },
   {
-    "nome": "Sant'Agata Feltria",
+    "nome": "Sant Agata Feltria",
     "codice": "099026",
     "zona": {
       "codice": "2",
@@ -139756,7 +139756,7 @@
     "popolazione": 2280
   },
   {
-    "nome": "Sant'Agata Fossili",
+    "nome": "Sant Agata Fossili",
     "codice": "006156",
     "zona": {
       "codice": "1",
@@ -139778,7 +139778,7 @@
     "popolazione": 441
   },
   {
-    "nome": "Sant'Agata li Battiati",
+    "nome": "Sant Agata li Battiati",
     "codice": "087045",
     "zona": {
       "codice": "5",
@@ -139800,7 +139800,7 @@
     "popolazione": 9829
   },
   {
-    "nome": "Sant'Agata sul Santerno",
+    "nome": "Sant Agata sul Santerno",
     "codice": "039017",
     "zona": {
       "codice": "2",
@@ -139822,7 +139822,7 @@
     "popolazione": 2822
   },
   {
-    "nome": "Sant'Agnello",
+    "nome": "Sant Agnello",
     "codice": "063071",
     "zona": {
       "codice": "4",
@@ -139844,7 +139844,7 @@
     "popolazione": 9029
   },
   {
-    "nome": "Sant'Albano Stura",
+    "nome": "Sant Albano Stura",
     "codice": "004211",
     "zona": {
       "codice": "1",
@@ -139866,7 +139866,7 @@
     "popolazione": 2380
   },
   {
-    "nome": "Sant'Alessio con Vialone",
+    "nome": "Sant Alessio con Vialone",
     "codice": "018141",
     "zona": {
       "codice": "1",
@@ -139888,7 +139888,7 @@
     "popolazione": 840
   },
   {
-    "nome": "Sant'Alessio in Aspromonte",
+    "nome": "Sant Alessio in Aspromonte",
     "codice": "080080",
     "zona": {
       "codice": "4",
@@ -139910,7 +139910,7 @@
     "popolazione": 323
   },
   {
-    "nome": "Sant'Alessio Siculo",
+    "nome": "Sant Alessio Siculo",
     "codice": "083085",
     "zona": {
       "codice": "5",
@@ -139932,7 +139932,7 @@
     "popolazione": 1497
   },
   {
-    "nome": "Sant'Alfio",
+    "nome": "Sant Alfio",
     "codice": "087046",
     "zona": {
       "codice": "5",
@@ -139954,7 +139954,7 @@
     "popolazione": 1631
   },
   {
-    "nome": "Sant'Ambrogio di Torino",
+    "nome": "Sant Ambrogio di Torino",
     "codice": "001255",
     "zona": {
       "codice": "1",
@@ -139976,7 +139976,7 @@
     "popolazione": 4753
   },
   {
-    "nome": "Sant'Ambrogio di Valpolicella",
+    "nome": "Sant Ambrogio di Valpolicella",
     "codice": "023077",
     "zona": {
       "codice": "2",
@@ -139998,7 +139998,7 @@
     "popolazione": 11422
   },
   {
-    "nome": "Sant'Ambrogio sul Garigliano",
+    "nome": "Sant Ambrogio sul Garigliano",
     "codice": "060065",
     "zona": {
       "codice": "3",
@@ -140020,7 +140020,7 @@
     "popolazione": 994
   },
   {
-    "nome": "Sant'Anastasia",
+    "nome": "Sant Anastasia",
     "codice": "063072",
     "zona": {
       "codice": "4",
@@ -140042,7 +140042,7 @@
     "popolazione": 27296
   },
   {
-    "nome": "Sant'Anatolia di Narco",
+    "nome": "Sant Anatolia di Narco",
     "codice": "054045",
     "zona": {
       "codice": "3",
@@ -140064,7 +140064,7 @@
     "popolazione": 558
   },
   {
-    "nome": "Sant'Andrea Apostolo dello Ionio",
+    "nome": "Sant Andrea Apostolo dello Ionio",
     "codice": "079118",
     "zona": {
       "codice": "4",
@@ -140086,7 +140086,7 @@
     "popolazione": 2072
   },
   {
-    "nome": "Sant'Andrea del Garigliano",
+    "nome": "Sant Andrea del Garigliano",
     "codice": "060066",
     "zona": {
       "codice": "3",
@@ -140108,7 +140108,7 @@
     "popolazione": 1566
   },
   {
-    "nome": "Sant'Andrea di Conza",
+    "nome": "Sant Andrea di Conza",
     "codice": "064089",
     "zona": {
       "codice": "4",
@@ -140130,7 +140130,7 @@
     "popolazione": 1662
   },
   {
-    "nome": "Sant'Andrea Frius",
+    "nome": "Sant Andrea Frius",
     "codice": "111069",
     "zona": {
       "codice": "5",
@@ -140152,7 +140152,7 @@
     "popolazione": 1834
   },
   {
-    "nome": "Sant'Angelo a Cupolo",
+    "nome": "Sant Angelo a Cupolo",
     "codice": "062071",
     "zona": {
       "codice": "4",
@@ -140174,7 +140174,7 @@
     "popolazione": 4264
   },
   {
-    "nome": "Sant'Angelo a Fasanella",
+    "nome": "Sant Angelo a Fasanella",
     "codice": "065128",
     "zona": {
       "codice": "4",
@@ -140196,7 +140196,7 @@
     "popolazione": 718
   },
   {
-    "nome": "Sant'Angelo a Scala",
+    "nome": "Sant Angelo a Scala",
     "codice": "064091",
     "zona": {
       "codice": "4",
@@ -140218,7 +140218,7 @@
     "popolazione": 755
   },
   {
-    "nome": "Sant'Angelo all'Esca",
+    "nome": "Sant Angelo all Esca",
     "codice": "064090",
     "zona": {
       "codice": "4",
@@ -140240,7 +140240,7 @@
     "popolazione": 836
   },
   {
-    "nome": "Sant'Angelo d'Alife",
+    "nome": "Sant Angelo d Alife",
     "codice": "061086",
     "zona": {
       "codice": "4",
@@ -140262,7 +140262,7 @@
     "popolazione": 2276
   },
   {
-    "nome": "Sant'Angelo dei Lombardi",
+    "nome": "Sant Angelo dei Lombardi",
     "codice": "064092",
     "zona": {
       "codice": "4",
@@ -140284,7 +140284,7 @@
     "popolazione": 4304
   },
   {
-    "nome": "Sant'Angelo del Pesco",
+    "nome": "Sant Angelo del Pesco",
     "codice": "094046",
     "zona": {
       "codice": "4",
@@ -140306,7 +140306,7 @@
     "popolazione": 368
   },
   {
-    "nome": "Sant'Angelo di Brolo",
+    "nome": "Sant Angelo di Brolo",
     "codice": "083088",
     "zona": {
       "codice": "5",
@@ -140328,7 +140328,7 @@
     "popolazione": 3297
   },
   {
-    "nome": "Sant'Angelo di Piove di Sacco",
+    "nome": "Sant Angelo di Piove di Sacco",
     "codice": "028082",
     "zona": {
       "codice": "2",
@@ -140350,7 +140350,7 @@
     "popolazione": 7211
   },
   {
-    "nome": "Sant'Angelo in Pontano",
+    "nome": "Sant Angelo in Pontano",
     "codice": "043048",
     "zona": {
       "codice": "3",
@@ -140372,7 +140372,7 @@
     "popolazione": 1483
   },
   {
-    "nome": "Sant'Angelo in Vado",
+    "nome": "Sant Angelo in Vado",
     "codice": "041057",
     "zona": {
       "codice": "3",
@@ -140394,7 +140394,7 @@
     "popolazione": 4107
   },
   {
-    "nome": "Sant'Angelo Le Fratte",
+    "nome": "Sant Angelo Le Fratte",
     "codice": "076079",
     "zona": {
       "codice": "4",
@@ -140416,7 +140416,7 @@
     "popolazione": 1457
   },
   {
-    "nome": "Sant'Angelo Limosano",
+    "nome": "Sant Angelo Limosano",
     "codice": "070073",
     "zona": {
       "codice": "4",
@@ -140438,7 +140438,7 @@
     "popolazione": 348
   },
   {
-    "nome": "Sant'Angelo Lodigiano",
+    "nome": "Sant Angelo Lodigiano",
     "codice": "098050",
     "zona": {
       "codice": "1",
@@ -140460,7 +140460,7 @@
     "popolazione": 12665
   },
   {
-    "nome": "Sant'Angelo Lomellina",
+    "nome": "Sant Angelo Lomellina",
     "codice": "018144",
     "zona": {
       "codice": "1",
@@ -140482,7 +140482,7 @@
     "popolazione": 864
   },
   {
-    "nome": "Sant'Angelo Muxaro",
+    "nome": "Sant Angelo Muxaro",
     "codice": "084039",
     "zona": {
       "codice": "5",
@@ -140504,7 +140504,7 @@
     "popolazione": 1471
   },
   {
-    "nome": "Sant'Angelo Romano",
+    "nome": "Sant Angelo Romano",
     "codice": "058098",
     "zona": {
       "codice": "3",
@@ -140526,7 +140526,7 @@
     "popolazione": 4488
   },
   {
-    "nome": "Sant'Anna Arresi",
+    "nome": "Sant Anna Arresi",
     "codice": "111070",
     "zona": {
       "codice": "5",
@@ -140548,7 +140548,7 @@
     "popolazione": 2712
   },
   {
-    "nome": "Sant'Anna d'Alfaedo",
+    "nome": "Sant Anna d Alfaedo",
     "codice": "023078",
     "zona": {
       "codice": "2",
@@ -140570,7 +140570,7 @@
     "popolazione": 2564
   },
   {
-    "nome": "Sant'Antimo",
+    "nome": "Sant Antimo",
     "codice": "063073",
     "zona": {
       "codice": "4",
@@ -140592,7 +140592,7 @@
     "popolazione": 34107
   },
   {
-    "nome": "Sant'Antioco",
+    "nome": "Sant Antioco",
     "codice": "111071",
     "zona": {
       "codice": "5",
@@ -140614,7 +140614,7 @@
     "popolazione": 11496
   },
   {
-    "nome": "Sant'Antonino di Susa",
+    "nome": "Sant Antonino di Susa",
     "codice": "001256",
     "zona": {
       "codice": "1",
@@ -140636,7 +140636,7 @@
     "popolazione": 4333
   },
   {
-    "nome": "Sant'Antonio Abate",
+    "nome": "Sant Antonio Abate",
     "codice": "063074",
     "zona": {
       "codice": "4",
@@ -140658,7 +140658,7 @@
     "popolazione": 19546
   },
   {
-    "nome": "Sant'Antonio di Gallura",
+    "nome": "Sant Antonio di Gallura",
     "codice": "090085",
     "zona": {
       "codice": "5",
@@ -140680,7 +140680,7 @@
     "popolazione": 1619
   },
   {
-    "nome": "Sant'Apollinare",
+    "nome": "Sant Apollinare",
     "codice": "060067",
     "zona": {
       "codice": "3",
@@ -140702,7 +140702,7 @@
     "popolazione": 1931
   },
   {
-    "nome": "Sant'Arcangelo",
+    "nome": "Sant Arcangelo",
     "codice": "076080",
     "zona": {
       "codice": "4",
@@ -140724,7 +140724,7 @@
     "popolazione": 6506
   },
   {
-    "nome": "Sant'Arcangelo Trimonte",
+    "nome": "Sant Arcangelo Trimonte",
     "codice": "062078",
     "zona": {
       "codice": "4",
@@ -140746,7 +140746,7 @@
     "popolazione": 641
   },
   {
-    "nome": "Sant'Arpino",
+    "nome": "Sant Arpino",
     "codice": "061087",
     "zona": {
       "codice": "4",
@@ -140768,7 +140768,7 @@
     "popolazione": 14076
   },
   {
-    "nome": "Sant'Arsenio",
+    "nome": "Sant Arsenio",
     "codice": "065129",
     "zona": {
       "codice": "4",
@@ -140790,7 +140790,7 @@
     "popolazione": 2747
   },
   {
-    "nome": "Sant'Egidio alla Vibrata",
+    "nome": "Sant Egidio alla Vibrata",
     "codice": "067038",
     "zona": {
       "codice": "4",
@@ -140812,7 +140812,7 @@
     "popolazione": 9668
   },
   {
-    "nome": "Sant'Egidio del Monte Albino",
+    "nome": "Sant Egidio del Monte Albino",
     "codice": "065130",
     "zona": {
       "codice": "4",
@@ -140834,7 +140834,7 @@
     "popolazione": 8715
   },
   {
-    "nome": "Sant'Elena",
+    "nome": "Sant Elena",
     "codice": "028083",
     "zona": {
       "codice": "2",
@@ -140856,7 +140856,7 @@
     "popolazione": 2430
   },
   {
-    "nome": "Sant'Elena Sannita",
+    "nome": "Sant Elena Sannita",
     "codice": "094047",
     "zona": {
       "codice": "4",
@@ -140878,7 +140878,7 @@
     "popolazione": 260
   },
   {
-    "nome": "Sant'Elia a Pianisi",
+    "nome": "Sant Elia a Pianisi",
     "codice": "070074",
     "zona": {
       "codice": "4",
@@ -140900,7 +140900,7 @@
     "popolazione": 1910
   },
   {
-    "nome": "Sant'Elia Fiumerapido",
+    "nome": "Sant Elia Fiumerapido",
     "codice": "060068",
     "zona": {
       "codice": "3",
@@ -140922,7 +140922,7 @@
     "popolazione": 6227
   },
   {
-    "nome": "Sant'Elpidio a Mare",
+    "nome": "Sant Elpidio a Mare",
     "codice": "109037",
     "zona": {
       "codice": "3",
@@ -140944,7 +140944,7 @@
     "popolazione": 16968
   },
   {
-    "nome": "Sant'Eufemia a Maiella",
+    "nome": "Sant Eufemia a Maiella",
     "codice": "068037",
     "zona": {
       "codice": "4",
@@ -140966,7 +140966,7 @@
     "popolazione": 299
   },
   {
-    "nome": "Sant'Eufemia d'Aspromonte",
+    "nome": "Sant Eufemia d Aspromonte",
     "codice": "080081",
     "zona": {
       "codice": "4",
@@ -140988,7 +140988,7 @@
     "popolazione": 4053
   },
   {
-    "nome": "Sant'Eusanio del Sangro",
+    "nome": "Sant Eusanio del Sangro",
     "codice": "069085",
     "zona": {
       "codice": "4",
@@ -141010,7 +141010,7 @@
     "popolazione": 2453
   },
   {
-    "nome": "Sant'Eusanio Forconese",
+    "nome": "Sant Eusanio Forconese",
     "codice": "066090",
     "zona": {
       "codice": "4",
@@ -141022,7 +141022,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "I336",
@@ -141032,7 +141032,7 @@
     "popolazione": 418
   },
   {
-    "nome": "Sant'Ilario d'Enza",
+    "nome": "Sant Ilario d Enza",
     "codice": "035039",
     "zona": {
       "codice": "2",
@@ -141044,7 +141044,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "I342",
@@ -141054,7 +141054,7 @@
     "popolazione": 10939
   },
   {
-    "nome": "Sant'Ilario dello Ionio",
+    "nome": "Sant Ilario dello Ionio",
     "codice": "080082",
     "zona": {
       "codice": "4",
@@ -141076,7 +141076,7 @@
     "popolazione": 1332
   },
   {
-    "nome": "Sant'Ippolito",
+    "nome": "Sant Ippolito",
     "codice": "041058",
     "zona": {
       "codice": "3",
@@ -141098,7 +141098,7 @@
     "popolazione": 1574
   },
   {
-    "nome": "Sant'Olcese",
+    "nome": "Sant Olcese",
     "codice": "010055",
     "zona": {
       "codice": "1",
@@ -141120,7 +141120,7 @@
     "popolazione": 5911
   },
   {
-    "nome": "Sant'Omero",
+    "nome": "Sant Omero",
     "codice": "067039",
     "zona": {
       "codice": "4",
@@ -141142,7 +141142,7 @@
     "popolazione": 5313
   },
   {
-    "nome": "Sant'Omobono Terme",
+    "nome": "Sant Omobono Terme",
     "codice": "016252",
     "zona": {
       "codice": "1",
@@ -141164,7 +141164,7 @@
     "popolazione": 3893
   },
   {
-    "nome": "Sant'Onofrio",
+    "nome": "Sant Onofrio",
     "codice": "102036",
     "zona": {
       "codice": "4",
@@ -141186,7 +141186,7 @@
     "popolazione": 3148
   },
   {
-    "nome": "Sant'Oreste",
+    "nome": "Sant Oreste",
     "codice": "058099",
     "zona": {
       "codice": "3",
@@ -141208,7 +141208,7 @@
     "popolazione": 3702
   },
   {
-    "nome": "Sant'Orsola Terme",
+    "nome": "Sant Orsola Terme",
     "codice": "022168",
     "zona": {
       "codice": "2",
@@ -141230,7 +141230,7 @@
     "popolazione": 1073
   },
   {
-    "nome": "Sant'Urbano",
+    "nome": "Sant Urbano",
     "codice": "028084",
     "zona": {
       "codice": "2",
@@ -141362,7 +141362,7 @@
     "popolazione": 3032
   },
   {
-    "nome": "Santa Cristina d'Aspromonte",
+    "nome": "Santa Cristina d Aspromonte",
     "codice": "080078",
     "zona": {
       "codice": "4",
@@ -141516,7 +141516,7 @@
     "popolazione": 4692
   },
   {
-    "nome": "Santa Croce sull'Arno",
+    "nome": "Santa Croce sull Arno",
     "codice": "050033",
     "zona": {
       "codice": "3",
@@ -142396,7 +142396,7 @@
     "popolazione": 4193
   },
   {
-    "nome": "Santa Sofia d'Epiro",
+    "nome": "Santa Sofia d Epiro",
     "codice": "078133",
     "zona": {
       "codice": "4",
@@ -142484,7 +142484,7 @@
     "popolazione": 8351
   },
   {
-    "nome": "Santa Vittoria d'Alba",
+    "nome": "Santa Vittoria d Alba",
     "codice": "004212",
     "zona": {
       "codice": "1",
@@ -142584,7 +142584,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "I326",
@@ -142726,7 +142726,7 @@
     "popolazione": 4255
   },
   {
-    "nome": "Santo Stefano d'Aveto",
+    "nome": "Santo Stefano d Aveto",
     "codice": "010056",
     "zona": {
       "codice": "1",
@@ -142870,7 +142870,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "I360",
@@ -143592,11 +143592,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "I442",
@@ -144046,7 +144046,7 @@
     "popolazione": 419
   },
   {
-    "nome": "Sauze d'Oulx",
+    "nome": "Sauze d Oulx",
     "codice": "001259",
     "zona": {
       "codice": "1",
@@ -144266,7 +144266,7 @@
     "popolazione": 3226
   },
   {
-    "nome": "Saviore dell'Adamello",
+    "nome": "Saviore dell Adamello",
     "codice": "017175",
     "zona": {
       "codice": "1",
@@ -144332,7 +144332,7 @@
     "popolazione": 482
   },
   {
-    "nome": "Savogna d'Isonzo",
+    "nome": "Savogna d Isonzo",
     "codice": "031022",
     "zona": {
       "codice": "2",
@@ -144652,7 +144652,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "I496",
@@ -144706,7 +144706,7 @@
     "popolazione": 1466
   },
   {
-    "nome": "Scandolara Ripa d'Oglio",
+    "nome": "Scandolara Ripa d Oglio",
     "codice": "019093",
     "zona": {
       "codice": "1",
@@ -144762,7 +144762,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "I501",
@@ -145422,7 +145422,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "I543",
@@ -145488,7 +145488,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "I546",
@@ -145576,7 +145576,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "I553",
@@ -145664,7 +145664,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "I558",
@@ -147060,7 +147060,7 @@
     "popolazione": 142
   },
   {
-    "nome": "Serra d'Aiello",
+    "nome": "Serra d Aiello",
     "codice": "078140",
     "zona": {
       "codice": "4",
@@ -147082,7 +147082,7 @@
     "popolazione": 549
   },
   {
-    "nome": "Serra de' Conti",
+    "nome": "Serra de  Conti",
     "codice": "042046",
     "zona": {
       "codice": "3",
@@ -147170,7 +147170,7 @@
     "popolazione": 2967
   },
   {
-    "nome": "Serra Sant'Abbondio",
+    "nome": "Serra Sant Abbondio",
     "codice": "041061",
     "zona": {
       "codice": "3",
@@ -147236,7 +147236,7 @@
     "popolazione": 6265
   },
   {
-    "nome": "Serralunga d'Alba",
+    "nome": "Serralunga d Alba",
     "codice": "004218",
     "zona": {
       "codice": "1",
@@ -148908,7 +148908,7 @@
     "popolazione": 595
   },
   {
-    "nome": "Silvano d'Orba",
+    "nome": "Silvano d Orba",
     "codice": "006162",
     "zona": {
       "codice": "1",
@@ -151944,7 +151944,7 @@
     "popolazione": 7108
   },
   {
-    "nome": "Spino d'Adda",
+    "nome": "Spino d Adda",
     "codice": "019102",
     "zona": {
       "codice": "1",
@@ -153452,7 +153452,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "I804",
@@ -153914,7 +153914,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "L025",
@@ -155488,7 +155488,7 @@
     "popolazione": 109193
   },
   {
-    "nome": "Terno d'Isola",
+    "nome": "Terno d Isola",
     "codice": "016213",
     "zona": {
       "codice": "1",
@@ -155774,7 +155774,7 @@
     "popolazione": 2290
   },
   {
-    "nome": "Terre d'Adige",
+    "nome": "Terre d Adige",
     "codice": "022251",
     "zona": {
       "codice": "2",
@@ -155950,7 +155950,7 @@
     "popolazione": 907
   },
   {
-    "nome": "Terzo d'Aquileia",
+    "nome": "Terzo d Aquileia",
     "codice": "030120",
     "zona": {
       "codice": "2",
@@ -156424,7 +156424,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "L173",
@@ -156644,7 +156644,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "L184",
@@ -157278,11 +157278,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "L217",
@@ -157493,7 +157493,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "L227",
@@ -157833,7 +157833,7 @@
     "popolazione": 589
   },
   {
-    "nome": "Torre d'Arese",
+    "nome": "Torre d Arese",
     "codice": "018157",
     "zona": {
       "codice": "1",
@@ -157855,7 +157855,7 @@
     "popolazione": 977
   },
   {
-    "nome": "Torre d'Isola",
+    "nome": "Torre d Isola",
     "codice": "018159",
     "zona": {
       "codice": "1",
@@ -157877,7 +157877,7 @@
     "popolazione": 2395
   },
   {
-    "nome": "Torre de' Busi",
+    "nome": "Torre de  Busi",
     "codice": "016215",
     "zona": {
       "codice": "1",
@@ -157899,7 +157899,7 @@
     "popolazione": 2007
   },
   {
-    "nome": "Torre de' Negri",
+    "nome": "Torre de  Negri",
     "codice": "018158",
     "zona": {
       "codice": "1",
@@ -157921,7 +157921,7 @@
     "popolazione": 347
   },
   {
-    "nome": "Torre de' Passeri",
+    "nome": "Torre de  Passeri",
     "codice": "068043",
     "zona": {
       "codice": "4",
@@ -157943,7 +157943,7 @@
     "popolazione": 3174
   },
   {
-    "nome": "Torre de' Picenardi",
+    "nome": "Torre de  Picenardi",
     "codice": "019107",
     "zona": {
       "codice": "1",
@@ -157965,7 +157965,7 @@
     "popolazione": 2249
   },
   {
-    "nome": "Torre de' Roveri",
+    "nome": "Torre de  Roveri",
     "codice": "016216",
     "zona": {
       "codice": "1",
@@ -159043,7 +159043,7 @@
     "popolazione": 1418
   },
   {
-    "nome": "Tovo di Sant'Agata",
+    "nome": "Tovo di Sant Agata",
     "codice": "014068",
     "zona": {
       "codice": "1",
@@ -159407,7 +159407,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "L334",
@@ -160629,7 +160629,7 @@
     "popolazione": 20018
   },
   {
-    "nome": "Trezzo sull'Adda",
+    "nome": "Trezzo sull Adda",
     "codice": "015221",
     "zona": {
       "codice": "1",
@@ -160989,7 +160989,7 @@
     "popolazione": 2188
   },
   {
-    "nome": "Trinità d'Agultu e Vignola",
+    "nome": "Trinità d Agultu e Vignola",
     "codice": "090074",
     "zona": {
       "codice": "5",
@@ -162221,7 +162221,7 @@
     "popolazione": 929
   },
   {
-    "nome": "Urago d'Oglio",
+    "nome": "Urago d Oglio",
     "codice": "017192",
     "zona": {
       "codice": "1",
@@ -164055,11 +164055,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "L582",
@@ -164267,7 +164267,7 @@
     "popolazione": 1029
   },
   {
-    "nome": "Valle dell'Angelo",
+    "nome": "Valle dell Angelo",
     "codice": "065153",
     "zona": {
       "codice": "4",
@@ -165089,11 +165089,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "L643",
@@ -165177,11 +165177,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "L647",
@@ -165309,11 +165309,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "L654",
@@ -165521,7 +165521,7 @@
     "popolazione": 435
   },
   {
-    "nome": "Vaprio d'Adda",
+    "nome": "Vaprio d Adda",
     "codice": "015230",
     "zona": {
       "codice": "1",
@@ -165543,7 +165543,7 @@
     "popolazione": 8126
   },
   {
-    "nome": "Vaprio d'Agogna",
+    "nome": "Vaprio d Agogna",
     "codice": "003153",
     "zona": {
       "codice": "1",
@@ -165631,7 +165631,7 @@
     "popolazione": 2418
   },
   {
-    "nome": "Varano de' Melegari",
+    "nome": "Varano de  Melegari",
     "codice": "034045",
     "zona": {
       "codice": "2",
@@ -166401,7 +166401,7 @@
     "popolazione": 3066
   },
   {
-    "nome": "Velo d'Astico",
+    "nome": "Velo d Astico",
     "codice": "024115",
     "zona": {
       "codice": "2",
@@ -166798,7 +166798,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "M364",
@@ -167589,11 +167589,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "L783",
@@ -167611,11 +167611,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "C282",
@@ -168077,7 +168077,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "L815",
@@ -168087,7 +168087,7 @@
     "popolazione": 1956
   },
   {
-    "nome": "Vezza d'Alba",
+    "nome": "Vezza d Alba",
     "codice": "004241",
     "zona": {
       "codice": "1",
@@ -168109,7 +168109,7 @@
     "popolazione": 2206
   },
   {
-    "nome": "Vezza d'Oglio",
+    "nome": "Vezza d Oglio",
     "codice": "017198",
     "zona": {
       "codice": "1",
@@ -168165,7 +168165,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "L820",
@@ -168319,7 +168319,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "L831",
@@ -169011,7 +169011,7 @@
     "popolazione": 5207
   },
   {
-    "nome": "Vighizzolo d'Este",
+    "nome": "Vighizzolo d Este",
     "codice": "028098",
     "zona": {
       "codice": "2",
@@ -169055,7 +169055,7 @@
     "popolazione": 8180
   },
   {
-    "nome": "Vigliano d'Asti",
+    "nome": "Vigliano d Asti",
     "codice": "005116",
     "zona": {
       "codice": "1",
@@ -169605,7 +169605,7 @@
     "popolazione": 6150
   },
   {
-    "nome": "Villa d'Adda",
+    "nome": "Villa d Adda",
     "codice": "016238",
     "zona": {
       "codice": "1",
@@ -169627,7 +169627,7 @@
     "popolazione": 4735
   },
   {
-    "nome": "Villa d'Almè",
+    "nome": "Villa d Almè",
     "codice": "016239",
     "zona": {
       "codice": "1",
@@ -169649,7 +169649,7 @@
     "popolazione": 6811
   },
   {
-    "nome": "Villa d'Ogna",
+    "nome": "Villa d Ogna",
     "codice": "016241",
     "zona": {
       "codice": "1",
@@ -169947,7 +169947,7 @@
     },
     "provincia": {
       "codice": "035",
-      "nome": "Reggio nell'Emilia"
+      "nome": "Reggio nell Emilia"
     },
     "sigla": "RE",
     "codiceCatastale": "L969",
@@ -170045,7 +170045,7 @@
     "popolazione": 410
   },
   {
-    "nome": "Villa Sant'Angelo",
+    "nome": "Villa Sant Angelo",
     "codice": "066105",
     "zona": {
       "codice": "4",
@@ -170057,7 +170057,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "M023",
@@ -170067,7 +170067,7 @@
     "popolazione": 425
   },
   {
-    "nome": "Villa Sant'Antonio",
+    "nome": "Villa Sant Antonio",
     "codice": "095048",
     "zona": {
       "codice": "5",
@@ -170123,7 +170123,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "M021",
@@ -170397,7 +170397,7 @@
     "popolazione": 2899
   },
   {
-    "nome": "Villafranca d'Asti",
+    "nome": "Villafranca d Asti",
     "codice": "005117",
     "zona": {
       "codice": "1",
@@ -170629,7 +170629,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "L958",
@@ -170903,7 +170903,7 @@
     "popolazione": 1135
   },
   {
-    "nome": "Villanova d'Albenga",
+    "nome": "Villanova d Albenga",
     "codice": "009068",
     "zona": {
       "codice": "1",
@@ -170925,7 +170925,7 @@
     "popolazione": 2522
   },
   {
-    "nome": "Villanova d'Ardenghi",
+    "nome": "Villanova d Ardenghi",
     "codice": "018179",
     "zona": {
       "codice": "1",
@@ -170947,7 +170947,7 @@
     "popolazione": 770
   },
   {
-    "nome": "Villanova d'Asti",
+    "nome": "Villanova d Asti",
     "codice": "005118",
     "zona": {
       "codice": "1",
@@ -171167,7 +171167,7 @@
     "popolazione": 777
   },
   {
-    "nome": "Villanova sull'Arda",
+    "nome": "Villanova sull Arda",
     "codice": "033046",
     "zona": {
       "codice": "2",
@@ -171817,7 +171817,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "M031",
@@ -171849,7 +171849,7 @@
     "popolazione": 6169
   },
   {
-    "nome": "Ville d'Anaunia",
+    "nome": "Ville d Anaunia",
     "codice": "022249",
     "zona": {
       "codice": "2",
@@ -171902,11 +171902,11 @@
     },
     "regione": {
       "codice": "02",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "provincia": {
       "codice": "007",
-      "nome": "Valle d'Aosta/Vallée d'Aoste"
+      "nome": "Valle d Aosta/Vallée d Aoste"
     },
     "sigla": "AO",
     "codiceCatastale": "L981",
@@ -171950,7 +171950,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "M041",
@@ -172576,7 +172576,7 @@
     "popolazione": 372
   },
   {
-    "nome": "Vito d'Asio",
+    "nome": "Vito d Asio",
     "codice": "093049",
     "zona": {
       "codice": "2",
@@ -172676,7 +172676,7 @@
     },
     "provincia": {
       "codice": "066",
-      "nome": "L'Aquila"
+      "nome": "L Aquila"
     },
     "sigla": "AQ",
     "codiceCatastale": "M090",
@@ -172906,7 +172906,7 @@
     "popolazione": 4045
   },
   {
-    "nome": "Vo'",
+    "nome": "Vo ",
     "codice": "028105",
     "zona": {
       "codice": "2",

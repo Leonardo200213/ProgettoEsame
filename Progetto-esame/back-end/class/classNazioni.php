@@ -12,7 +12,7 @@ class Stati
 	} 
 	
 	public function all_regione(){
-		$sql = "SELECT nome FROM regione";
+		$sql = "SELECT id_regione, nome FROM regione";
 		$stmt = $this->db->prepare($sql);
 		$stmt->execute();
 		$result = $stmt->fetchAll(\PDO::FETCH_ASSOC);
@@ -39,6 +39,22 @@ class Stati
 		WHERE NOT EXISTS (Select `id_comune` From `comune` WHERE `id_comune` = $id) LIMIT 1;";
 		$stmt = $this->db->prepare($sql);
 		$stmt->execute();
+	}
+	
+	public function get_provincie($prov){
+		$sql = "SELECT id_provincia nome FROM provincia  WHERE id_regione = $prov";
+		$stmt = $this->db->prepare($sql);
+		$stmt->execute();
+		$result = $stmt->fetchAll(\PDO::FETCH_ASSOC);
+		return $result;
+	}
+	
+	public function get_comuni($com){
+		$sql = "SELECT id_comune, nome FROM comune WHERE id_provincia = $com";
+		$stmt = $this->db->prepare($sql);
+		$stmt->execute();
+		$result = $stmt->fetchAll(\PDO::FETCH_ASSOC);
+		return $result;
 	}
 }
 

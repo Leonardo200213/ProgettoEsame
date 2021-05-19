@@ -9,7 +9,42 @@ function nazioni(){
 		   contenttype: 'json',
 		   success: function (data, textStatus, jQxhr) {
 			   $.each(data.regioni, function (i, post) {
-                     aggiungi(post.nome);
+                     aggiungi(post.id_regione, post.nome, "regione");
+                });
+		   },
+		   error: function (jQxhr, textStatus, errorThrown) {
+			   console.log(errorThrown);
+		   }
+    });
+}
+
+function provincie() 
+     var buffer = $( "#regione option:selected" ).text();
+     var id = dividi(buffer);
+	 $.ajax({
+		   url: 'http://localhost/ProgettoEsame/Progetto-esame/back-end/provincie.php/' + id,
+		   method: 'GET',
+		   contenttype: 'json',
+		   success: function (data, textStatus, jQxhr) {
+			   $.each(data.provincie, function (i, post) {
+                     aggiungi(post.id_provincia, post.nome, "provincia");
+                });
+		   },
+		   error: function (jQxhr, textStatus, errorThrown) {
+			   console.log(errorThrown);
+		   }
+    });
+}
+
+function comuni(){
+
+	 $.ajax({
+		   url: 'http://localhost/ProgettoEsame/Progetto-esame/back-end/comuni.php',
+		   method: 'GET',
+		   contenttype: 'json',
+		   success: function (data, textStatus, jQxhr) {
+			   $.each(data.comuni, function (i, post) {
+                     aggiungi(post.id_comune, post.nome, "comune");
                 });
 		   },
 		   error: function (jQxhr, textStatus, errorThrown) {
@@ -56,10 +91,10 @@ function inserisci(){
     });
 }
 
-function aggiungi(paese){
+function aggiungi(id, paese, item){
 	var tag = document.createElement('option');
-	tag.innerHTML = paese;
-	document.getElementById('regione').appendChild(tag);
+	tag.innerHTML = id+")  " + paese;
+	document.getElementById(item).appendChild(tag);
 }
 
 function rollforward(){
@@ -70,6 +105,12 @@ function rollforward(){
 function rollback(){
 	$("#first").css("display", "block");
 	$("#second").css("display", "none");
+}
+
+function dividi(buffer){
+	var str = buffer;
+	var res = str.split(")");
+	return res[0];
 }
 
 function GETrequest(){

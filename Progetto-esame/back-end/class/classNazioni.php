@@ -42,7 +42,7 @@ class Stati
 	}
 	
 	public function get_provincie($prov){
-		$sql = "SELECT id_provincia nome FROM provincia  WHERE id_regione = $prov";
+		$sql = "SELECT id_provincia, nome FROM provincia WHERE id_regione = $prov";
 		$stmt = $this->db->prepare($sql);
 		$stmt->execute();
 		$result = $stmt->fetchAll(\PDO::FETCH_ASSOC);

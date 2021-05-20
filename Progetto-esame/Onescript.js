@@ -1,8 +1,9 @@
 //"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security --disable-gpu --user-data-dir=%TEMP%/chromeTemp
 //digitare la stringa sul prompt dei comandi
+
 function nazioni(){
 	var d = document.getElementById("printhere");
-
+	//primo_lista("regione", "regione");
 	 $.ajax({
 		   url: 'http://localhost/ProgettoEsame/Progetto-esame/back-end/nazioni.php',
 		   method: 'GET',
@@ -18,11 +19,31 @@ function nazioni(){
     });
 }
 
-function provincie() 
-     var buffer = $( "#regione option:selected" ).text();
+function get_Select_Item(item){
+	var d = document.getElementById("printhere");
+	var reg = document.getElementById(item);
+    var i = reg.options[reg.selectedIndex].value;
+	return i;
+}
+
+function svuota_Select(item){
+	var selectElement = document.getElementById(item);
+	var i, L = selectElement.options.length - 1;
+   for(i = L; i >= 0; i--) {
+      selectElement.remove(i);
+   }
+}
+
+function provincie(){
+	 svuota_Select("provincia");
+	 svuota_Select("comune");
+	 var d = document.getElementById("printhere");
+     var buffer = get_Select_Item("regione"); 
      var id = dividi(buffer);
+	 primo_lista("provincia", "provincia");
+	 
 	 $.ajax({
-		   url: 'http://localhost/ProgettoEsame/Progetto-esame/back-end/provincie.php/' + id,
+		   url: 'http://localhost/ProgettoEsame/Progetto-esame/back-end/provincia.php/' + id,
 		   method: 'GET',
 		   contenttype: 'json',
 		   success: function (data, textStatus, jQxhr) {
@@ -37,9 +58,11 @@ function provincie()
 }
 
 function comuni(){
-
+	 svuota_Select("comune");
+	 var buffer = get_Select_Item("provincia"); 
+     var id = dividi(buffer);
 	 $.ajax({
-		   url: 'http://localhost/ProgettoEsame/Progetto-esame/back-end/comuni.php',
+		   url: 'http://localhost/ProgettoEsame/Progetto-esame/back-end/comuni.php/'+id,
 		   method: 'GET',
 		   contenttype: 'json',
 		   success: function (data, textStatus, jQxhr) {
@@ -89,6 +112,12 @@ function inserisci(){
 			   console.log(errorThrown);
 		   }
     });
+}
+
+function primo_lista(item, messagge){
+	var tag = document.createElement('option');
+	tag.innerHTML = "Selezionare "+messagge;
+	document.getElementById(item).appendChild(tag);
 }
 
 function aggiungi(id, paese, item){

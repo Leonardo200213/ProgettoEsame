@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Creato il: Mag 18, 2021 alle 23:57
+-- Creato il: Mag 21, 2021 alle 17:10
 -- Versione del server: 10.4.17-MariaDB
 -- Versione PHP: 8.0.2
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `mio _studio_darte`
+-- Database: `catalogo`
 --
 
 -- --------------------------------------------------------
@@ -8210,13 +8210,20 @@ CREATE TABLE `utente` (
   `id_utente` int(11) NOT NULL,
   `cognome` varchar(45) NOT NULL,
   `nome` varchar(45) NOT NULL,
-  `età` int(11) NOT NULL,
   `sesso` varchar(11) NOT NULL,
   `indirizzo` varchar(45) NOT NULL,
   `telefono` int(11) NOT NULL,
   `cap` int(11) NOT NULL,
   `id_comune` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dump dei dati per la tabella `utente`
+--
+
+INSERT INTO `utente` (`id_utente`, `cognome`, `nome`, `sesso`, `indirizzo`, `telefono`, `cap`, `id_comune`) VALUES
+(1, 'rossi', 'mario', 'maschio', 'via torre', 124123, 50139, 70014),
+(2, 'rossi', 'filippo', 'maschio', 'via torre', 124123, 50139, 19021);
 
 -- --------------------------------------------------------
 
@@ -8314,6 +8321,46 @@ ALTER TABLE `utente`
 ALTER TABLE `vendita`
   ADD PRIMARY KEY (`id_prodotto`,`id_ordine`) USING BTREE,
   ADD KEY `ordine` (`id_ordine`);
+
+--
+-- AUTO_INCREMENT per le tabelle scaricate
+--
+
+--
+-- AUTO_INCREMENT per la tabella `artista`
+--
+ALTER TABLE `artista`
+  MODIFY `id_artista` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT per la tabella `corso`
+--
+ALTER TABLE `corso`
+  MODIFY `id_corso` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT per la tabella `insegnante`
+--
+ALTER TABLE `insegnante`
+  MODIFY `id_insegnante` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT per la tabella `ordini`
+--
+ALTER TABLE `ordini`
+  MODIFY `num_ordini` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT per la tabella `prodotto`
+--
+ALTER TABLE `prodotto`
+  MODIFY `id_prodotto` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT per la tabella `utente`
+--
+ALTER TABLE `utente`
+  MODIFY `id_utente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- Limiti per le tabelle scaricate

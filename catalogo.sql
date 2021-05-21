@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Creato il: Mag 21, 2021 alle 17:10
+-- Creato il: Mag 21, 2021 alle 19:55
 -- Versione del server: 10.4.17-MariaDB
 -- Versione PHP: 8.0.2
 
@@ -7978,18 +7978,6 @@ CREATE TABLE `corso` (
 -- --------------------------------------------------------
 
 --
--- Struttura della tabella `credenziali`
---
-
-CREATE TABLE `credenziali` (
-  `email` varchar(45) NOT NULL,
-  `password` varchar(45) NOT NULL,
-  `id_utente` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
--- --------------------------------------------------------
-
---
 -- Struttura della tabella `insegnante`
 --
 
@@ -8208,11 +8196,13 @@ INSERT INTO `regione` (`id_regione`, `nome`) VALUES
 
 CREATE TABLE `utente` (
   `id_utente` int(11) NOT NULL,
-  `cognome` varchar(45) NOT NULL,
+  `cognome` varchar(45) DEFAULT NULL,
   `nome` varchar(45) NOT NULL,
   `sesso` varchar(11) NOT NULL,
   `indirizzo` varchar(45) NOT NULL,
   `telefono` int(11) NOT NULL,
+  `email` varchar(45) NOT NULL,
+  `password` varchar(45) NOT NULL,
   `cap` int(11) NOT NULL,
   `id_comune` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -8221,9 +8211,9 @@ CREATE TABLE `utente` (
 -- Dump dei dati per la tabella `utente`
 --
 
-INSERT INTO `utente` (`id_utente`, `cognome`, `nome`, `sesso`, `indirizzo`, `telefono`, `cap`, `id_comune`) VALUES
-(1, 'rossi', 'mario', 'maschio', 'via torre', 124123, 50139, 70014),
-(2, 'rossi', 'filippo', 'maschio', 'via torre', 124123, 50139, 19021);
+INSERT INTO `utente` (`id_utente`, `cognome`, `nome`, `sesso`, `indirizzo`, `telefono`, `email`, `password`, `cap`, `id_comune`) VALUES
+(10, 'bardi', 'marta', 'Femmina', 'VIA NOWHERE', 4245352, 'diegotaioli43@gmail.com', '4586767', 50139, 94011),
+(11, 'taioli', 'diego', 'Maschio', 'VIA gransasso', 42341234, 'diegotaioli43@gmail.com', 'zykliB', 50139, 21015);
 
 -- --------------------------------------------------------
 
@@ -8260,13 +8250,6 @@ ALTER TABLE `comune`
 ALTER TABLE `corso`
   ADD PRIMARY KEY (`id_corso`),
   ADD KEY `id_insegnante` (`id_insegnante`);
-
---
--- Indici per le tabelle `credenziali`
---
-ALTER TABLE `credenziali`
-  ADD PRIMARY KEY (`email`),
-  ADD KEY `id_utente` (`id_utente`);
 
 --
 -- Indici per le tabelle `insegnante`
@@ -8360,7 +8343,7 @@ ALTER TABLE `prodotto`
 -- AUTO_INCREMENT per la tabella `utente`
 --
 ALTER TABLE `utente`
-  MODIFY `id_utente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_utente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- Limiti per le tabelle scaricate
@@ -8377,12 +8360,6 @@ ALTER TABLE `comune`
 --
 ALTER TABLE `corso`
   ADD CONSTRAINT `insegnante` FOREIGN KEY (`id_insegnante`) REFERENCES `insegnante` (`id_insegnante`);
-
---
--- Limiti per la tabella `credenziali`
---
-ALTER TABLE `credenziali`
-  ADD CONSTRAINT `id_utente` FOREIGN KEY (`id_utente`) REFERENCES `utente` (`id_utente`);
 
 --
 -- Limiti per la tabella `iscrizione`

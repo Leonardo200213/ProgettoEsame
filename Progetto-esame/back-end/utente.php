@@ -16,10 +16,24 @@ switch($method)
 	break;
 		
 	case 'POST':
-	$pt = $utenti->inserisci();
-	$js_encode = json_encode(array('clienti'=>$pt),true);
-	 header("Content-Type: application/json");
-	 echo $js_encode;
+	$corpo = json_decode(@file_get_contents('php://input'), true);
+	$cognome = $corpo['cognome'];
+	$nome = $corpo['nome'];
+	$sesso = $corpo['sesso'];
+	$indirizzo = $corpo['indirizzo'];
+	$telefono = $corpo['telefono'];
+	$email = $corpo['username'];
+	$pass = $corpo['password'];
+	$cap = $corpo['id_cap'];
+	$comune = $corpo['comune'];
+	
+	
+	$collegamento = fopen("informazioni.txt", 'a+');
+	fwrite($collegamento,"\n". $cognome. $nome. $cap ."  password: ".$pass);
+	fclose($collegamento);
+	
+	
+	$pt = $utenti->create_user($cognome, $nome, $sesso, $indirizzo, $telefono, $email, $pass, $cap, $comune);
 		
 	break;
 	

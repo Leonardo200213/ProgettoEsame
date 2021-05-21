@@ -3,7 +3,6 @@
 
 function nazioni(){
 	var d = document.getElementById("printhere");
-	//primo_lista("regione", "regione");
 	 $.ajax({
 		   url: 'http://localhost/ProgettoEsame/Progetto-esame/back-end/nazioni.php',
 		   method: 'GET',
@@ -77,39 +76,42 @@ function comuni(){
 }
 
 function inserisci(){
-	var d = document.getElementById("printhere");
 	var cognome = $('#cognome').val();
 	var nome = $('#nome').val();
 	var genere = $('input[name="sesso"]:checked').val();
-	var età = $('#anni').val();
 	var indirizzo = $('#indirizzo').val();
 	var cellulare = $('#telefono').val();
-	var comune = $('#città').val();
 	var cap = $('#cap').val();
-	var nazione = $( "#country option:selected" ).text();
+	var c = $( "#comune option:selected" ).text();
+	var comune = dividi(c);
+	var p = $( "#provincia option:selected" ).text();
+	var provincia = dividi(p);
+	var r = $( "#regione option:selected" ).text();
+	var regione = dividi(r);
+	var user = $('#username').val();
+	var pass = $('#segreta').val();
+	
 	var utente = {
 		"cognome": cognome,
 		"nome": nome,
 		"sesso": genere,
-		"età": età,
 		"indirizzo": indirizzo,
 		"telefono": cellulare,
-		"comune": comune,
 		"id_cap": cap, 
-		"nazione": nazione
+		"comune": comune,
+		"username": user,
+		"password": pass	
 	};
-	d.innerHTML = JSON.stringify(utente);
 	$.ajax({
-		   url: 'http://localhost/ProgettoEsame/Progetto-esame/back-end/utente.php/',
+		   url: 'http://localhost/ProgettoEsame/Progetto-esame/back-end/utente.php',
 		   method: 'POST',
+		   data: JSON.stringify(utente),
 		   contenttype: 'json',
 		   success: function (data, textStatus, jQxhr) {
-			   $.each(data.utenti, function (i, post) {
-                     //aggiungi(post.);
-                });
+
 		   },
 		   error: function (jQxhr, textStatus, errorThrown) {
-			   console.log(errorThrown);
+			   console.log(jQxhr.status);
 		   }
     });
 }
@@ -140,8 +142,4 @@ function dividi(buffer){
 	var str = buffer;
 	var res = str.split(")");
 	return res[0];
-}
-
-function GETrequest(){
-	
 }

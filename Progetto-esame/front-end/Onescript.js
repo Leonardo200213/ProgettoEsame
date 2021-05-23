@@ -107,11 +107,12 @@ function inserisci(){
 		   method: 'POST',
 		   data: JSON.stringify(utente),
 		   contenttype: 'json',
-		   success: function (data, textStatus, jQxhr) {
-
+		   success: function (data, result, textStatus, xhr) {
+			   //$("#printhere").html("stato: "+ xhr.status);
+			   location = "riuscito.html";
 		   },
-		   error: function (jQxhr, textStatus, errorThrown) {
-			   console.log(jQxhr.status);
+		   error: function (xhr, textStatus, errorThrown) {
+			   console.log(xhr.status);
 		   }
     });
 }

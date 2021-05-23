@@ -8,7 +8,13 @@ switch($method)
 {
 	case 'GET':
 	$iden = getID();
-	$pt = $utenti->inserisci($iden);
+	$pt = " ";
+	if(isset($iden)){
+		$pt = $utenti->get_user($iden);
+	}
+	else{
+		$pt = $utenti->get_all_user();
+	}
 	$js_encode = json_encode(array('clienti'=>$pt),true);
 	header("Content-Type: application/json");
     echo $js_encode;

@@ -1,0 +1,37 @@
+<html >
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="users_table_style.css" />
+</head>
+<body onload="aggiorna()">
+    <center>
+        <p id="printhere">qui</p>
+    <div id="c" class="container-fluid">
+        <div id="header" class="row">
+            <div id="header0" class="col-md-6">
+                <h3> Users management </h3>
+            </div>
+            <div id="header1" class="col-md-5">
+                <button type="button" id='bt1' class="btn btn-danger btn-lg"> Delete </button>
+                <button type="button" id='bt2' onclick="location.href='../form1.html';"  class="btn btn-success btn-lg"> Add New User </button>
+            </div>
+            <div id="b" class="col-md-1"> &nbsp; </div>
+        </div>
+        <div id="0" class="row">
+		    <div class="col-md-1"> &nbsp; </div>
+          
+            <div class="col-md-2"> <h3> Nome </h3> </div>
+			<div class="col-md-2"> <h3> Indirizzo </h3> </div> 
+			<div class="col-md-2"> <h3> Email </h3>  </div>
+            <div class="col-md-3"> <h3> Comune </h3> </div>
+            <div class="col-md-1"> <h3> Actions </h3> </div>
+			<div class="col-md-1"> &nbsp; </div>
+        </div>
+    </div>
+    </center>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="utenti.js"></script>
+</body>
+</html>

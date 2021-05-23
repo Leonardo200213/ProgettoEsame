@@ -11,8 +11,6 @@ switch($method)
 	$nat = "";
 	if(isset($num)){
 		$nat = $stati->get_provincie($num);
-	}else{
-		$nat = "ciao";
 	}
 	$js_encode = json_encode(array('provincie'=>$nat),true);
 	 header("Content-Type: application/json");

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Creato il: Mag 21, 2021 alle 19:55
+-- Creato il: Mag 23, 2021 alle 19:08
 -- Versione del server: 10.4.17-MariaDB
 -- Versione PHP: 8.0.2
 
@@ -8016,6 +8016,19 @@ CREATE TABLE `ordini` (
 -- --------------------------------------------------------
 
 --
+-- Struttura della tabella `prenotazione`
+--
+
+CREATE TABLE `prenotazione` (
+  `id_utente` int(11) NOT NULL,
+  `id_stanza` int(11) NOT NULL,
+  `data_inizio` date NOT NULL,
+  `data_fine` date NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
 -- Struttura della tabella `prodotto`
 --
 
@@ -8191,6 +8204,19 @@ INSERT INTO `regione` (`id_regione`, `nome`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Struttura della tabella `stanza`
+--
+
+CREATE TABLE `stanza` (
+  `id_stanza` int(11) NOT NULL,
+  `descrizione` varchar(45) NOT NULL,
+  `superficie` int(11) NOT NULL,
+  `capienza` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
 -- Struttura della tabella `utente`
 --
 
@@ -8212,8 +8238,15 @@ CREATE TABLE `utente` (
 --
 
 INSERT INTO `utente` (`id_utente`, `cognome`, `nome`, `sesso`, `indirizzo`, `telefono`, `email`, `password`, `cap`, `id_comune`) VALUES
-(10, 'bardi', 'marta', 'Femmina', 'VIA NOWHERE', 4245352, 'diegotaioli43@gmail.com', '4586767', 50139, 94011),
-(11, 'taioli', 'diego', 'Maschio', 'VIA gransasso', 42341234, 'diegotaioli43@gmail.com', 'zykliB', 50139, 21015);
+(12, 'tranches', 'ruben', 'Maschio', 'via taostudio', 42341234, 'rubendalletranches@gmail.com', 'spacco23', 50139, 48017),
+(13, 'tranches', 'raffa', 'Maschio', 'via taostudio', 34363117, 'lillofromtranches@gmail.com', 'eddai32', 50138, 48017),
+(14, 'tranches', 'messi', 'Maschio', 'via taostudio', 27082002, 'diegotaioli43@gmail.com', 'montemorello', 50137, 21015),
+(15, 'bardi', 'marta', 'Femmina', 'VIA gransasso', 343655789, 'bardimarta43@gmail.com', 'nontrovo', 50145, 47023),
+(16, 'taioli', 'diego', 'Maschio', 'VIA NOWHERE', 42341234, 'diegotaioli43@gmail.com', 'mifacciolecanne', 50138, 48017),
+(17, 'manni', 'monica', 'Femmina', 'via della passera', 34363869, 'bellamonica43@gmail.com', 'sdfaerff', 50111, 32006),
+(18, 'tranches', 'franci', 'Maschio', 'via taostudio', 42377242, 'francidalletrnches@gmail.com', 'lessgoo', 50145, 48017),
+(19, 'tranches', 'ricca', 'Maschio', 'via taostudio', 34363117, 'riccadalletranches@gmail.com', 'vivalafiga', 50155, 48017),
+(20, 'tranches', 'dani', 'Maschio', 'via taostudio', 343638778, 'danidalletranches@gmail.com', 'siasbSAD', 50157, 48017);
 
 -- --------------------------------------------------------
 
@@ -8272,6 +8305,12 @@ ALTER TABLE `ordini`
   ADD KEY `num_utente` (`num_utente`);
 
 --
+-- Indici per le tabelle `prenotazione`
+--
+ALTER TABLE `prenotazione`
+  ADD PRIMARY KEY (`id_utente`,`id_stanza`);
+
+--
 -- Indici per le tabelle `prodotto`
 --
 ALTER TABLE `prodotto`
@@ -8290,6 +8329,12 @@ ALTER TABLE `provincia`
 --
 ALTER TABLE `regione`
   ADD PRIMARY KEY (`id_regione`);
+
+--
+-- Indici per le tabelle `stanza`
+--
+ALTER TABLE `stanza`
+  ADD PRIMARY KEY (`id_stanza`);
 
 --
 -- Indici per le tabelle `utente`
@@ -8343,7 +8388,7 @@ ALTER TABLE `prodotto`
 -- AUTO_INCREMENT per la tabella `utente`
 --
 ALTER TABLE `utente`
-  MODIFY `id_utente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id_utente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- Limiti per le tabelle scaricate
@@ -8373,6 +8418,13 @@ ALTER TABLE `iscrizione`
 --
 ALTER TABLE `ordini`
   ADD CONSTRAINT `num_utente` FOREIGN KEY (`num_utente`) REFERENCES `utente` (`id_utente`);
+
+--
+-- Limiti per la tabella `prenotazione`
+--
+ALTER TABLE `prenotazione`
+  ADD CONSTRAINT `stanza` FOREIGN KEY (`id_stanza`) REFERENCES `stanza` (`id_stanza`) ON DELETE CASCADE,
+  ADD CONSTRAINT `utente` FOREIGN KEY (`id_utente`) REFERENCES `utente` (`id_utente`);
 
 --
 -- Limiti per la tabella `prodotto`

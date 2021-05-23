@@ -10,8 +10,8 @@ switch($method)
 	$iden = getID();
 	$pt = $utenti->inserisci($iden);
 	$js_encode = json_encode(array('clienti'=>$pt),true);
-	 header("Content-Type: application/json");
-	 echo $js_encode;
+	header("Content-Type: application/json");
+    echo $js_encode;
 		
 	break;
 		
@@ -27,15 +27,16 @@ switch($method)
 	$cap = $corpo['id_cap'];
 	$comune = $corpo['comune'];
 	
-	
-	$collegamento = fopen("informazioni.txt", 'a+');
-	fwrite($collegamento,"\n". $cognome. $nome. $cap ."  password: ".$pass);
-	fclose($collegamento);
-	
-	
-	$pt = $utenti->create_user($cognome, $nome, $sesso, $indirizzo, $telefono, $email, $pass, $cap, $comune);
+	$utenti->create_user($cognome, $nome, $sesso, $indirizzo, $telefono, $email, $pass, $cap, $comune);
 		
 	break;
+	
+	case 'DELETE':
+	$iden = getID();
+	$utenti->delete_user($iden);
+	
+	break;
+	
 	
 	default:
 	break;

@@ -25,18 +25,11 @@ class Persona
 		$stmt->execute();
 	}
 	
-	public function inserisci($name){
-		$r = $this->get_ID_N($name);
-		return $r;
-	}
-	
-	/*public function get_ID_N($name){
-		$sql = "SELECT id_regione FROM regione WHERE nome = '$name'";
+	public function delete_user($id){
+		$sql = "DELETE FROM utente WHERE id_utente = $id";
 		$stmt = $this->db->prepare($sql);
 		$stmt->execute();
-		$result = $stmt->fetchAll(\PDO::FETCH_ASSOC);
-		return $result;
-	}*/
+	}
 }
 
 ?>

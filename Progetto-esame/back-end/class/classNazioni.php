@@ -4,7 +4,6 @@ include("DBConnection.php");
 class Stati
 {
 	private $db;
-	public $_nome;
 
 	public function __construct() {
 		$this->db = new Connection();

@@ -12,7 +12,7 @@ switch($method)
 	if(isset($num)){
 		$nat = $stati->get_comuni($num);
 	}else{
-		$nat = "ciao";
+		$nat = "richiesta non supportata ";
 	}
 	$js_encode = json_encode(array('comuni'=>$nat),true);
 	 header("Content-Type: application/json");

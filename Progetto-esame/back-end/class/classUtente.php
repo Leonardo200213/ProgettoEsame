@@ -13,6 +13,7 @@ class Persona
 	public $_cap; 
 	public $_email;
 	public $_password;
+	private $db;
 	
 	public function __construct() {
 		$this->db = new Connection();

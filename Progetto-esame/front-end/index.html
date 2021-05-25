@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
   <meta charset="utf-8">
@@ -26,12 +25,9 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Lumia - v4.2.0
-  * Template URL: https://bootstrapmade.com/lumia-bootstrap-business-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <script type="text/javascript" src="javascript.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAH0-GDh8vH3GccxkzuejhiBC-ePiSUi5U&callback=initMap&libraries=&v=weekly" defer></script>
+  <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBowIEkjoAvol-ITbnEhIEJn7a2wyNJFzg&callback=initMap" type="text/javascript"></script> -->
 </head>
 
 <body>
@@ -50,7 +46,7 @@
           <li><a class="nav-link scrollto active" href="home.html">Home</a></li>
           <li><a class="nav-link scrollto" href="">Chi siamo</a></li>
           <li><a href="catalogo.html">Catalogo</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Affitto</a></li>
+          <li><a class="nav-link scrollto " href="affitto.html">Affitto</a></li>
           <li><a class="nav-link scrollto" href="#testimonials">Area personale</a></li>
 		  <li><a href="registrazione.html"><button type="submit" id="registrati" class="btn btn-link" value="registrati">Registrati</button></a></li>
 		  <li><a href="accedi.html"><button type="submit" id="accedi" class="btn btn-outline-primary" value="accedi">Accedi</button></a>
@@ -155,242 +151,16 @@
         
 			</div>
 			<div class="col-lg">
-				<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBowIEkjoAvol-ITbnEhIEJn7a2wyNJFzg&callback=initMap" type="text/javascript"></script>
+			<div class="bigitem" style="height: 500px;"><br>
+            <br>
+            <div class="border border-dark" id="map"></div>
+        </div>
+			
+				 
 			</div>
 		</div>
       </div>
-    </section><!-- End Skills Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="catalogo" class="services section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Catalogo</h2>
-          <p>Opere d'arte</p>
-        </div>
-
-        <div class="row">
-		
-		
-          <div class="col-md-6">
-            <div class="icon-box" id="card">
-              <i class="bi bi-easel"></i>
-              <h4>Quadro</h4>
-              <p>Dipinto del 1XXX <br> Autore: </p>
-			  <button id="btn" type="submit" class="btn btn-primary"><i class="bi bi-cart2 fa-2x"></i> Aggiungi al carrello</button>
-            </div>
-          </div>
-		  
-          <div class="col-md-6">
-            <div class="icon-box" id="card">
-			
-				<div class="container">
-				  <div class="row">
-					<div class="col-md">
-					  <i class="bi bi-easel"></i>
-					  <h4>Quadro</h4>
-					  <p>Dipinto del 1XXX <br> Autore:</p>
-					</div>
-					<div class="col-md">
-						<img src="gioconda.jpg" id="img">
-					</div>	
-				  </div>
-				</div>
-				  
-				<button id="btn" type="submit" class="btn btn-outline-primary"><i class="bi bi-cart2 fa-2x"></i> Aggiungi</button>
-            </div>
-          </div>
-		  
-          <div class="col-md-6">
-            <div class="icon-box" id="card">
-              <i class="bi bi-easel"></i>
-              <h4>Quadro</h4>
-              <p>Dipinto del 1XXX <br> Autore: </p>
-			  <button id="btn" type="submit" class="btn btn-primary"><i class="bi bi-cart2 fa-2x"></i> Aggiungi al carrello</button>
-            </div>
-          </div>
-		  
-          <div class="col-md-6">
-            <div class="icon-box" id="card">
-              <i class="bi bi-easel"></i>
-              <h4>Quadro</h4>
-              <p>Dipinto del 1XXX <br> Autore: </p>
-			  <button id="btn" type="submit" class="btn btn-primary"><i class="bi bi-cart2 fa-2x"></i> Aggiungi al carrello</button>
-            </div>
-          </div>
-		  
-          <div class="col-md-6">
-            <div class="icon-box" id="card">
-              <i class="bi bi-easel"></i>
-              <h4>Quadro</h4>
-              <p>Dipinto del 1XXX <br> Autore: </p>
-			  <button id="btn" type="submit" class="btn btn-primary"><i class="bi bi-cart2 fa-2x"></i> Aggiungi al carrello</button>
-            </div>
-          </div>
-		  <!-- sezione stampa 3d-->
-		<div class="section-title">
-			<br>
-			<h2></h2>
-			<p>Stampa 3D</p>
-		</div>
-		  
-		  <div class="col-md-6 mt-4">
-            <div class="icon-box">
-              <i class="bi bi-printer"></i>
-              <h4>Stampa 3D</h4>
-              <p>Descrizione oggetto</p>
-            </div>
-          </div>
-		  
-		  <div class="col-md-6 mt-4">
-            <div class="icon-box">
-              <i class="bi bi-printer"></i>
-              <h4>Stampa 3D</h4>
-              <p>Descrizione oggetto</p>
-            </div>
-          </div>
-		  
-		  <div class="col-md-6 mt-4">
-            <div class="icon-box">
-              <i class="bi bi-printer"></i>
-              <h4>Stampa 3D</h4>
-              <p>Descrizione oggetto</p>
-            </div>
-          </div>
-		  
-		  <div class="col-md-6 mt-4">
-            <div class="icon-box">
-              <i class="bi bi-printer"></i>
-              <h4>Stampa 3D</h4>
-              <p>Descrizione oggetto</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="affitto" class="affitto">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Affitto</h2>
-          <p>Scegli il laboratorio che pià ti interessa</p>
-        </div>
-
-
-        <div class="row portfolio-container">
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="assets/img/disegno2.jpg" class="img-fluid">
-                <a href="assets/img/disegno2.jpg" class="link-preview portfolio-lightbox" title="Visualizza"><i class="bi bi-eye"></i></a>
-                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4>Laboratorio di disegno</h4>
-				<p><button class="btn btn-outline-primary"><i class="bi bi-calendar-date"></i> Prenota</button></p>
-              </div>
-            </div>
-          </div>
-
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="assets/img/scultura1.jpg" class="img-fluid">
-                <a href="assets/img/scultura1.jpg" class="link-preview portfolio-lightbox" title="Visualizza"><i class="bi bi-eye"></i></a>
-                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4>Laboratorio di scultura</h4>
-				<p><button class="btn btn-outline-primary"><i class="bi bi-calendar-date"></i> Prenota</button></p>
-              </div>
-            </div>
-          </div>
-		  
-		  
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="assets/img/grafica1.jpg" class="img-fluid">
-                <a href="assets/img/grafica1.jpg" class="link-preview portfolio-lightbox" title="Visualizza"><i class="bi bi-eye"></i></a>
-                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4>Laboratorio di grafica</h4>
-				<p><button class="btn btn-outline-primary"><i class="bi bi-calendar-date"></i> Prenota</button></p>
-              </div>
-            </div>
-          </div>
-
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="assets/img/grafica3.jpg" class="img-fluid">
-                <a href="assets/img/grafica3.jpg" class="link-preview portfolio-lightbox" title="Visualizza"><i class="bi bi-eye"></i></a>
-                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4>Laboratorio di grafica</h4>
-				<p><button class="btn btn-outline-primary"><i class="bi bi-calendar-date"></i> Prenota</button></p>
-              </div>
-            </div>
-          </div>
-
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="assets/img/3d1copia.jpg" class="img-fluid">
-                <a href="assets/img/3d1.jpg" class="link-preview portfolio-lightbox" title="Visualizza"><i class="bi bi-eye"></i></a>
-                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4>Laboratorio di stampa 3D</h4>
-				<p><button class="btn btn-outline-primary"><i class="bi bi-calendar-date"></i> Prenota</button></p>
-              </div>
-            </div>
-          </div>
-		  
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="assets/img/3d2.jpg" class="img-fluid">
-                <a href="assets/img/3d2.jpg" class="link-preview portfolio-lightbox" title="Visualizza"><i class="bi bi-eye"></i></a>
-                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4>Laboratorio di stampa 3D</h4>
-				<p><button class="btn btn-outline-primary"><i class="bi bi-calendar-date"></i> Prenota</button></p>
-              </div>
-            </div>
-          </div>
-
-
-
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
+    </section>
 
     <!-- ======= Testimonials Section ======= -->
     
@@ -519,8 +289,6 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
 
 </body>
 

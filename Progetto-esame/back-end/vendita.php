@@ -3,11 +3,12 @@ $method = $_SERVER["REQUEST_METHOD"];
 
 include("class/classVendita.php");
 
-$affitto = new Vendita(); 
+$acquisto = new Vendita(); 
 
 switch($method) 
 {
 	case 'GET':
+
 
     break;
 

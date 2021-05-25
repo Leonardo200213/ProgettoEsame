@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Creato il: Mag 23, 2021 alle 19:08
+-- Creato il: Mag 25, 2021 alle 18:59
 -- Versione del server: 10.4.17-MariaDB
 -- Versione PHP: 8.0.2
 
@@ -34,6 +34,13 @@ CREATE TABLE `artista` (
   `titolo` varchar(45) NOT NULL,
   `abilità` varchar(45) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dump dei dati per la tabella `artista`
+--
+
+INSERT INTO `artista` (`id_artista`, `cognome`, `nome`, `titolo`, `abilità`) VALUES
+(1, 'caravaggio', 'giacomo', 'diplomato', 'pittore');
 
 -- --------------------------------------------------------
 
@@ -7971,9 +7978,17 @@ CREATE TABLE `corso` (
   `id_corso` int(11) NOT NULL,
   `descrizione` varchar(45) NOT NULL,
   `prezzo` int(11) NOT NULL,
-  `durata` int(11) NOT NULL,
+  `ora_inizio` datetime NOT NULL,
+  `ora_fine` datetime NOT NULL,
   `id_insegnante` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dump dei dati per la tabella `corso`
+--
+
+INSERT INTO `corso` (`id_corso`, `descrizione`, `prezzo`, `ora_inizio`, `ora_fine`, `id_insegnante`) VALUES
+(1, 'pittura', 15, '2021-05-26 10:00:00', '2021-05-24 11:30:00', 1);
 
 -- --------------------------------------------------------
 
@@ -7988,6 +8003,13 @@ CREATE TABLE `insegnante` (
   `telefono` varchar(45) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dump dei dati per la tabella `insegnante`
+--
+
+INSERT INTO `insegnante` (`id_insegnante`, `cognome`, `nome`, `telefono`) VALUES
+(1, 'rossi', 'giacomo', '8923457');
+
 -- --------------------------------------------------------
 
 --
@@ -7999,6 +8021,13 @@ CREATE TABLE `iscrizione` (
   `id_user` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dump dei dati per la tabella `iscrizione`
+--
+
+INSERT INTO `iscrizione` (`id_corso`, `id_user`) VALUES
+(1, 13);
+
 -- --------------------------------------------------------
 
 --
@@ -8008,10 +8037,15 @@ CREATE TABLE `iscrizione` (
 CREATE TABLE `ordini` (
   `num_ordini` int(11) NOT NULL,
   `descrizione` varchar(45) NOT NULL,
-  `data_inizio` date NOT NULL,
-  `data_fine` date NOT NULL,
   `num_utente` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dump dei dati per la tabella `ordini`
+--
+
+INSERT INTO `ordini` (`num_ordini`, `descrizione`, `num_utente`) VALUES
+(1, 'pittura', 21);
 
 -- --------------------------------------------------------
 
@@ -8022,9 +8056,16 @@ CREATE TABLE `ordini` (
 CREATE TABLE `prenotazione` (
   `id_utente` int(11) NOT NULL,
   `id_stanza` int(11) NOT NULL,
-  `data_inizio` date NOT NULL,
-  `data_fine` date NOT NULL
+  `data_inizio` datetime NOT NULL,
+  `data_fine` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dump dei dati per la tabella `prenotazione`
+--
+
+INSERT INTO `prenotazione` (`id_utente`, `id_stanza`, `data_inizio`, `data_fine`) VALUES
+(14, 1, '2021-05-25 16:26:30', '2021-05-25 18:26:30');
 
 -- --------------------------------------------------------
 
@@ -8038,6 +8079,13 @@ CREATE TABLE `prodotto` (
   `prezzo` int(11) NOT NULL,
   `id_artista` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dump dei dati per la tabella `prodotto`
+--
+
+INSERT INTO `prodotto` (`id_prodotto`, `descrizione`, `prezzo`, `id_artista`) VALUES
+(1, 'testa di medusa', 15000, 1);
 
 -- --------------------------------------------------------
 
@@ -8211,8 +8259,16 @@ CREATE TABLE `stanza` (
   `id_stanza` int(11) NOT NULL,
   `descrizione` varchar(45) NOT NULL,
   `superficie` int(11) NOT NULL,
-  `capienza` int(11) NOT NULL
+  `capienza` int(11) NOT NULL,
+  `costo_orario` float NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dump dei dati per la tabella `stanza`
+--
+
+INSERT INTO `stanza` (`id_stanza`, `descrizione`, `superficie`, `capienza`, `costo_orario`) VALUES
+(1, 'grafica', 30, 8, 15);
 
 -- --------------------------------------------------------
 
@@ -8246,7 +8302,8 @@ INSERT INTO `utente` (`id_utente`, `cognome`, `nome`, `sesso`, `indirizzo`, `tel
 (17, 'manni', 'monica', 'Femmina', 'via della passera', 34363869, 'bellamonica43@gmail.com', 'sdfaerff', 50111, 32006),
 (18, 'tranches', 'franci', 'Maschio', 'via taostudio', 42377242, 'francidalletrnches@gmail.com', 'lessgoo', 50145, 48017),
 (19, 'tranches', 'ricca', 'Maschio', 'via taostudio', 34363117, 'riccadalletranches@gmail.com', 'vivalafiga', 50155, 48017),
-(20, 'tranches', 'dani', 'Maschio', 'via taostudio', 343638778, 'danidalletranches@gmail.com', 'siasbSAD', 50157, 48017);
+(20, 'tranches', 'dani', 'Maschio', 'via taostudio', 343638778, 'danidalletranches@gmail.com', 'siasbSAD', 50157, 48017),
+(21, 'Messeri', 'Leonardo', 'Maschio', 'via del filarete 1', 424535219, 'misterleo@gmail.com', 'bohnonso', 50138, 48017);
 
 -- --------------------------------------------------------
 
@@ -8256,9 +8313,15 @@ INSERT INTO `utente` (`id_utente`, `cognome`, `nome`, `sesso`, `indirizzo`, `tel
 
 CREATE TABLE `vendita` (
   `id_prodotto` int(11) NOT NULL,
-  `quantità` int(11) NOT NULL,
   `id_ordine` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dump dei dati per la tabella `vendita`
+--
+
+INSERT INTO `vendita` (`id_prodotto`, `id_ordine`) VALUES
+(1, 1);
 
 --
 -- Indici per le tabelle scaricate
@@ -8294,8 +8357,7 @@ ALTER TABLE `insegnante`
 -- Indici per le tabelle `iscrizione`
 --
 ALTER TABLE `iscrizione`
-  ADD PRIMARY KEY (`id_corso`,`id_user`),
-  ADD KEY `due` (`id_user`);
+  ADD PRIMARY KEY (`id_corso`,`id_user`);
 
 --
 -- Indici per le tabelle `ordini`
@@ -8347,8 +8409,7 @@ ALTER TABLE `utente`
 -- Indici per le tabelle `vendita`
 --
 ALTER TABLE `vendita`
-  ADD PRIMARY KEY (`id_prodotto`,`id_ordine`) USING BTREE,
-  ADD KEY `ordine` (`id_ordine`);
+  ADD PRIMARY KEY (`id_prodotto`,`id_ordine`) USING BTREE;
 
 --
 -- AUTO_INCREMENT per le tabelle scaricate
@@ -8358,37 +8419,37 @@ ALTER TABLE `vendita`
 -- AUTO_INCREMENT per la tabella `artista`
 --
 ALTER TABLE `artista`
-  MODIFY `id_artista` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_artista` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT per la tabella `corso`
 --
 ALTER TABLE `corso`
-  MODIFY `id_corso` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_corso` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT per la tabella `insegnante`
 --
 ALTER TABLE `insegnante`
-  MODIFY `id_insegnante` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_insegnante` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT per la tabella `ordini`
 --
 ALTER TABLE `ordini`
-  MODIFY `num_ordini` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `num_ordini` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT per la tabella `prodotto`
 --
 ALTER TABLE `prodotto`
-  MODIFY `id_prodotto` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_prodotto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT per la tabella `utente`
 --
 ALTER TABLE `utente`
-  MODIFY `id_utente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id_utente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- Limiti per le tabelle scaricate

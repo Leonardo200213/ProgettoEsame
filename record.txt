@@ -1,0 +1,7 @@
+[{"employeeId":1,"firstName":"John","lastName":"Doe","email":"john@doe.com","phone":"555-1212"},{"employeeId":2,"firstName":"Jenny","lastName":"Doe","email":"jenny@doe.com","phone":"867-5309"},{"employeeId":3,"firstName":"Clark","lastName":"Kent","email":"clark@doe.com","phone":"555-1213"}]
+
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security --disable-gpu --user-data-dir=%TEMP%/chromeTemp
+
+http://localhost/ProgettoEsame/Progetto-esame/back-end/
+
+http://localhost/ProgettoEsame/Progetto-esame/front-end/

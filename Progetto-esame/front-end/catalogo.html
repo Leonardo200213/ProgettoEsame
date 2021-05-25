@@ -19,10 +19,14 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <link href="assets/css/style.css" rel="stylesheet">
+  
+  
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="jscatologo.js"></script>
 
 </head>
 
-<body>
+<body onload="aggiorna()">
  <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
@@ -36,9 +40,9 @@
           <li><a class="nav-link scrollto" href="index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="index.html">Chi siamo</a></li>
           <li><a class="nav-link scrollto active"href="catalogo.html">Catalogo</a></li>
-          <li><a class="nav-link scrollto " href="affitto.html">Affitto</a></li>
+          <li><a class="nav-link scrollto " href="affitto/affitto.html">Affitto</a></li>
           <li><a class="nav-link scrollto" href="#testimonials">Area personale</a></li>
-		  <li><a href="registrazione.html"><button type="submit" id="registrati" class="btn btn-link" value="registrati">Registrati</button></a></li>
+		  <li><a href="area_utente/form1.html"><button type="submit" id="registrati" class="btn btn-link" value="registrati">Registrati</button></a></li>
 		  <li><a href="accedi.html"><button type="submit" id="accedi" class="btn btn-outline-primary" value="accedi">Accedi</button></a>
           </li>
           <!-- <li><a class="nav-link scrollto" href="#contact">Contatti</a></li> -->
@@ -74,17 +78,29 @@
 					  <p>Opere d'arte</p>
 					</div>
 
-					<div class="row">
+					<div class="row" id="c">
 					
 					
 					  <div class="col-md-6">
 						<div class="icon-box" id="card">
-						  <i class="bi bi-easel"></i>
-						  <h4>Quadro</h4>
-						  <p>Dipinto del 1XXX <br> Autore: </p>
-						  <button id="btn" type="submit" class="btn btn-primary"><i class="bi bi-cart2 fa-2x"></i> Aggiungi al carrello</button>
+						
+							<div class="container">
+							  <div class="row">
+								<div class="col-md">
+								  <i class="bi bi-easel"></i>
+								  <h4>Gioconda</h4>
+								  <p> Autore: Leonardo da Vinci <br> Anno: 1503 <br> Copia del dipinto "La Gioconda"</p>
+								</div>
+								<div class="col-md">
+									<img src="assets/img/gioconda.jpg" id="img">
+								</div>	
+							  </div>
+							</div>
+							  
+							<button id="btn" type="submit" class="btn btn-outline-primary"><i class="bi bi-cart2 fa-2x"></i> Aggiungi</button>
 						</div>
 					  </div>
+					  
 					  
 					  <div class="col-md-6">
 						<div class="icon-box" id="card">
@@ -93,11 +109,11 @@
 							  <div class="row">
 								<div class="col-md">
 								  <i class="bi bi-easel"></i>
-								  <h4>Quadro</h4>
-								  <p>Dipinto del 1XXX <br> Autore:</p>
+								  <h4>Notte stellata</h4>
+								  <p> Autore: Vincent Van Gogh <br> Anno: 1889 <br> Copia del dipinto "Notte stellata"</p>
 								</div>
 								<div class="col-md">
-									<img src="gioconda.jpg" id="img">
+									<img src="assets/img/nottestellata.jpg" width="180px">
 								</div>	
 							  </div>
 							</div>
@@ -108,28 +124,61 @@
 					  
 					  <div class="col-md-6">
 						<div class="icon-box" id="card">
-						  <i class="bi bi-easel"></i>
-						  <h4>Quadro</h4>
-						  <p>Dipinto del 1XXX <br> Autore: </p>
-						  <button id="btn" type="submit" class="btn btn-primary"><i class="bi bi-cart2 fa-2x"></i> Aggiungi al carrello</button>
+						
+							<div class="container">
+							  <div class="row">
+								<div class="col-md">
+								  <i class="bi bi-easel"></i>
+								  <h4>La persistenza della memoria</h4>
+								  <p> Autore: Salvador Dalí <br> Anno: 1931 <br> Copia del dipinto "La persistenza della memoria"</p>
+								</div>
+								<div class="col-md">
+									<img src="assets/img/resistenza.jpg" width="180px">
+								</div>	
+							  </div>
+							</div>
+							  
+							<button id="btn" type="submit" class="btn btn-outline-primary"><i class="bi bi-cart2 fa-2x"></i> Aggiungi</button>
 						</div>
 					  </div>
 					  
 					  <div class="col-md-6">
 						<div class="icon-box" id="card">
-						  <i class="bi bi-easel"></i>
-						  <h4>Quadro</h4>
-						  <p>Dipinto del 1XXX <br> Autore: </p>
-						  <button id="btn" type="submit" class="btn btn-primary"><i class="bi bi-cart2 fa-2x"></i> Aggiungi al carrello</button>
+						
+							<div class="container">
+							  <div class="row">
+								<div class="col-md">
+								  <i class="bi bi-easel"></i>
+								  <h4>Nascita di Venere</h4>
+								  <p> Autore: Sandro Botticelli <br> Anno: 1485 <br> Copia del dipinto "Nascita di Venere"</p>
+								</div>
+								<div class="col-md">
+									<img src="assets/img/venere.jpeg" width="200px">
+								</div>	
+							  </div>
+							</div>
+							  
+							<button id="btn" type="submit" class="btn btn-outline-primary"><i class="bi bi-cart2 fa-2x"></i> Aggiungi</button>
 						</div>
 					  </div>
 					  
 					  <div class="col-md-6">
 						<div class="icon-box" id="card">
-						  <i class="bi bi-easel"></i>
-						  <h4>Quadro</h4>
-						  <p>Dipinto del 1XXX <br> Autore: </p>
-						  <button id="btn" type="submit" class="btn btn-primary"><i class="bi bi-cart2 fa-2x"></i> Aggiungi al carrello</button>
+						
+							<div class="container">
+							  <div class="row">
+								<div class="col-md">
+								  <i class="bi bi-easel"></i>
+								  <h4>Il bacio</h4>
+								  <p> Autore: Gustav Klimt <br> Anno: 1907 <br> Copia del dipinto "Il bacio"</p>
+								</div>
+								<div class="col-md">
+									<img src="assets/img/bacio.jpg" id="img">
+								</div>	
+							  </div>
+							</div>
+							  
+							<button id="btn" type="submit" class="btn btn-outline-primary"><i class="bi bi-cart2 fa-2x"></i> Aggiungi</button>
 						</div>
 					  </div>
 					  <!-- sezione stampa 3d-->
@@ -221,5 +270,18 @@
 
 			
 		</footer>
+		
+		<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+		  <!-- Vendor JS Files -->
+		  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+		  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+		  <script src="assets/vendor/php-email-form/validate.js"></script>
+		  <script src="assets/vendor/purecounter/purecounter.js"></script>
+		  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+		  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+		  
+		<script src="main.js"></script>
 	</body>
 </html>

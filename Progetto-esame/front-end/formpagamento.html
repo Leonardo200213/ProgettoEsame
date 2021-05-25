@@ -25,6 +25,13 @@
 <script src="https://cdn.jotfor.ms/js/payments/paymentUtils.js?v=3.3.25513" type="text/javascript"></script>
 <script src="https://cdn.jotfor.ms/js/libraries/promise-polyfill.js"></script>
 <script src="https://cdn.jotfor.ms/js/payments/payment_form_embedded.js?v=3.3.25513" type="text/javascript"></script>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="javascript.js"></script>
+
+
+
 <script type="text/javascript">
 	JotForm.init(function(){
 if (window.JotForm && JotForm.accessible) $('input_5').setAttribute('tabindex',0);
@@ -106,20 +113,20 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"affittoLaboratorio","qid":"1","text
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_13_0" name="q13_vuoiAggiungere[]" value="Tipo Opzione 1" />
-              <label id="label_input_13_0" for="input_13_0"> Disegno - Colori a tempera </label>
+              <input type="checkbox" class="form-checkbox" id="tempera" name="tempera" value="Tipo Opzione 1" />
+              <label for="input_13_0"> Disegno - Colori a tempera </label>
             </span>
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_13_1" name="q13_vuoiAggiungere[]" value="Tipo Opzione 2" />
-              <label id="label_input_13_1" for="input_13_1"> Disegno - Acquarello </label>
+              <input type="checkbox" class="form-checkbox" id="acquarello" name="acquarello" value="Tipo Opzione 2" />
+              <label for="input_13_1"> Disegno - Acquarello </label>
             </span>
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_13_2" name="q13_vuoiAggiungere[]" value="Tipo Opzione 3" />
-              <label id="label_input_13_2" for="input_13_2"> Disegno - Carboncino </label>
+              <input type="checkbox" class="form-checkbox" id="carboncino" name="carboncino" value="Tipo Opzione 3" />
+              <label for="input_13_2"> Disegno - Carboncino </label>
             </span>
           </div>
         </div>
@@ -134,7 +141,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"affittoLaboratorio","qid":"1","text
                   <div class="paypal-toggle">
                     <div id="paypal-card-fields">
                       <div class="payment-method-container" data-id="paypal-card-fields">
-                        <input type="radio" class="form-radio" name="paypal-payment-method" data-id="paypal-card-fields" id="paypal-card-fields-input" />
+                        <input type="radio" class="form-radio" name="paypal-payment-method" data-id="paypal-card-fields" id="credito" />
                         <label for="paypal-card-fields-input">
                           <span class="CC_ico">
                           </span>
@@ -144,7 +151,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"affittoLaboratorio","qid":"1","text
                     </div>
                     <div id="paypal-smart-buttons">
                       <div class="payment-method-container" data-id="paypal-smart-buttons">
-                        <input type="radio" class="form-radio" name="paypal-payment-method" data-id="paypal-smart-buttons" id="paypal-smart-buttons-input" />
+                        <input type="radio" class="form-radio" name="paypal-payment-method" data-id="paypal-smart-buttons" id="paypal" />
                         <label for="paypal-smart-buttons-input">  </label>
                       </div>
                     </div>
@@ -211,7 +218,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"affittoLaboratorio","qid":"1","text
                     </div>
                     <div id="paypal-spb-area">
                       <p>Please click one of the PayPal options to complete payment and <b>submit</b> the form.</p>
-                      <div id="paypal-button-container" style="pointer-events:">
+                      <div id="paypal-button-container">
                       </div>
                     </div>
                   </div>

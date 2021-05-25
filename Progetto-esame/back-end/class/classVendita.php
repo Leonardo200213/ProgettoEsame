@@ -32,6 +32,15 @@ class Vendita
         $stmt = $this->db->prepare($sql);
         $stmt->execute();
     }
+
+    public function get_Prodotto(){
+        $sql = "SELECT prodotto.id_prodotto, prodotto.descrizione, prodotto.prezzo, artista.id_artista, artista.cognome, artista.nome
+         FROM prodotto INNER JOIN artista ON prodotto.id_artista = artista.id_artista";
+        $stmt = $this->db->prepare($sql);
+        $stmt->execute();
+        $result = $stmt->fetchAll(\PDO::FETCH_ASSOC);
+        return $result; 
+    }
 }
 
 ?>

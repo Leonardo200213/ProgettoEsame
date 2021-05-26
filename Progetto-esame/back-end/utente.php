@@ -30,10 +30,9 @@ switch($method)
 	$telefono = $corpo['telefono'];
 	$email = $corpo['username'];
 	$pass = $corpo['password'];
-	$cap = $corpo['id_cap'];
 	$comune = $corpo['comune'];
 	
-	$utenti->create_user($cognome, $nome, $sesso, $indirizzo, $telefono, $email, $pass, $cap, $comune);
+	$utenti->create_user($cognome, $nome, $sesso, $indirizzo, $telefono, $email, $pass, $comune);
 		
 	break;
 	

@@ -170,7 +170,7 @@ se proprio si vuole cambiare il name BASTA -->
 				<label class="form-label form-label-top form-label-auto" id="label_23" for="input_23_addr_line1">
 				 CAP <span class="form-required"> * </span>
 				</label>
-				 <input type="text" id="cap" name="cap" class="form-textbox validate[required] form-address-city" value="" data-component="city" aria-labelledby="label_23 sublabel_23_city" required="" />
+				 <input type="text" id="cap" name="cap" class="form-textbox validate[required] form-address-city" value="" data-component="city" aria-labelledby="label_23 sublabel_23_city" required="" readonly/>
 				</span>
               </span>
 		      <span class="form-address-line form-address-city-line jsTest-address-lineField ">
@@ -211,7 +211,7 @@ se proprio si vuole cambiare il name BASTA -->
 				  <label class="form-label" for="input_23_state" id="sublabel_23_state" style="min-height:13px" aria-hidden="false"> 
 				  Comune <span class="form-required"> * </span>  </label>
 				  
-				  <select class="form-dropdown form-address-country noTranslate" name="comune" id="comune" data-component="country" required="" aria-labelledby="label_23 sublabel_23_country">
+				  <select class="form-dropdown form-address-country noTranslate" name="comune" id="comune" onchange="codice_postale()" data-component="country" required="" aria-labelledby="label_23 sublabel_23_country">
 				  
                   </select>
                   </span>

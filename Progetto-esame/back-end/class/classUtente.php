@@ -39,8 +39,8 @@ class Persona
 		return $result;
 	}
 	
-	public function create_user($c, $n, $s, $i, $t, $e, $p, $cap, $id){
-		$sql = "INSERT INTO utente(cognome, nome, sesso, indirizzo, telefono, email, password, cap, id_comune) VALUES('$c', '$n', '$s', '$i', $t, '$e', '$p', $cap, $id)"; 
+	public function create_user($c, $n, $s, $i, $t, $e, $p, $id){
+		$sql = "INSERT INTO utente(cognome, nome, sesso, indirizzo, telefono, email, password, id_comune) VALUES('$c', '$n', '$s', '$i', $t, '$e', '$p', $id)"; 
 	    $stmt = $this->db->prepare($sql);
 		$stmt->execute();
 	}

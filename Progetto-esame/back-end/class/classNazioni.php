@@ -32,9 +32,9 @@ class Stati
 		$stmt = $this->db->prepare($sql);
 		$stmt->execute();
 	}
-	public function insert_comune($id, $nome_com, $id_prov){
-		$sql = "INSERT INTO `comune`(`id_comune`, `nome`, `id_provincia`) 
-		SELECT * FROM (SELECT $id, '$nome_com', $id_prov) AS tmp
+	public function insert_comune($id, $nome_com, $cap, $id_prov){
+		$sql = "INSERT INTO `comune`(`id_comune`, `nome`, `cap`, `id_provincia`) 
+		SELECT * FROM (SELECT $id, '$nome_com', $cap, $id_prov) AS tmp
 		WHERE NOT EXISTS (Select `id_comune` From `comune` WHERE `id_comune` = $id) LIMIT 1;";
 		$stmt = $this->db->prepare($sql);
 		$stmt->execute();
@@ -49,12 +49,27 @@ class Stati
 	}
 	
 	public function get_comuni($com){
-		$sql = "SELECT id_comune, nome FROM comune WHERE id_provincia = $com";
+		$sql = "SELECT id_comune, nome, cap FROM comune WHERE id_provincia = $com";
 		$stmt = $this->db->prepare($sql);
 		$stmt->execute();
 		$result = $stmt->fetchAll(\PDO::FETCH_ASSOC);
 		return $result;
 	}
+
+	function get_un_comune($com){
+		$sql = "SELECT id_comune, nome, cap FROM comune WHERE id_comune = $com";
+		$stmt = $this->db->prepare($sql);
+		$stmt->execute();
+		$result = $stmt->fetchAll(\PDO::FETCH_ASSOC);
+		return $result;
+	}
+
+	/*public function aggiungi_cap()){
+		//$codice, $comune
+		$sql = "UPDATE comune SET cap = 1 WHERE id_comune = 1002";
+		$stmt = $this->db->prepare($sql);
+		$stmt->execute();
+	}*/
 }
 
 ?>

@@ -75,13 +75,32 @@ function comuni(){
     });
 }
 
+function codice_postale(){
+	/*var d = document.getElementById("printhere");
+	d.innerHTML = "ciao";*/
+	var buffer = get_Select_Item("comune");
+	var id = dividi(buffer);
+	$.ajax({
+		   url: 'http://localhost/ProgettoEsame/Progetto-esame/back-end/comuni.php/'+id,
+		   method: 'PUT',
+		   contenttype: 'json',
+		   success: function (data, textStatus, jQxhr) {
+			   $.each(data.comuni, function (i, post) {
+                     $("#cap").val(post.cap);
+                });
+		   },
+		   error: function (jQxhr, textStatus, errorThrown) {
+			   console.log(errorThrown);
+		   }
+    });
+}
+
 function inserisci(){
 	var cognome = $('#cognome').val();
 	var nome = $('#nome').val();
 	var genere = $('input[name="sesso"]:checked').val();
 	var indirizzo = $('#indirizzo').val();
 	var cellulare = $('#telefono').val();
-	var cap = $('#cap').val();
 	var c = $( "#comune option:selected" ).text();
 	var comune = dividi(c);
 	var p = $( "#provincia option:selected" ).text();
@@ -97,7 +116,6 @@ function inserisci(){
 		"sesso": genere,
 		"indirizzo": indirizzo,
 		"telefono": cellulare,
-		"id_cap": cap, 
 		"comune": comune,
 		"username": user,
 		"password": pass	

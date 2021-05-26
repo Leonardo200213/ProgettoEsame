@@ -1319,6 +1319,16 @@
    JotForm.prepareCalculationsOnTheFly([null,{"name":"selezionaData","qid":"1","text":"Seleziona data prenotazione","type":"control_head"},{"name":"submit2","qid":"2","text":"Invia","type":"control_button"},null,{"description":"","name":"appuntamento","qid":"4","text":"Appuntamento","type":"control_appointment"}]);
    setTimeout(function() {
 JotForm.paymentExtrasOnTheFly([null,{"name":"selezionaData","qid":"1","text":"Seleziona data prenotazione","type":"control_head"},{"name":"submit2","qid":"2","text":"Invia","type":"control_button"},null,{"description":"","name":"appuntamento","qid":"4","text":"Appuntamento","type":"control_appointment"}]);}, 20); 
+
+    
+    
+    
+    
+function invia() {
+    var x = location.href;
+    location.href = "../formpagamento.html";
+}
+    
 </script>
 </head>
 <body>
@@ -1354,7 +1364,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"selezionaData","qid":"1","text":"Se
       <li class="form-line" data-type="control_button" id="id_2">
         <div id="cid_2" class="form-input-wide" data-layout="full">
           <div data-align="auto" class="form-buttons-wrapper form-buttons-auto   jsTest-button-wrapperField">
-            <button id="input_2" type="button" class="form-submit-button submit-button jf-form-buttons jsTest-submitField"  href="../formpagamento.html">
+            <button id="input_2" type="button" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" onclick="invia()">
               Invia
             </button>
           </div>

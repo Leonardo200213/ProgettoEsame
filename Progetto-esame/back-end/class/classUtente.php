@@ -30,6 +30,15 @@ class Persona
 		return $result;
 	}
 	
+	public function autenticazione($username, $pass){
+		$sql = "SELECT id_utente FROM utente 
+			   WHERE email = $username AND password = $pass";
+		$stmt = $this->db->prepare($sql);
+		$stmt->execute();
+		$result = $stmt->fetchAll(\PDO::FETCH_ASSOC);
+		return $result;
+	}
+	
 	public function get_all_user(){
 		$sql = "SELECT utente.id_utente, utente.cognome, utente.nome, utente.sesso, utente.indirizzo, utente.email, comune.nome AS comune
 		       FROM utente INNER JOIN comune ON utente.id_comune = comune.id_comune";

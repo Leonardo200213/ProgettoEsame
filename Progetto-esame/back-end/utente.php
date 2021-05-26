@@ -7,14 +7,15 @@ $utenti = new Persona();
 switch($method) 
 {
 	case 'GET':
-	$iden = getID();
+	$n = 5;
+	//$iden = getID($n);
 	$pt = " ";
-	if(isset($iden)){
+	/*if(isset($iden)){
 		$pt = $utenti->get_user($iden);
 	}
-	else{
+	else{*/
 		$pt = $utenti->get_all_user();
-	}
+	
 	$js_encode = json_encode(array('clienti'=>$pt),true);
 	header("Content-Type: application/json");
     echo $js_encode;

@@ -334,7 +334,7 @@ h1, h2, h3, h4, h5, h6 {
 #head {
   width: 100%;
   height: 60vh;
-  background: url("../img/sfondo.png") center center;
+  background: url("assets/img/sfondo.png") center center;
   background-size: cover;
   position: relative;
   margin-top: 70px;

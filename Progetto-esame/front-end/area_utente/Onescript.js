@@ -18,21 +18,6 @@ function nazioni(){
     });
 }
 
-function get_Select_Item(item){
-	var d = document.getElementById("printhere");
-	var reg = document.getElementById(item);
-    var i = reg.options[reg.selectedIndex].value;
-	return i;
-}
-
-function svuota_Select(item){
-	var selectElement = document.getElementById(item);
-	var i, L = selectElement.options.length - 1;
-   for(i = L; i >= 0; i--) {
-      selectElement.remove(i);
-   }
-}
-
 function provincie(){
 	 svuota_Select("provincia");
 	 svuota_Select("comune");
@@ -75,6 +60,21 @@ function comuni(){
     });
 }
 
+function get_Select_Item(item){
+	var d = document.getElementById("printhere");
+	var reg = document.getElementById(item);
+    var i = reg.options[reg.selectedIndex].value;
+	return i;
+}
+
+function svuota_Select(item){
+	var selectElement = document.getElementById(item);
+	var i, L = selectElement.options.length - 1;
+   for(i = L; i >= 0; i--) {
+      selectElement.remove(i);
+   }
+}
+
 function codice_postale(){
 	/*var d = document.getElementById("printhere");
 	d.innerHTML = "ciao";*/
@@ -111,14 +111,8 @@ function inserisci(){
 	var pass = $('#segreta').val();
 	
 	var utente = {
-		"cognome": cognome,
-		"nome": nome,
-		"sesso": genere,
-		"indirizzo": indirizzo,
-		"telefono": cellulare,
-		"comune": comune,
-		"username": user,
-		"password": pass	
+		"cognome": cognome, "nome": nome, "sesso": genere, "indirizzo": indirizzo, 
+		"telefono": cellulare, "comune": comune, "username": user, "password": pass	
 	};
 	$.ajax({
 		   url: 'http://localhost/ProgettoEsame/Progetto-esame/back-end/utente.php',
@@ -126,7 +120,6 @@ function inserisci(){
 		   data: JSON.stringify(utente),
 		   contenttype: 'json',
 		   success: function (data, result, textStatus, xhr) {
-			   //$("#printhere").html("stato: "+ xhr.status);
 			   location = "riuscito.html";
 		   },
 		   error: function (xhr, textStatus, errorThrown) {

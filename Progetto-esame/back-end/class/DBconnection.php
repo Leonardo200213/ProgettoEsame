@@ -11,7 +11,8 @@ class Connection
 	
 	public function __construct(){
 		try{
-			$this->_con = new PDO("mysql:host=$this->_dbHostname;port=$this->_dbPort;dbname=$this->_dbName", $this->_dbUsername, $this->_dbPassword);
+			$this->_con = new PDO("mysql:host=$this->_dbHostname;port=$this->_dbPort;dbname=$this->_dbName", 
+			$this->_dbUsername, $this->_dbPassword);
 			$this->_con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 			$this->_con->exec('SET NAMES utf8');
 		} catch(PDOException $e) {
@@ -21,8 +22,6 @@ class Connection
 	
 	public function get_connection(){
         return $this->_con;
-	}
-		
+	}	
 }
-
 ?>
